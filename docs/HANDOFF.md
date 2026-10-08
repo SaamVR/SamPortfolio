@@ -21,3 +21,7 @@ Next concrete batch:
 4. Add actual craft/about/privacy/error routes and complete deployed keyboard/zoom/contrast/a11y/operational checks before publication.
 
 Publication blockers are identity/offer approval, audited authentic project proof/rights, verified contact destination, repository/host configuration, device/performance and cross-browser/deployed verification. No enquiry, outcome or recruiter pass has been fabricated.
+
+## Autonomous queue and remote checkpoint
+
+Feature branch published; draft PR: https://github.com/SaamVR/SamPortfolio/pull/1. No merge/deployment. User delegated best scope choice; feature-branch pushes + draft PR selected. Current task queue: docs/automation/state.json; execution prompt and usage/runner rules: docs/automation/WORKER-PROMPT.md and RUNBOOK.md. Detailed A01–A13 task plan: docs/superpowers/plans/2026-10-08-autonomous-portfolio.md. Reset metadata supplied privately and ignored by Git; project-runner confirmation is pending, so no scheduled coding run is claimed active. Next eligible engineering task is A01.

@@ -33,3 +33,7 @@ Static HTML and native links carry all useful content. Only the scene imports Th
 Read [execution and architecture](docs/EXECUTION.md), [verification report](docs/VERIFICATION.md), [handoff](docs/HANDOFF.md), and the [authority](docs/AUTHORITY.md). Captures and raw browser measurements are under `evidence/`; the authored geometry manifest is `public/art/manifest.json`.
 
 No approved owner identity, authentic flagship rights/content pack, verified contact destination or hosting repository was supplied. All study imagery is original procedural/vector development material authored with AI assistance in this session. No client, outcome, enquiry or certification is claimed. The site cannot substitute this study for approved portfolio proof.
+
+## Autonomous continuation
+
+The slice and next-task queue are on `feat/opening-scenes-1-3`: [draft PR #1](https://github.com/SaamVR/SamPortfolio/pull/1). Read [the runbook](docs/automation/RUNBOOK.md), [task queue](docs/automation/state.json) and [implementation plan](docs/superpowers/plans/2026-10-08-autonomous-portfolio.md). One main agent, bounded tasks, checked checkpoints and feature-branch pushes. No scheduler, merge, paid service or production deployment is implied by these files. Runner configuration remains a separate verified setup.
