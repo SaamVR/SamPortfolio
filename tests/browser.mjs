@@ -1,6 +1,8 @@
+import {browserConfig} from './browser-config.mjs';
+const {baseUrl,launchOptions}=browserConfig();
 import {chromium} from 'playwright';import assert from 'node:assert/strict';import {writeFile} from 'node:fs/promises';
-const browser=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox','--enable-unsafe-swiftshader']});
-const base='http://localhost:4322';const results=[];
+const browser=await chromium.launch(launchOptions);
+const base=baseUrl;const results=[];
 async function profile(name,options={},setup){const context=await browser.newContext(options);if(setup)await setup(context);const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(base);await page.waitForLoadState('networkidle');return {context,page,errors,name};}
 async function noOverflow(page){assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);}
 async function metrics(page){return page.evaluate(()=>{const h=document.querySelector('#renderer');const frames=JSON.parse(h?.dataset.frames||'[]').sort((a,b)=>a-b);return {renderer:h?{...h.dataset}:null,activeP95:frames[Math.ceil(frames.length*.95)-1]??null,resources:performance.getEntriesByType('resource').map(e=>({name:new URL(e.name).pathname,encoded:e.encodedBodySize,decoded:e.decodedBodySize,transfer:e.transferSize,duration:e.duration})),navigation:performance.getEntriesByType('navigation').map(e=>({encoded:e.encodedBodySize,decoded:e.decodedBodySize,transfer:e.transferSize,domContentLoaded:e.domContentLoadedEventEnd})),lcp:window.__lcp??null};});}

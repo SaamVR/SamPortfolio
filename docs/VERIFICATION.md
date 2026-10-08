@@ -63,3 +63,7 @@ Next batch is concrete in HANDOFF.md: approve a genuine flagship/identity/contac
 ## Repository integration follow-up
 
 SaamVR/SamPortfolio cloned at cebab7f and integrated locally on feat/opening-scenes-1-3. Its existing README description and main history were preserved. Re-ran all 8 unit tests, Astro/TypeScript checks and production build successfully. The integrated dist is byte-identical to the previously browser-tested production build; prior captures/measurements are retained, rather than paying for redundant browser runs. The existing deferred-chunk warning remains. No GitHub push, PR or deployment performed.
+
+## A01 reproducibility checkpoint — 2026-10-08
+
+Browser tooling now accepts configurable origins and executable paths. The owned Astro preview on port 4330 passed the existing 13 scenarios against this checkout. Fourteen unit/lifecycle tests passed, and type checks returned zero errors, warnings or hints. A real Astro failure run on port 4331 preserved exit 17 and released its process/port. Build retained the existing >500 KB renderer warning. See `automation/A01-RESULT.md` for scope; previous performance limitations remain applicable.

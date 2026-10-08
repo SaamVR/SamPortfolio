@@ -11,31 +11,30 @@
   },
   "currentTask": null,
   "lastCheckpoint": {
-    "stage": "plan_and_draft_pr_published",
+    "stage": "A01_verified",
+    "lastKnownHead": "016203706bd19111c6a2903d269b2cd6be9800d8",
     "checks": [
-      "npm test: 8/8 pass",
-      "git diff --check: pass",
-      "private usage metadata ignored by Git"
+      "npm test: 14/14 passed",
+      "npm run check: 0 errors/warnings/hints",
+      "npm run build: 3 routes; existing chunk warning",
+      "npm run verify:browser: 13 scenarios passed on port 4330",
+      "actual Astro failure cleanup: exit 17; process reaped; port 4331 free"
     ],
-    "nextAction": "Confirm project-capable runner. First continuation target: actual reported reset + 5 minutes, private metadata. Execute A01 as one bounded task; schedule is not active.",
-    "changedFiles": [
-      "AGENTS.md",
-      "docs/automation/",
-      "docs/superpowers/plans/2026-10-08-autonomous-portfolio.md",
-      ".gitignore"
-    ],
-    "lastKnownHead": "246500f8405571b79c9abe3336d72186b6f6630a"
+    "nextAction": "A02 production/capture separation; A04 is independently eligible. Scheduler setup does not block current work."
   },
   "tasks": [
     {
       "id": "A01",
-      "status": "ready",
+      "status": "done",
       "dependencies": [],
       "title": "Portable browser checks and reproducible preview",
       "modelClass": "routine",
-      "attempts": 0,
+      "attempts": 1,
       "commit": null,
-      "evidence": [],
+      "evidence": [
+        "docs/automation/A01-RESULT.md",
+        "evidence/browser-results.json"
+      ],
       "blockers": []
     },
     {

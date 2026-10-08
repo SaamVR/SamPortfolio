@@ -34,15 +34,15 @@ A01 → A02 → A03 is scene reliability. A01 → A04 → A05 → A06 is useful 
 
 Use one task per invocation when meter visibility is unknown. Target roughly 15–35 minutes for a bounded patch as a planning heuristic; split at a working interface/test boundary if it is growing. Reviews can be separate invocations. Save partial state before a limit, not only at final completion.
 
-### A01 — Portable, scoped browser verification (ready)
+### A01 — Portable, scoped browser verification (completed)
 
 **Files:** modify `package.json`, `tests/browser.mjs`, `tests/visual-audit.mjs`, `tests/capture-posters.mjs`; create `scripts/preview-browser.mjs`; update `README.md`.
 **Interfaces:** scripts consume `OPENING_BASE_URL`, optional `OPENING_BROWSER_PATH`; wrapper owns only its child preview process on `OPENING_PREVIEW_PORT` (default 4330). `npm run verify:browser` requires a built dist, starts preview, checks readiness, runs the browser suite and disposes its child on success/failure/signals. Preserve directly runnable browser scripts.
 
-- [ ] Reproduce current hard-coded-port dependence. Add a test/check that all three browser scripts use the supplied base URL and browser path; occupied port fails clearly without killing an unrelated server.
-- [ ] Implement the wrapper using Node child_process and bounded readiness retries; preserve real browser assertions. Do not add an AI runner, billing access or hidden success stubs.
-- [ ] Run `npm test`, `npm run check`, `npm run build`, `npm run verify:browser`; verify the child preview exits after both a normal run and an intentionally failing suite. Record actual browser/version, not inferred passes.
-- [ ] Commit task + checkpoint. This makes later checks reproducible in the actual SamPortfolio checkout.
+- [x] Reproduce current hard-coded-port dependence. Add a test/check that all three browser scripts use the supplied base URL and browser path; occupied port fails clearly without killing an unrelated server.
+- [x] Implement the wrapper using Node child_process and bounded readiness retries; preserve real browser assertions. Do not add an AI runner, billing access or hidden success stubs.
+- [x] Run `npm test`, `npm run check`, `npm run build`, `npm run verify:browser`; verify the child preview exits after both a normal run and an intentionally failing suite. Record actual browser/version, not inferred passes.
+- [x] Commit task + checkpoint. This makes later checks reproducible in the actual SamPortfolio checkout.
 
 ### A02 — Production renderer and capture separation (ready after A01)
 

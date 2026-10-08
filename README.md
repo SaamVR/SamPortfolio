@@ -14,11 +14,10 @@ npm run dev
 npm run check
 npm test
 npm run build
-npm run preview -- --port 4322
-npm run test:browser
+npm run verify:browser
 ```
 
-Browser tests expect the production preview on port 4322 and `/usr/bin/chromium`. They use Playwright against system Chromium, with software WebGL, rather than downloading a browser. `tests/capture-posters.mjs` regenerates the three exact renderer posters; `npx tsx tests/manifest.ts` regenerates the pivot/projection manifest. Rebuild after regenerating assets.
+`npm run verify:browser` launches its own loopback production preview on port 4330 and cleans it up after success, failure or interruption. Set `OPENING_PREVIEW_PORT` to choose another free port. For an existing preview, run `OPENING_BASE_URL=http://127.0.0.1:4322 npm run test:browser`. All browser/capture/visual tools share that URL configuration and accept `OPENING_BROWSER_PATH` for a browser executable. They prefer system Chromium when available, otherwise Playwright’s installed Chromium; install it once with `npx playwright install chromium` if needed. These checks use software WebGL. `tests/capture-posters.mjs` regenerates the three exact renderer posters; `npx tsx tests/manifest.ts` regenerates the pivot/projection manifest. Rebuild after regenerating assets.
 
 ## Routes
 
