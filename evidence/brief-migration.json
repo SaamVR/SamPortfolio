@@ -1,0 +1,7 @@
+{
+  "runAt": "2026-10-08T17:24:29.209Z",
+  "browser": "151.0.7922.173",
+  "checks": [
+    "legacy identity/goal/feel migrated once; contact excluded; selection increments once; repeat is no-op; native start retains goal"
+  ]
+}

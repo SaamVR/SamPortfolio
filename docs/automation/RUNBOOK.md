@@ -28,7 +28,7 @@ Evaluate the more restrictive of the applicable five-hour/weekly pools using gen
 | ≥30% | One bounded implementation task, check, checkpoint, then reassess before another |
 | 10–30% | At most one small routine task; prefer queue/verification/remote checkpoint; avoid starting renderer/backend changes |
 | <10% or known exhausted | Finish a small safe checkpoint/check already in progress; start no new implementation or stronger review |
-| Unknown/stale | One bounded task per externally launched invocation; do not invent a percent or an automatic stopping mechanism |
+| Unknown/stale | Checkpoint each bounded task, then continue eligible work under explicit user instruction; never invent a percent or a quota stop |
 
 Reserve roughly 10–15% for correction/checkpointing as a target, not an enforceable quota. If usage is not exposed to the runner, these percentage decisions cannot be automatic; the run must disclose that and use the one-task limit. Never call a model just to poll an exhausted quota.
 
@@ -56,7 +56,7 @@ No scheduler has been activated at preparation time. Runner choice is the remain
 5. Run relevant checks. Complete the task's required checks, not every browser screenshot repeatedly. Stronger review applies only to listed ownership/serialization/enquiry changes.
 6. Save evidence + exact failures; mark done only when accepted/reviewed. Commit and push feature branch without force. Preserve a dirty partial patch on interruption, then recover it in the same checkout.
 7. Update the existing draft PR with consolidated milestones, not noisy comments/duplicate PRs. PR title/body must describe the current delivered behavior and actual checks; no speculative future completion claims.
-8. Exit at the invocation boundary. At known exhaustion, schedule/relaunch only after the reported relevant reset; no busy retry, sleep loop, second account or paid fallback.
+8. Checkpoint at each task boundary and continue eligible work under the user's continuous-execution instruction. At known exhaustion, schedule/relaunch only after the reported relevant reset; no busy retry, sleep loop, second account or paid fallback.
 
 ## Checkpoint/recovery contract
 

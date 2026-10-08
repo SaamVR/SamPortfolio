@@ -32,7 +32,7 @@
 
 A01 → A02 → A03 is scene reliability. A01 → A04 → A05 → A06 is useful brief work. Run that brief branch if A03 cannot progress without hardware. A07 → A08 is approved content; A09 is real-device validation. A06 → A10 → A11 → A12 is enquiry operations. A13 is publication. Dependency readiness and owner blocks are recorded separately in state; never wait doing nothing when another task is eligible.
 
-Use one task per invocation when meter visibility is unknown. Target roughly 15–35 minutes for a bounded patch as a planning heuristic; split at a working interface/test boundary if it is growing. Reviews can be separate invocations. Save partial state before a limit, not only at final completion.
+The user explicitly requested continuous autonomous execution: checkpoint every bounded task, then continue eligible independent tasks even when meter visibility is unknown. Never invent a quota stop or wait for another go-ahead. Target roughly 15–35 minutes for a bounded patch as a planning heuristic; split at a working interface/test boundary if it is growing. Reviews can be separate invocations. Save partial state before a limit, not only at final completion.
 
 ### A01 — Portable, scoped browser verification (completed)
 
@@ -66,15 +66,15 @@ Use one task per invocation when meter visibility is unknown. Target roughly 15�
 
 **Status:** `review_needed` for physical calibration; implementation/tests/focused review delivered. See `docs/automation/A03-RESULT.md`. Proceed to independent A04.
 
-### A04 — Complete anonymous draft and legacy migration (ready after A01)
+### A04 — Complete anonymous draft and legacy migration (completed)
 
 **Files:** create `src/features/brief/types.ts`, `reducer.ts`, `persistence.ts`, `catalog.ts`; modify compatibility facade `draft.ts`, `tests/draft.test.ts`; create `tests/brief-migration.test.ts`, `tests/brief-reducer.test.ts`.
 **Interfaces:** `BriefDraftV1` has schemaVersion:1, draftId, revision, feel, serviceIds, projectReferenceIds, goal, audience, desiredAction, constraints, optional budget/timing/referenceURLs, updatedAt. `reduceDraft(draft, action, nowIso)` returns the same object for a semantic no-op; each edit increments revision exactly once. `readDraft()`/`chooseFeel()`/`persistDraft()` remain compatible with hero consumers. New key `opening-brief-v1`; migrate validated old `opening-direction-v1` note, keeping ID/feel/goal, adding defaults and a documented revision increment. Never cast the old schemaVersion:1 note as a complete new draft.
 
-- [ ] Failing tests: valid old note preserves ID/feel/goal; corrupt/unknown-schema input returns a safe fresh draft; unavailable storage gives temporary status; contact/unknown object fields never survive serialization; unknown catalog IDs removed with an honest unavailable-reference notice.
-- [ ] Implement typed catalog of existing development/offer IDs with explicit approval status. Do not invent approved services or projects. Use URL parsing for reference URLs; accept only http/https, with a bounded list/length recorded in the contract.
-- [ ] Adapt existing hero persistence assertions to the new key; validate legacy migration in a real browser, selection revision and repeat no replay.
-- [ ] Run full unit suite/check/build and relevant migration/hero browser checks. Sol/high reviews compatibility/data ownership before done.
+- [x] Failing tests: valid old note preserves ID/feel/goal; corrupt/unknown-schema input returns a safe fresh draft; unavailable storage gives temporary status; contact/unknown object fields never survive serialization; unknown catalog IDs removed with an honest unavailable-reference notice.
+- [x] Implement typed catalog of existing development/offer IDs with explicit approval status. Do not invent approved services or projects. Use URL parsing for reference URLs; accept only http/https, with a bounded list/length recorded in the contract.
+- [x] Adapt existing hero persistence assertions to the new key; validate legacy migration in a real browser, selection revision and repeat no replay.
+- [x] Run full unit suite/check/build and relevant migration/hero browser checks. Sol/high reviews compatibility/data ownership before done.
 
 ### A05 — Four-step brief editor (ready after reviewed A04)
 

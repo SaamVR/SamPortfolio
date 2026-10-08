@@ -1,8 +1,14 @@
 {
   "schemaVersion": 1,
-  "draftId": "3a3b8b0e-a093-4e6a-b6b9-8bd417f440af",
+  "draftId": "3413850e-7a31-41ed-a6ab-e93eb76b968a",
   "revision": 8,
   "feel": "playful",
+  "serviceIds": [],
+  "projectReferenceIds": [],
   "goal": "An accessible interactive portfolio",
-  "updatedAt": "2026-10-08T14:54:48.112Z"
+  "audience": "",
+  "desiredAction": "",
+  "constraints": "",
+  "referenceURLs": [],
+  "updatedAt": "2026-10-08T17:21:59.656Z"
 }

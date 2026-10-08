@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-10-08T14:55:16.215Z",
+  "runAt": "2026-10-08T17:22:22.106Z",
   "browser": "151.0.7922.173",
   "environment": "Linux Chromium headless, SwiftShader software WebGL; localhost preview, no throttling. Phone is viewport/touch emulation, not hardware.",
   "results": [
@@ -16,8 +16,8 @@
           "angles": "[-38,42,18]",
           "active": "false",
           "choreographies": "6",
-          "frameCount": "129",
-          "quality": "lower",
+          "frameCount": "110",
+          "quality": "full",
           "ready": "true"
         },
         "activeP95": null,
@@ -27,63 +27,63 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 82.19999999925494
+            "duration": 37
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 88.59999999962747
+            "duration": 41.099999997764826
           },
           {
             "name": "/art/study.svg",
             "encoded": 683,
             "decoded": 1574,
             "transfer": 983,
-            "duration": 87.70000000111759
+            "duration": 48.80000000074506
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 87.29999999888241
+            "duration": 44.19999999925494
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 63.899999998509884
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 13.200000002980232
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 108.90000000037253
+            "duration": 8.299999997019768
           },
           {
             "name": "/_astro/renderer.BRjMA6Rt.js",
             "encoded": 130870,
             "decoded": 510898,
             "transfer": 131170,
-            "duration": 196.2999999988824
+            "duration": 74.30000000074506
           },
           {
             "name": "/art/poster-playful.png",
             "encoded": 58856,
             "decoded": 58856,
             "transfer": 59156,
-            "duration": 10.700000001117587
+            "duration": 7.800000000745058
           },
           {
             "name": "/art/poster-cinematic.png",
             "encoded": 49040,
             "decoded": 49040,
             "transfer": 49340,
-            "duration": 7.600000001490116
+            "duration": 4.300000000745058
           }
         ],
         "navigation": [
@@ -91,10 +91,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 702.8000000007451
+            "domContentLoaded": 344.5999999977648
           }
         ],
-        "lcp": 868
+        "lcp": 412
       }
     },
     {
@@ -108,7 +108,9 @@
         "new navigation cancellation",
         "direction note export"
       ],
-      "errors": []
+      "errors": [
+        "Transition was skipped"
+      ]
     },
     {
       "name": "phone-390",
@@ -134,56 +136,56 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 149.80000000074506
+            "duration": 26.299999997019768
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 160
+            "duration": 25.699999999254942
           },
           {
             "name": "/art/study.svg",
             "encoded": 683,
             "decoded": 1574,
             "transfer": 983,
-            "duration": 165.5
+            "duration": 29.699999999254942
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 165.2999999988824
+            "duration": 25.699999999254942
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 13.900000000372529
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 25.300000000745058
           },
           {
             "name": "/_astro/renderer.BRjMA6Rt.js",
             "encoded": 130870,
             "decoded": 510898,
             "transfer": 131170,
-            "duration": 186.30000000074506
+            "duration": 80.39999999850988
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 49.90000000037253
+            "duration": 41.400000002235174
           },
           {
             "name": "/art/poster-cinematic.png",
             "encoded": 49040,
             "decoded": 49040,
             "transfer": 49340,
-            "duration": 12.800000000745058
+            "duration": 7.699999999254942
           }
         ],
         "navigation": [
@@ -191,10 +193,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 653.2999999988824
+            "domContentLoaded": 307.5
           }
         ],
-        "lcp": 664
+        "lcp": 324
       },
       "errors": []
     },
@@ -211,7 +213,7 @@
           "angles": "[-38,42,18]",
           "active": "false",
           "choreographies": "1",
-          "frameCount": "50",
+          "frameCount": "52",
           "quality": "full",
           "ready": "true"
         },
@@ -222,56 +224,56 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 73
+            "duration": 25.5
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 79.80000000074506
+            "duration": 38.19999999925494
           },
           {
             "name": "/art/study.svg",
             "encoded": 683,
             "decoded": 1574,
             "transfer": 983,
-            "duration": 73.29999999888241
+            "duration": 65.60000000149012
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 67.19999999925494
+            "duration": 33.80000000074506
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 11.099999999627471
-          },
-          {
-            "name": "/art/mark.svg",
-            "encoded": 158,
-            "decoded": 158,
-            "transfer": 458,
-            "duration": 14.300000000745058
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 8
           },
           {
             "name": "/_astro/renderer.BRjMA6Rt.js",
             "encoded": 130870,
             "decoded": 510898,
             "transfer": 131170,
-            "duration": 47.59999999962747
+            "duration": 69.5
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 40.79999999701977
           },
           {
             "name": "/art/poster-cinematic.png",
             "encoded": 49040,
             "decoded": 49040,
             "transfer": 49340,
-            "duration": 8
+            "duration": 4.100000001490116
           }
         ],
         "navigation": [
@@ -279,10 +281,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 299.80000000074506
+            "domContentLoaded": 286.9000000022352
           }
         ],
-        "lcp": 340
+        "lcp": 296
       },
       "errors": []
     },
@@ -304,49 +306,49 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 71
+            "duration": 78
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 79.59999999962747
-          },
-          {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
-            "encoded": 3323,
-            "decoded": 7538,
-            "transfer": 3623,
-            "duration": 79
+            "duration": 69.5
           },
           {
             "name": "/art/study.svg",
             "encoded": 683,
             "decoded": 1574,
             "transfer": 983,
-            "duration": 79.19999999925494
+            "duration": 80.30000000074506
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 7.899999998509884
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
+            "encoded": 3323,
+            "decoded": 7538,
+            "transfer": 3623,
+            "duration": 79.30000000074506
+          },
+          {
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 12.800000000745058
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 54.19999999925494
+            "duration": 13.5
           },
           {
             "name": "/art/poster-playful.png",
             "encoded": 58856,
             "decoded": 58856,
             "transfer": 59156,
-            "duration": 7.599999999627471
+            "duration": 3.5
           }
         ],
         "navigation": [
@@ -354,10 +356,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 423.09999999962747
+            "domContentLoaded": 303.6000000014901
           }
         ],
-        "lcp": 512
+        "lcp": 316
       },
       "errors": []
     },
@@ -379,49 +381,49 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 70.69999999925494
+            "duration": 53.400000002235174
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 88.40000000037253
+            "duration": 68.5
           },
           {
             "name": "/art/study.svg",
             "encoded": 683,
             "decoded": 1574,
             "transfer": 983,
-            "duration": 91.80000000074506
+            "duration": 71.90000000223517
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 74.5
+            "duration": 71.60000000149012
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 15.400000000372529
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 12.899999998509884
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 32
+            "duration": 9.800000000745058
           },
           {
             "name": "/art/poster-playful.png",
             "encoded": 58856,
             "decoded": 58856,
             "transfer": 59156,
-            "duration": 10.799999998882413
+            "duration": 4.199999999254942
           }
         ],
         "navigation": [
@@ -429,10 +431,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 340.19999999925494
+            "domContentLoaded": 307.4000000022352
           }
         ],
-        "lcp": 428
+        "lcp": 320
       },
       "errors": []
     },
@@ -453,56 +455,56 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 63.70000000111759
+            "duration": 44.5
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 62.40000000037253
+            "duration": 44.600000001490116
           },
           {
             "name": "/art/study.svg",
             "encoded": 683,
             "decoded": 1574,
             "transfer": 983,
-            "duration": 62.09999999962747
+            "duration": 44.19999999925494
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 62
+            "duration": 44
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 37.100000001490116
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 14.600000001490116
           },
           {
             "name": "/_astro/renderer.BRjMA6Rt.js",
             "encoded": 130870,
             "decoded": 510898,
             "transfer": 131170,
-            "duration": 90.19999999925494
+            "duration": 47
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 9.599999999627471
+            "duration": 11.199999999254942
           },
           {
             "name": "/art/poster-playful.png",
             "encoded": 58856,
             "decoded": 58856,
             "transfer": 59156,
-            "duration": 9
+            "duration": 7.900000002235174
           }
         ],
         "navigation": [
@@ -510,10 +512,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 214.40000000037253
+            "domContentLoaded": 271.3999999985099
           }
         ],
-        "lcp": 240
+        "lcp": 284
       },
       "errors": []
     },
@@ -534,56 +536,56 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 192.09999999962747
+            "duration": 68.69999999925494
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 190.80000000074506
+            "duration": 55.79999999701977
           },
           {
             "name": "/art/study.svg",
             "encoded": 683,
             "decoded": 1574,
             "transfer": 983,
-            "duration": 206.7000000011176
+            "duration": 64.39999999850988
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 206.30000000074506
+            "duration": 64.5
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 39.20000000111759
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 31
           },
           {
             "name": "/_astro/renderer.BRjMA6Rt.js",
             "encoded": 0,
             "decoded": 0,
             "transfer": 0,
-            "duration": 22.199999999254942
+            "duration": 26.5
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 28.600000001490116
+            "duration": 22
           },
           {
             "name": "/art/poster-playful.png",
             "encoded": 58856,
             "decoded": 58856,
             "transfer": 59156,
-            "duration": 7.400000000372529
+            "duration": 12.399999998509884
           }
         ],
         "navigation": [
@@ -591,10 +593,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 652.7000000011176
+            "domContentLoaded": 280.5999999977648
           }
         ],
-        "lcp": 596
+        "lcp": 276
       },
       "errors": []
     },
@@ -633,49 +635,49 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 113
+            "duration": 53.5
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 117
+            "duration": 52
           },
           {
             "name": "/art/study.svg",
             "encoded": 683,
             "decoded": 1574,
             "transfer": 983,
-            "duration": 116.30000000074506
+            "duration": 58
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 115.59999999962747
+            "duration": 53.80000000074506
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 14.099999999627471
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 37.900000002235174
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 6.899999998509884
+            "duration": 4.400000002235174
           },
           {
             "name": "/_astro/renderer.BRjMA6Rt.js",
             "encoded": 130870,
             "decoded": 510898,
             "transfer": 131170,
-            "duration": 80.59999999962747
+            "duration": 59.69999999925494
           }
         ],
         "navigation": [
@@ -683,10 +685,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 396.5
+            "domContentLoaded": 294.80000000074506
           }
         ],
-        "lcp": 504
+        "lcp": 352
       },
       "metrics": {
         "renderer": {
@@ -704,49 +706,49 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 113
+            "duration": 53.5
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 117
+            "duration": 52
           },
           {
             "name": "/art/study.svg",
             "encoded": 683,
             "decoded": 1574,
             "transfer": 983,
-            "duration": 116.30000000074506
+            "duration": 58
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 115.59999999962747
+            "duration": 53.80000000074506
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 14.099999999627471
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 37.900000002235174
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 6.899999998509884
+            "duration": 4.400000002235174
           },
           {
             "name": "/_astro/renderer.BRjMA6Rt.js",
             "encoded": 130870,
             "decoded": 510898,
             "transfer": 131170,
-            "duration": 80.59999999962747
+            "duration": 59.69999999925494
           }
         ],
         "navigation": [
@@ -754,10 +756,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 396.5
+            "domContentLoaded": 294.80000000074506
           }
         ],
-        "lcp": 504
+        "lcp": 352
       },
       "errors": []
     },
@@ -772,42 +774,42 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 59.600000001490116
+            "duration": 48.100000001490116
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 60.5
+            "duration": 52.30000000074506
           },
           {
             "name": "/art/study.svg",
             "encoded": 683,
             "decoded": 1574,
             "transfer": 983,
-            "duration": 62.90000000037253
+            "duration": 52
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 60.09999999962747
+            "duration": 44.900000002235174
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 42.399999998509884
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 13
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 11.700000001117587
+            "duration": 12.399999998509884
           }
         ],
         "navigation": [
@@ -815,10 +817,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 319
+            "domContentLoaded": 181.80000000074506
           }
         ],
-        "lcp": 356
+        "lcp": 224
       },
       "metrics": {
         "renderer": {},
@@ -829,42 +831,42 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 59.600000001490116
+            "duration": 48.100000001490116
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 60.5
+            "duration": 52.30000000074506
           },
           {
             "name": "/art/study.svg",
             "encoded": 683,
             "decoded": 1574,
             "transfer": 983,
-            "duration": 62.90000000037253
+            "duration": 52
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 60.09999999962747
+            "duration": 44.900000002235174
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 42.399999998509884
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 13
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 11.700000001117587
+            "duration": 12.399999998509884
           }
         ],
         "navigation": [
@@ -872,10 +874,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 319
+            "domContentLoaded": 181.80000000074506
           }
         ],
-        "lcp": 356
+        "lcp": 224
       },
       "errors": []
     },
@@ -890,42 +892,42 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 86.70000000111759
-          },
-          {
-            "name": "/art/study.svg",
-            "encoded": 683,
-            "decoded": 1574,
-            "transfer": 983,
-            "duration": 88
+            "duration": 50.5
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 88.5
+            "duration": 47.100000001490116
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 46.69999999925494
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 81.40000000037253
+            "duration": 33.20000000298023
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 10.300000000745058
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 6.5
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 18.699999999254942
+            "duration": 5.5
           }
         ],
         "navigation": [
@@ -933,10 +935,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 335.8999999985099
+            "domContentLoaded": 272.69999999925494
           }
         ],
-        "lcp": 476
+        "lcp": 360
       },
       "metrics": {
         "renderer": {},
@@ -947,42 +949,42 @@
             "encoded": 3935,
             "decoded": 14655,
             "transfer": 4235,
-            "duration": 86.70000000111759
-          },
-          {
-            "name": "/art/study.svg",
-            "encoded": 683,
-            "decoded": 1574,
-            "transfer": 983,
-            "duration": 88
+            "duration": 50.5
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 88.5
+            "duration": 47.100000001490116
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BJ4XdaCn.js",
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 46.69999999925494
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.dbq3fk6N.js",
             "encoded": 3323,
             "decoded": 7538,
             "transfer": 3623,
-            "duration": 81.40000000037253
+            "duration": 33.20000000298023
           },
           {
-            "name": "/_astro/draft.BenxQ6kx.js",
-            "encoded": 882,
-            "decoded": 882,
-            "transfer": 1182,
-            "duration": 10.300000000745058
+            "name": "/_astro/draft.Dt4AA-cP.js",
+            "encoded": 1751,
+            "decoded": 4449,
+            "transfer": 2051,
+            "duration": 6.5
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 18.699999999254942
+            "duration": 5.5
           }
         ],
         "navigation": [
@@ -990,10 +992,10 @@
             "encoded": 2970,
             "decoded": 8690,
             "transfer": 3270,
-            "domContentLoaded": 335.8999999985099
+            "domContentLoaded": 272.69999999925494
           }
         ],
-        "lcp": 476
+        "lcp": 360
       },
       "errors": []
     }

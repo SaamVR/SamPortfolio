@@ -1,5 +1,6 @@
 import {readDraft,persistDraft} from './draft';
+import {reduceDraft} from './reducer';
 let draft=readDraft();const goal=document.querySelector<HTMLTextAreaElement>('#goal')!;const status=document.querySelector<HTMLElement>('#draft-status')!;
 document.querySelector('#saved-direction')!.textContent=draft.feel[0]!.toUpperCase()+draft.feel.slice(1);goal.value=draft.goal;
-goal.addEventListener('input',()=>{draft={...draft,goal:goal.value,revision:draft.revision+1,updatedAt:new Date().toISOString()};status.textContent=persistDraft(draft)?'Direction note saved on this device.':'Temporary direction note — device storage is unavailable. Export to keep it.';});
+goal.addEventListener('input',()=>{draft=reduceDraft(draft,{type:'text',field:'goal',value:goal.value});status.textContent=persistDraft(draft)?'Direction note saved on this device.':'Temporary direction note — device storage is unavailable. Export to keep it.';});
 document.querySelector('#export-draft')!.addEventListener('click',()=>{const snapshot={...draft};const url=URL.createObjectURL(new Blob([JSON.stringify(snapshot,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=`opening-direction-r${snapshot.revision}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status.textContent=`Exported direction revision ${snapshot.revision}. This is not a submitted enquiry.`;});

@@ -11,16 +11,15 @@
   },
   "currentTask": null,
   "lastCheckpoint": {
-    "stage": "A03_engineering_verified_device_calibration_pending",
-    "lastKnownHead": "d127ce510f95773bd10016bea0624393a31305b6",
+    "stage": "A04_verified",
+    "lastKnownHead": "0ff1bf7bf0f521393554130bae77f2edfa996640",
     "checks": [
-      "18 unit tests passed; type checks clean; 3-route build; renderer chunk warning",
-      "13 final browser scenarios passed",
-      "synthetic quality integration and disposal regression passed",
-      "renderer lifecycle passed",
-      "normal visual audit: desktop aggregate p95 83.3 ms misses target; lower phase only 5 samples; phone emulation 16.8 ms"
+      "25 unit tests passed",
+      "type checks clean; 3-route build with existing warning",
+      "final real browser migration and selection/repeat passed",
+      "13 existing scenarios passed before recovery-only fix; rerun planned with A05"
     ],
-    "nextAction": "A04 independent brief schema/migration is eligible. Resume A03 calibration when named physical profiles are available; do not guess a pass."
+    "nextAction": "Continue A05 four-step editor without further go-ahead."
   },
   "tasks": [
     {
@@ -70,7 +69,7 @@
       "title": "Evidence-backed renderer quality policy",
       "modelClass": "implementation_and_review",
       "attempts": 1,
-      "commit": null,
+      "commit": "0ff1bf7bf0f521393554130bae77f2edfa996640",
       "evidence": [
         "docs/automation/A03-RESULT.md",
         "evidence/quality-browser.json",
@@ -88,16 +87,24 @@
     },
     {
       "id": "A04",
-      "status": "ready",
+      "status": "done",
       "dependencies": [
         "A01"
       ],
       "title": "Full brief schema and direction-note migration",
       "modelClass": "implementation_and_review",
-      "attempts": 0,
+      "attempts": 1,
       "commit": null,
-      "evidence": [],
-      "blockers": []
+      "evidence": [
+        "docs/automation/A04-RESULT.md",
+        "evidence/brief-migration.json"
+      ],
+      "blockers": [],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "Recovery-status defect fixed with RED\u2192GREEN regression; final 25 tests/check/build/browser migration pass. No other confirmed findings."
+      }
     },
     {
       "id": "A05",
@@ -238,5 +245,6 @@
     "pullRequest": "https://github.com/SaamVR/SamPortfolio/pull/1",
     "draft": true,
     "sourceCheckpoint": "246500f8405571b79c9abe3336d72186b6f6630a"
-  }
+  },
+  "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply."
 }
