@@ -11,18 +11,16 @@
   },
   "currentTask": null,
   "lastCheckpoint": {
-    "stage": "A02_verified_and_reviewed",
-    "lastKnownHead": "acc46b6d7ae8a61358a8423a5d1b050c736ac496",
+    "stage": "A03_engineering_verified_device_calibration_pending",
+    "lastKnownHead": "d127ce510f95773bd10016bea0624393a31305b6",
     "checks": [
-      "14 unit tests passed",
-      "type checks clean",
-      "3 routes built; renderer chunk warning retained",
-      "13 browser scenarios passed",
-      "renderer separation/lifecycle suite passed",
-      "normal-mode visual traces: desktop p95 33.4 ms misses 25 ms; phone emulation 16.7 ms",
-      "focused Sol/high source review: no blockers"
+      "18 unit tests passed; type checks clean; 3-route build; renderer chunk warning",
+      "13 final browser scenarios passed",
+      "synthetic quality integration and disposal regression passed",
+      "renderer lifecycle passed",
+      "normal visual audit: desktop aggregate p95 83.3 ms misses target; lower phase only 5 samples; phone emulation 16.8 ms"
     ],
-    "nextAction": "A03 quality policy; A04 independently eligible. Unknown live usage: bounded-task checkpoint under existing runbook; no reset wait or automatic runner claimed."
+    "nextAction": "A04 independent brief schema/migration is eligible. Resume A03 calibration when named physical profiles are available; do not guess a pass."
   },
   "tasks": [
     {
@@ -48,7 +46,7 @@
       "title": "Capture-only WebGL buffer and bounded diagnostics",
       "modelClass": "implementation_and_review",
       "attempts": 1,
-      "commit": null,
+      "commit": "d127ce510f95773bd10016bea0624393a31305b6",
       "evidence": [
         "docs/automation/A02-RESULT.md",
         "evidence/renderer-lifecycle.json",
@@ -65,16 +63,28 @@
     },
     {
       "id": "A03",
-      "status": "ready",
+      "status": "review_needed",
       "dependencies": [
         "A02"
       ],
       "title": "Evidence-backed renderer quality policy",
       "modelClass": "implementation_and_review",
-      "attempts": 0,
+      "attempts": 1,
       "commit": null,
-      "evidence": [],
-      "blockers": []
+      "evidence": [
+        "docs/automation/A03-RESULT.md",
+        "evidence/quality-browser.json",
+        "evidence/visual-audit.json",
+        "evidence/browser-results.json"
+      ],
+      "blockers": [
+        "Named physical desktop/phone calibration unresolved; shared software trace inconclusive for lower-level effectiveness. Engineering and focused source review complete; no physical release pass."
+      ],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "One measurement defect fixed with RED\u2192GREEN terminal-disposal regression; final suites pass. No other confirmed findings; physical calibration pending."
+      }
     },
     {
       "id": "A04",

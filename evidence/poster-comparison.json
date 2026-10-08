@@ -1,11 +1,11 @@
 {
-  "runAt": "2026-10-08T13:59:47.349Z",
-  "source": "actual normal Full stage screenshot and actual Light stage screenshot; production buffer retention and diagnostics disabled",
+  "runAt": "2026-10-08T14:55:59.716Z",
+  "source": "independent fresh normal Full context (no active-frame downgrade) versus actual Light screenshot; capture and diagnostics disabled",
   "size": [
     983,
     818
   ],
   "meanAbsoluteRgbDifference": 0.14823308386001305,
   "scale": "0\u2013255 RGB",
-  "limit": "pose/color correspondence only; not a first-valid-frame timing or physical-device certification"
+  "limit": "pose/color correspondence only, no first-valid-frame timing or physical-device certification"
 }

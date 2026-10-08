@@ -35,7 +35,7 @@ The proposed ≤1 MB first-view / ≤2 MB automatic journey limits are met for t
 | desktop | 1440×1000 | 980x817 | 144 | 33.4 ms | Misses proposed 25 ms target |
 | phone | 390×844 | 343x286 | 200 | 16.8 ms | Below proposed 40 ms target in this emulation only |
 
-Desktop performance target remains unmet in this environment; earlier run p95 also varied up to ~50 ms. The phone result does not establish a supported real-phone profile. Framebuffer is below proposed area ceilings, with desktop DPR capped 1.5 and narrow DPR capped 1. No measured adaptive quality policy or universal performance guarantee is claimed.
+Desktop performance target remains unmet in this environment; earlier run p95 also varied up to ~50 ms. The phone result does not establish a supported real-phone profile. Framebuffer is below proposed area ceilings, with desktop DPR capped 1.5 and narrow DPR capped 1. A03 adds measured active-window quality degradation; physical calibration and universal performance guarantees remain unclaimed.
 
 Poster comparison: Precise endpoint Full versus actual Light still at desktop DPR1.5: mean absolute RGB difference 0.148 on a 0–255 scale. The slight difference is edge/downscale rasterization. This checks pose/color correspondence, **not** a cold-load ≤120 ms first-valid-frame timing assertion. Poster appears in HTML before runtime; there is no startup pose/camera animation.
 
@@ -56,7 +56,7 @@ Screenshots show observed compositions, not backend persistence, GPU performance
 
 No approved authentic project pack or owner identity/contact destination was provided. The original study is prominently marked as AI-assisted development placeholder. Hero capability copy remains pending owner approval. The contact route is a working anonymous note/export with an explicit unavailable-contact message; it cannot send enquiries. No enquiry receipt/backend, four-step complete brief, receipt signature C, about/privacy/error collection, deployed URL or approved résumé exists in this slice.
 
-A02 removed production preserveDrawingBuffer retention; explicit capture tooling retains it for synchronous source capture. No measured automatic quality downgrade is implemented beyond explicit Light/reduced and terminal failures. Velocity continuity on retarget is not claimed (rendered position is continuous, bounded easing restarts with zero velocity). No physical phone, browser zoom, screen-reader, full contrast, cross-browser or deployed validation completed. 320 px reflow is a narrow-layout check, not a browser zoom certification.
+A02 removed production preserveDrawingBuffer retention; explicit capture tooling retains it for synchronous source capture. A03 adds automatic resolution-first degradation and terminal authored Light; physical calibration remains pending. Velocity continuity on retarget is not claimed (rendered position is continuous, bounded easing restarts with zero velocity). No physical phone, browser zoom, screen-reader, full contrast, cross-browser or deployed validation completed. 320 px reflow is a narrow-layout check, not a browser zoom certification.
 
 Next batch is concrete in HANDOFF.md: approve a genuine flagship/identity/contact pack; calibrate physical-device render costs and first-frame/cross-browser continuity; then implement the full draft and real durable enquiry operations. Publication remains blocked until those gates are met.
 
@@ -71,3 +71,7 @@ Browser tooling now accepts configurable origins and executable paths. The owned
 ## A02 renderer checkpoint — 2026-10-08
 
 See `automation/A02-RESULT.md` for current settings, executed checks, focused review and before/after measurement limits. Production has no heavy bounds/frame-array diagnostics. Fourteen tests, clean type checks, three-route build, 13 browser scenarios, renderer lifecycle/separation suite and normal-mode visual audit passed. Desktop p95 remains 33.4 ms (misses 25 ms); phone emulation is 16.7 ms (not physical certification). Cold Full body cost 214.771 KB; Light/reduced 84.296 KB. Matching Full/Light RGB difference remains approximately 0.148/255. No performance improvement, automatic quality policy or publication pass is claimed.
+
+## A03 quality-policy checkpoint — 2026-10-08
+
+Engineering verified; physical calibration remains review_needed/device-blocked. See `automation/A03-RESULT.md`. Eighteen tests, clean type checks, build, 13 final browser scenarios, synthetic quality integration, renderer lifecycle and normal visual audit passed. A focused review measurement defect was fixed and regression-verified. Desktop normal aggregate p95 83.3 ms missed its target and triggered lower resolution; only five lower-phase samples cannot establish its effectiveness. Phone emulation p95 16.8 ms is not physical certification. Cold Full body cost 215.434 KB; Light/reduced 84.564 KB. Full/Light RGB difference remains approximately 0.148/255. No speed improvement or physical release pass. Next A04.

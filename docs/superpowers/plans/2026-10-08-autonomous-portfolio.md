@@ -54,15 +54,17 @@ Use one task per invocation when meter visibility is unknown. Target roughly 15�
 - [x] Regenerate posters only if visual output changes. Compare actual normal Full frame and actual Light poster; preserve geometry/pivot/proof contracts. Test Light-switch during loading, hidden reentry, rapid retarget, context loss and Back cleanup.
 - [x] Run unit/check/build and the relevant browser/visual suite. Record before/after trace settings and costs; no promised frame improvement. Sol/high reviews renderer ownership/disposal and diagnostic parity before done.
 
-### A03 — Measured, monotonic quality policy (ready after reviewed A02)
+### A03 — Measured, monotonic quality policy (engineering verified; device calibration pending)
 
 **Files:** create `src/features/hero/quality.ts`, `tests/quality.test.ts`; modify `renderer.ts`, `client.ts`, `tests/visual-audit.mjs` and `docs/VERIFICATION.md`.
 **Interfaces:** pure policy `observeActiveFrame(state, intervalMs, nowMs): QualityState`, with state `{level:'full'|'lower'|'light'; samples:number[]; badWindows:number; targetMs:25|40}`. Supply profile target 25 ms desktop / 40 ms narrow as proposed limits, not device-brand detection. Renderer reads level; visit controller persists terminal degradation for the visit.
 
-- [ ] Write tests for inactive/hidden gaps being excluded, fewer than 40 active samples never downgrading, two bad 40-sample windows downgrading one level, and level never silently increasing. Use a documented 15% downgrade-trigger tolerance above the 25/40 ms target to avoid one noisy boundary; report misses against the original target, not the tolerated trigger. Validate this choice against A02 traces before claiming physical calibration.
-- [ ] Lower framebuffer resolution first within the authored composition; if repeated evidence remains over target, show authored Light with honest status. Test preserved immediate choice and no oscillation/revival across navigation. No scene bytes disappear from accounting after a downgrade.
-- [ ] Measure normal-mode desktop/phone-emulated traces sequentially; report failed budgets. If software rendering alone makes calibration inconclusive, mark this task review_needed/device-blocked and continue A04 rather than guessing a physical-device pass.
-- [ ] Sol/high reviews the policy and lifecycle. A09 remains the physical-device release gate.
+- [x] Write tests for inactive/hidden gaps being excluded, fewer than 40 active samples never downgrading, two bad 40-sample windows downgrading one level, and level never silently increasing. Use a documented 15% downgrade-trigger tolerance above the 25/40 ms target to avoid one noisy boundary; report misses against the original target, not the tolerated trigger. Validate this choice against A02 traces before claiming physical calibration.
+- [x] Lower framebuffer resolution first within the authored composition; if repeated evidence remains over target, show authored Light with honest status. Test preserved immediate choice and no oscillation/revival across navigation. No scene bytes disappear from accounting after a downgrade.
+- [x] Measure normal-mode desktop/phone-emulated traces sequentially; report failed budgets. If software rendering alone makes calibration inconclusive, mark this task review_needed/device-blocked and continue A04 rather than guessing a physical-device pass.
+- [x] Sol/high reviews the policy and lifecycle. A09 remains the physical-device release gate.
+
+**Status:** `review_needed` for physical calibration; implementation/tests/focused review delivered. See `docs/automation/A03-RESULT.md`. Proceed to independent A04.
 
 ### A04 — Complete anonymous draft and legacy migration (ready after A01)
 

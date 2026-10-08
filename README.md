@@ -44,3 +44,7 @@ To check renderer separation and run normal-mode visual traces against owned pre
 node scripts/preview-browser.mjs tests/renderer-lifecycle.mjs
 node scripts/preview-browser.mjs tests/visual-audit.mjs
 ```
+
+Adaptive rendering uses two consecutive bad 40-sample active-frame windows per step: Full → lower resolution → authored Light. The p95 trigger is 15% above the proposed 25 ms desktop / 40 ms narrow-layout target; reports still assess the original targets. Lower resolution keeps animation and composition; terminal Light keeps direction and native routes. Quality never automatically increases within a tab visit, including Back/reload when session storage is available. Without session storage it is retained in the current document/BFCache only. Physical-device calibration is pending.
+
+`node scripts/preview-browser.mjs tests/quality-browser.mjs` verifies transitions using explicitly synthetic samples through the opt-in `openingDiagnostics=1&openingQualityTest=1` adapter. Synthetic checks are separate from normal-mode performance measurements and cannot establish a performance pass. Capture mode does not adapt, so authored poster extraction is stable.

@@ -1,0 +1,19 @@
+{
+  "runAt": "2026-10-08T14:54:25.227Z",
+  "browser": "151.0.7922.173",
+  "environment": "Headless Chromium / SwiftShader. Forced-window checks use explicit synthetic diagnostic samples, not measured performance or physical calibration.",
+  "initial": {
+    "width": 980,
+    "height": 817
+  },
+  "lower": {
+    "width": 735,
+    "height": 612
+  },
+  "checks": [
+    "synthetic slow active windows lower framebuffer dimensions about 25% while retaining animated selected feel",
+    "terminal Light retains immediate feel, native case/Back and reload without renderer revival; only subsequent navigation avoids renderer request",
+    "ordinary phone visit exposes no synthetic sample adapter",
+    "phone terminal visit has responsive authored still and immediate selection"
+  ]
+}
