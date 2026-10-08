@@ -4,23 +4,27 @@
   "branch": "feat/opening-scenes-1-3",
   "baselineCommit": "8120be8",
   "executionMode": "single_main_agent",
-  "publicationAuthority": "feature_branch_push_and_draft_pr; merging, paid services and production deployment pending",
+  "publicationAuthority": "feature_branch_push_and_draft_pr; user explicitly authorized Render deployment of current labeled preview; merge and paid resources remain unapproved",
   "scheduler": {
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
   "currentTask": null,
   "lastCheckpoint": {
-    "stage": "A04_A06_complete_required_inputs_pending",
-    "lastKnownHead": "5a52ada342b39f93441daa603c9732889b041e5d",
+    "stage": "Render_deployment_prepared",
+    "lastKnownHead": "cf110c1d5cd7fe0cbfb0ae1d5f881add7b53bc5e",
     "checks": [
-      "28 unit tests passed; type checks 0 errors/warnings/hints; 3-route build retains renderer warning",
-      "four brief browser profiles passed; restored-page regression passed",
-      "1440/390 export journeys passed, unblocked print instrumented, blocked fallback and offline print layout",
-      "13 final existing browser scenarios passed",
-      "cold encoded bodies Full217.151 KB, Light/reduced86.281 KB"
+      "Astro output static; 3 routes; Git branch published; prior 28 unit tests/check/build/browser suites passed",
+      "Repo is public, feature branch current and published",
+      "Local authored HTTP404/direct-route check passed; 4-page build"
     ],
-    "nextAction": "No independent ready work remains. Await requested approved owner/flagship facts, physical profiles and real enquiry/provider contract; resume corresponding tasks without another routine go-ahead."
+    "nextAction": "Authored static404 and reproducible deployed HTTP checks are prepared; validate build, confirm Render workspace, create site and run public checks/browser suites.",
+    "changedFiles": [
+      "AGENTS.md",
+      "docs/deployment/RENDER.md",
+      "src/pages/404.astro",
+      "tests/deployment-http.mjs"
+    ]
   },
   "tasks": [
     {
@@ -137,7 +141,7 @@
       "title": "Revision-consistent printable and JSON exports",
       "modelClass": "routine_then_review",
       "attempts": 1,
-      "commit": null,
+      "commit": "cf110c1d5cd7fe0cbfb0ae1d5f881add7b53bc5e",
       "evidence": [
         "docs/automation/A06-RESULT.md",
         "evidence/brief-export-browser.json",
@@ -265,5 +269,31 @@
     "draft": true,
     "sourceCheckpoint": "5a52ada342b39f93441daa603c9732889b041e5d"
   },
-  "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply."
+  "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply.",
+  "deployment": {
+    "provider": "Render",
+    "status": "prepared_workspace_confirmation_required",
+    "serviceType": "static_site",
+    "name": "the-opening-preview",
+    "repo": "https://github.com/SaamVR/SamPortfolio",
+    "branch": "feat/opening-scenes-1-3",
+    "buildCommand": "npm ci --include=dev && npm run build",
+    "publishPath": "dist",
+    "autoDeploy": "no",
+    "envVars": [
+      {
+        "key": "NODE_VERSION",
+        "value": "22"
+      },
+      {
+        "key": "SKIP_INSTALL_DEPS",
+        "value": "true"
+      }
+    ],
+    "workspace": "My Workspace (only accessible workspace; Render connector requires user confirmation before operations)",
+    "localChecks": [
+      "4-page production build passed; renderer chunk warning retained",
+      "HTTP200 direct routes /, /work/opening-study/, /start/; authored unknown-route HTTP404 passed"
+    ]
+  }
 }
