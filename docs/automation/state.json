@@ -11,15 +11,14 @@
   },
   "currentTask": null,
   "lastCheckpoint": {
-    "stage": "A04_verified",
-    "lastKnownHead": "0ff1bf7bf0f521393554130bae77f2edfa996640",
+    "stage": "A05_verified",
+    "lastKnownHead": "315dda119e75e25783b9473c6c81460069ae4fca",
     "checks": [
-      "25 unit tests passed",
-      "type checks clean; 3-route build with existing warning",
-      "final real browser migration and selection/repeat passed",
-      "13 existing scenarios passed before recovery-only fix; rerun planned with A05"
+      "25 tests passed; clean check; 3-route build warning retained",
+      "four brief browser profiles passed after restored-page fix",
+      "13 existing browser scenarios passed after final changes"
     ],
-    "nextAction": "Continue A05 four-step editor without further go-ahead."
+    "nextAction": "Continue A06 revision-consistent print/JSON exports."
   },
   "tasks": [
     {
@@ -94,7 +93,7 @@
       "title": "Full brief schema and direction-note migration",
       "modelClass": "implementation_and_review",
       "attempts": 1,
-      "commit": null,
+      "commit": "315dda119e75e25783b9473c6c81460069ae4fca",
       "evidence": [
         "docs/automation/A04-RESULT.md",
         "evidence/brief-migration.json"
@@ -108,16 +107,24 @@
     },
     {
       "id": "A05",
-      "status": "ready",
+      "status": "done",
       "dependencies": [
         "A04"
       ],
       "title": "Four-step accessible brief editor",
       "modelClass": "routine_then_review",
-      "attempts": 0,
+      "attempts": 1,
       "commit": null,
-      "evidence": [],
-      "blockers": []
+      "evidence": [
+        "docs/automation/A05-RESULT.md",
+        "evidence/brief-browser.json"
+      ],
+      "blockers": [],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "Only known restored-page synchronization issue; fixed with RED\u2192GREEN browser regression. No additional confirmed findings."
+      }
     },
     {
       "id": "A06",

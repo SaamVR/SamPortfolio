@@ -76,14 +76,14 @@ The user explicitly requested continuous autonomous execution: checkpoint every 
 - [x] Adapt existing hero persistence assertions to the new key; validate legacy migration in a real browser, selection revision and repeat no replay.
 - [x] Run full unit suite/check/build and relevant migration/hero browser checks. Sol/high reviews compatibility/data ownership before done.
 
-### A05 — Four-step brief editor (ready after reviewed A04)
+### A05 — Four-step brief editor (completed)
 
 **Files:** modify `src/pages/start.astro`, `src/features/brief/start.ts`, `src/styles/global.css`; create `tests/brief-browser.mjs`.
 **Interfaces:** Goal / Direction / Scope / Review edit the same reducer-owned draft. Normal-flow sections with semantic labeled controls; `renderBrief(draft, storageStatus)` paints derived values, not a second domain store. Review exposes chosen feel, goal/audience/action/constraints, optional scope fields and reference availability.
 
-- [ ] Browser assertions: step keyboard access; edit/back retains data; feel matches home; storage failure remains usable; error summary/focus points to invalid fields; no horizontal overflow at 320/390 px. No automatic scroll/layout tween.
-- [ ] Implement all four steps and editable review. Offer data/reference selections stay labeled according to approval status. Preserve an honest unavailable-contact message; no fake Send action or receipt.
-- [ ] Run full unit/check/build plus the brief browser journey at desktop/phone and reduced motion. Capture only changed screens. Sol reviews state/focus only, not a redundant rebuild.
+- [x] Browser assertions: step keyboard access; edit/back retains data; feel matches home; storage failure remains usable; error summary/focus points to invalid fields; no horizontal overflow at 320/390 px. No automatic scroll/layout tween.
+- [x] Implement all four steps and editable review. Offer data/reference selections stay labeled according to approval status. Preserve an honest unavailable-contact message; no fake Send action or receipt.
+- [x] Run full unit/check/build plus the brief browser journey at desktop/phone and reduced motion. Capture only changed screens. Sol reviews state/focus only, not a redundant rebuild.
 
 ### A06 — Snapshot print/JSON exports (ready after A05)
 

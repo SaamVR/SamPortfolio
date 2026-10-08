@@ -1,0 +1,57 @@
+{
+  "runAt": "2026-10-08T17:31:24.302Z",
+  "browser": "151.0.7922.173",
+  "checks": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "reduced": false,
+      "blocked": false,
+      "checks": [
+        "keyboard steps",
+        "edit/back retention",
+        "URL error summary/focus",
+        "review derived from draft",
+        "approval labels",
+        "no overflow",
+        "home direction continuity"
+      ]
+    },
+    {
+      "name": "phone",
+      "width": 390,
+      "reduced": true,
+      "blocked": false,
+      "checks": [
+        "keyboard steps",
+        "edit/back retention",
+        "URL error summary/focus",
+        "review derived from draft",
+        "approval labels",
+        "no overflow",
+        "home direction continuity"
+      ]
+    },
+    {
+      "name": "narrow-storage",
+      "width": 320,
+      "reduced": false,
+      "blocked": true,
+      "checks": [
+        "keyboard steps",
+        "edit/back retention",
+        "URL error summary/focus",
+        "review derived from draft",
+        "approval labels",
+        "no overflow",
+        "temporary storage usable"
+      ]
+    },
+    {
+      "name": "empty-goal",
+      "checks": [
+        "review requires goal; error link focuses field"
+      ]
+    }
+  ]
+}
