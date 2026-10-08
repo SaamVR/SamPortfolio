@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base>
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow"><span class="coral-dot"></span> INDEPENDENT DESIGNER & CREATIVE DEVELOPER</p><h1 id="hero-title">Make the<br/>experience<br/><em>move.</em><span class="title-dot">●</span></h1><p class="offer">Interactive websites, interface motion, and creative development. Designed and built by one independent maker.</p><div class="hero-actions"><a class="button primary" href="#work">Explore the work <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M3 9l5 5 5-5"/></svg></span></a><a class="text-link" href="/start/">Start a project <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a></div><p class="approval-note">Practice introduction pending owner approval.</p></div>
+<div class="hero-art">
+<div class="stage-heading"><span>01 / THE OPENING</span><span>Cut. Fold. Reveal.</span></div>
+<div class="stage" id="stage" data-feel="precise">
+<div class="poster" aria-hidden="true"><img id="poster-image" src="/art/poster-precise.png" alt="" width="1200" height="1000"/></div>
+<div id="renderer" aria-hidden="true"></div><svg class="stage-bridge" id="stage-bridge" viewBox="0 0 1200 1000" aria-hidden="true"><path/></svg>
+<a class="stage-proof" href="/work/opening-study/" aria-label="Inspect The Opening development study"><img src="/art/study.svg" alt="Original three-leaf graybox diagram, development artifact" width="960" height="640"/><span>THE OPENING <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></span></a>
+<span class="stage-coordinate" aria-hidden="true">FORM STUDY / 001</span>
+</div>
+<div class="proof-caption"><span>THE OPENING / INTERACTIVE FORM STUDY</span><span>Development placeholder · no client claim</span></div>
+<div class="feel-heading"><p>Give motion a direction.</p><span id="mode-state">Full experience</span></div>
+<div class="feel-controls" role="group" aria-label="Choose a direction"><button data-feel="precise" aria-pressed="true"><span>01</span>Precise<i aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></i></button><button data-feel="playful" aria-pressed="false"><span>02</span>Playful<i aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></i></button><button data-feel="cinematic" aria-pressed="false"><span>03</span>Cinematic<i aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></i></button></div>
+<div class="direction-meta"><p>A starting point for your brief. You can change it later.</p><button id="mode-toggle" aria-pressed="false">Use Light mode</button></div><p id="direction-status" class="sr-only" role="status" aria-live="polite"></p>
+</div>
+<div class="hero-bottom"><span>SCROLL TO SEE WHAT IT DOES</span><span class="down-arrow"><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M3 9l5 5 5-5"/></svg></span><span>IDEA → INTERFACE → EXPERIENCE</span></div>
+</section>
+<section class="work-section" id="work" aria-labelledby="work-title">
+<div class="chapter-line"><span>02 — INTO THE WORK</span><span class="chapter-graphic" aria-hidden="true"><svg viewBox="0 0 100 44"><path d="M2 42V2H70L98 24V42H32"/></svg></span><span>ONE IDEA. MADE TANGIBLE.</span></div>
+<div class="section-heading"><h2 id="work-title">The work behind<br/><em>the feeling.</em></h2><p>Good motion earns its place. <br/>Explore the decisions, the detail, <br/>and the build behind this opening.</p></div>
+<article class="project-card"><a class="project-image" href="/work/opening-study/" aria-label="Open The Opening development case study"><img src="/art/study.svg" alt="Three unequal chamfered leaves with independent hinges, shown as an original technical form study" width="960" height="640" loading="lazy"/><span class="image-badge">DEVELOPMENT ARTIFACT / 001</span><span class="image-arrow" aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a><div class="project-details"><div class="project-topline"><span>SELF-INITIATED / IN DEVELOPMENT</span><span>2026</span></div><h3><a href="/work/opening-study/">The Opening <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a></h3><p class="project-summary">An architectural frame that takes direction. A working study in interaction, rigid motion and useful restraint.</p><dl><div><dt>Scope</dt><dd>Art direction · Interaction · Development</dd></div><div><dt>Authorship</dt><dd>AI-assisted build; owner review pending</dd></div><div><dt>Status</dt><dd>Development placeholder, not approved portfolio proof</dd></div></dl><a class="text-link dark" href="/work/opening-study/">Inside the study <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a></div></article>
+<p class="evidence-note">A real portfolio needs real proof. Approved project evidence has not been supplied; this original build study reserves the place of an audited flagship.</p>
+</section>
+<section class="closing"><p class="eyebrow">THERE’S ROOM FOR YOUR NEXT IDEA.</p><h2>Let’s make<br/><em>an opening.</em></h2><a class="button primary" href="/start/">Start a project <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a><p>Keep your direction. Shape the brief.<br/>Contact details are pending configuration.</p></section>
+</main>
+<script>import '../features/hero/client';</script>
+</Base>

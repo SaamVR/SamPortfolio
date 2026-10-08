@@ -1,0 +1,14 @@
+{
+  "size": [
+    983,
+    818
+  ],
+  "meanAbsoluteChannelDifference": [
+    0.20979885436279838,
+    0.1155039087469873,
+    0.11939648847025348
+  ],
+  "meanAbsoluteRgbDifference": 0.14823308386001305,
+  "range": "0..255",
+  "scope": "Precise endpoint at desktop DPR1.5 compared to actual Light-mode poster, separate compositor screenshots. Edge rasterization/downscale differs; not an initial-load timing test."
+}

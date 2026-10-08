@@ -1,0 +1,1016 @@
+{
+  "runAt": "2026-10-08T10:54:34.237Z",
+  "browser": "151.0.7922.173",
+  "environment": "Linux Chromium headless, SwiftShader software WebGL; localhost preview, no throttling. Phone is viewport/touch emulation, not hardware.",
+  "results": [
+    {
+      "name": "desktop-full",
+      "checks": [
+        "immediate choice + draft revision",
+        "five rapid retargets",
+        "repeat no replay",
+        "no overflow"
+      ],
+      "metrics": {
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "false",
+          "choreographies": "6",
+          "drawCalls": "6",
+          "triangles": "180",
+          "framebuffer": "653x544",
+          "bounds": "[{\"name\":\"leaf_lead_hinge\",\"x0\":0.167946268927691,\"x1\":0.27303117921400494,\"y0\":0.18503406515488946,\"y1\":0.8002617557894186},{\"name\":\"leaf_secondary_hinge\",\"x0\":0.49454450576503955,\"x1\":0.8324302478821445,\"y0\":0.12654149210655008,\"y1\":0.32396136059072017},{\"name\":\"leaf_corner_hinge\",\"x0\":0.3752225659639512,\"x1\":0.8266826518121084,\"y0\":0.7055775037309389,\"y1\":0.8052509236890244}]",
+          "frames": "[16.533999999999878,16.799999999999955,16.600000000000136,16.700000000000045,16.699999999999818,16.600000000000136,16.59999999999991,16.700000000000045,16.700000000000045,16.59999999999991,16.799999999999955,16.5,16.800000000000182,16.699999999999818,16.600000000000136,16.700000000000045,16.59999999999991,16.700000000000045,16.700000000000045,16.59999999999991,16.700000000000045,16.700000000000045,16.59999999999991,16.59999999999991,16.800000000000182,33.299999999999955,33.299999999999955,16.59999999999991,16.700000000000045,16.700000000000045,16.700000000000045,16.59999999999991,16.700000000000045,16.700000000000045,16.700000000000045,16.59999999999991,16.59999999999991,16.700000000000045,16.700000000000045,16.59999999999991,16.700000000000273,16.699999999999818,16.59999999999991,16.700000000000273,16.699999999999818,16.699999999999818,16.600000000000364,16.699999999999818,16.699999999999818,16.600000000000364,16.699999999999818,16.699999999999818,16.600000000000364,16.59999999999991,16.699999999999818,16.800000000000182,16.59999999999991,16.699999999999818,16.600000000000364,16.699999999999818,16.59999999999991,16.800000000000182,16.5,16.699999999999818,16.700000000000273,16.699999999999818,16.59999999999991,16.700000000000273,16.59999999999991,16.799999999999727,16.600000000000364,16.699999999999818,16.699999999999818,16.600000000000364,16.59999999999991,16.699999999999818,16.700000000000273,16.59999999999991,16.699999999999818,16.700000000000273,16.699999999999818,16.59999999999991,16.700000000000273,16.699999999999818,16.59999999999991,16.700000000000273,16.699999999999818,16.59999999999991,16.700000000000273,16.59999999999991,16.699999999999818,16.700000000000273,16.699999999999818,16.59999999999991,16.59999999999991,16.800000000000182,16.59999999999991,16.59999999999991,16.800000000000182,16.59999999999991,16.700000000000273,16.699999999999818,16.59999999999991,16.700000000000273,16.59999999999991,16.699999999999818]",
+          "ready": "true"
+        },
+        "activeP95": 16.800000000000182,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 60.800000000046566
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 62.89999999990687
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 63.199999999953434
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 62.300000000046566
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 5.699999999953434
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 6.899999999906868
+          },
+          {
+            "name": "/_astro/renderer.D_S4fBlJ.js",
+            "encoded": 130314,
+            "decoded": 509386,
+            "transfer": 130614,
+            "duration": 74.30000000004657
+          },
+          {
+            "name": "/art/poster-playful.png",
+            "encoded": 58856,
+            "decoded": 58856,
+            "transfer": 59156,
+            "duration": 4.5
+          },
+          {
+            "name": "/art/poster-cinematic.png",
+            "encoded": 49040,
+            "decoded": 49040,
+            "transfer": 49340,
+            "duration": 5.5
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 294.39999999990687
+          }
+        ],
+        "lcp": 312
+      }
+    },
+    {
+      "name": "native-navigation",
+      "checks": [
+        "stage image transition API observed",
+        "case direct URL",
+        "Back + selected state + work source scroll",
+        "work image route",
+        "modified click",
+        "new navigation cancellation",
+        "direction note export"
+      ],
+      "errors": []
+    },
+    {
+      "name": "phone-390",
+      "checks": [
+        "text then stage order",
+        "touch selection",
+        "no horizontal overflow",
+        "DPR capped to 1"
+      ],
+      "metrics": {
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "false",
+          "choreographies": "1",
+          "drawCalls": "6",
+          "triangles": "180",
+          "framebuffer": "343x286",
+          "bounds": "[{\"name\":\"leaf_lead_hinge\",\"x0\":0.16793833113530543,\"x1\":0.27302575349157265,\"y0\":0.18503406515488946,\"y1\":0.8002617557894186},{\"name\":\"leaf_secondary_hinge\",\"x0\":0.49454437535066215,\"x1\":0.8324381946752188,\"y0\":0.12654149210655008,\"y1\":0.32396136059072017},{\"name\":\"leaf_corner_hinge\",\"x0\":0.3752195831413744,\"x1\":0.8266904612080688,\"y0\":0.7055775037309389,\"y1\":0.8052509236890244}]",
+          "frames": "[16.634000000000015,16.700000000000045,16.59999999999991,16.700000000000045,16.700000000000045,16.700000000000045,16.59999999999991,16.700000000000045,16.700000000000045,16.59999999999991,16.700000000000045,16.59999999999991,16.700000000000045,16.59999999999991,16.700000000000045,16.700000000000045,16.700000000000045,16.59999999999991,16.700000000000045,16.59999999999991,16.800000000000182,16.59999999999991,16.700000000000045,16.700000000000045,16.59999999999991,16.700000000000045,16.700000000000045,16.59999999999991,16.59999999999991,16.700000000000045,16.700000000000045,16.700000000000045,16.59999999999991,16.700000000000045,16.700000000000045,16.700000000000045,16.59999999999991,16.59999999999991,16.800000000000182,16.59999999999991,16.700000000000045,16.59999999999991,16.700000000000045,16.700000000000045,16.700000000000045,16.59999999999991]",
+          "ready": "true"
+        },
+        "activeP95": 16.700000000000045,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 33.199999999953434
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 29.5
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 30.5
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 29
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 52.700000000186265
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 3.3999999999068677
+          },
+          {
+            "name": "/_astro/renderer.D_S4fBlJ.js",
+            "encoded": 130314,
+            "decoded": 509386,
+            "transfer": 130614,
+            "duration": 48
+          },
+          {
+            "name": "/art/poster-cinematic.png",
+            "encoded": 49040,
+            "decoded": 49040,
+            "transfer": 49340,
+            "duration": 3.199999999953434
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 317.79999999981374
+          }
+        ],
+        "lcp": 340
+      },
+      "errors": []
+    },
+    {
+      "name": "phone-320",
+      "checks": [
+        "text then stage order",
+        "touch selection",
+        "no horizontal overflow",
+        "DPR capped to 1"
+      ],
+      "metrics": {
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "false",
+          "choreographies": "1",
+          "drawCalls": "6",
+          "triangles": "180",
+          "framebuffer": "281x234",
+          "bounds": "[{\"name\":\"leaf_lead_hinge\",\"x0\":0.16793833113530543,\"x1\":0.27302575349157265,\"y0\":0.18503406515488946,\"y1\":0.8002617557894186},{\"name\":\"leaf_secondary_hinge\",\"x0\":0.49454437535066215,\"x1\":0.8324381946752188,\"y0\":0.12654149210655008,\"y1\":0.32396136059072017},{\"name\":\"leaf_corner_hinge\",\"x0\":0.3752195831413744,\"x1\":0.8266904612080688,\"y0\":0.7055775037309389,\"y1\":0.8052509236890244}]",
+          "frames": "[16.534000000000106,16.700000000000045,16.699999999999818,16.700000000000045,16.600000000000136,16.699999999999818,16.700000000000045,16.600000000000136,16.699999999999818,16.600000000000136,16.700000000000045,16.699999999999818,16.600000000000136,16.700000000000045,16.59999999999991,16.700000000000045,16.700000000000045,16.699999999999818,16.700000000000045,16.600000000000136,16.699999999999818,16.600000000000136,16.700000000000045,16.699999999999818,16.600000000000136,16.700000000000045,16.59999999999991,16.700000000000045,16.700000000000045,16.699999999999818,16.700000000000045,16.600000000000136,16.59999999999991,16.700000000000045,16.700000000000045,16.699999999999818,16.700000000000045,16.600000000000136,16.699999999999818,16.600000000000136,16.700000000000045,16.699999999999818,16.600000000000136,16.700000000000045,16.59999999999991,16.799999999999955]",
+          "ready": "true"
+        },
+        "activeP95": 16.700000000000045,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 45.699999999953434
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 46
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 45.60000000009313
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 45.5
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 2
+          },
+          {
+            "name": "/_astro/renderer.D_S4fBlJ.js",
+            "encoded": 130314,
+            "decoded": 509386,
+            "transfer": 130614,
+            "duration": 73.20000000018626
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 13.399999999906868
+          },
+          {
+            "name": "/art/poster-cinematic.png",
+            "encoded": 49040,
+            "decoded": 49040,
+            "transfer": 49340,
+            "duration": 2.800000000046566
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 177.60000000009313
+          }
+        ],
+        "lcp": 192
+      },
+      "errors": []
+    },
+    {
+      "name": "light",
+      "checks": [
+        "authored still",
+        "selected state",
+        "case link",
+        "no canvas",
+        "zero renderer runtime requests"
+      ],
+      "metrics": {
+        "renderer": {},
+        "activeP95": null,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 47.60000000009313
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 56.60000000009313
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 56.4000000001397
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 54.699999999953434
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 7.199999999953434
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 5.199999999953434
+          },
+          {
+            "name": "/art/poster-playful.png",
+            "encoded": 58856,
+            "decoded": 58856,
+            "transfer": 59156,
+            "duration": 3.800000000046566
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 190.60000000009313
+          }
+        ],
+        "lcp": 228
+      },
+      "errors": []
+    },
+    {
+      "name": "reduced",
+      "checks": [
+        "authored still",
+        "selected state",
+        "case link",
+        "no canvas",
+        "zero renderer runtime requests"
+      ],
+      "metrics": {
+        "renderer": {},
+        "activeP95": null,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 55.89999999990687
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 58.699999999953434
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 65.5
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 65.19999999995343
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 6.100000000093132
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 6.199999999953434
+          },
+          {
+            "name": "/art/poster-playful.png",
+            "encoded": 58856,
+            "decoded": 58856,
+            "transfer": 59156,
+            "duration": 8.400000000139698
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 244.5
+          }
+        ],
+        "lcp": 292
+      },
+      "errors": []
+    },
+    {
+      "name": "no-webgl",
+      "checks": [
+        "authored still",
+        "selected state",
+        "case link",
+        "no canvas"
+      ],
+      "metrics": {
+        "renderer": {},
+        "activeP95": null,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 13
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 17.5
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 17.9000000001397
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 17.100000000093132
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 14.399999999906868
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 3.3999999999068677
+          },
+          {
+            "name": "/_astro/renderer.D_S4fBlJ.js",
+            "encoded": 130314,
+            "decoded": 509386,
+            "transfer": 130614,
+            "duration": 27.5
+          },
+          {
+            "name": "/art/poster-playful.png",
+            "encoded": 58856,
+            "decoded": 58856,
+            "transfer": 59156,
+            "duration": 3.5
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 231.4000000001397
+          }
+        ],
+        "lcp": 328
+      },
+      "errors": []
+    },
+    {
+      "name": "scene-load-failure",
+      "checks": [
+        "authored still",
+        "selected state",
+        "case link",
+        "no canvas"
+      ],
+      "metrics": {
+        "renderer": {},
+        "activeP95": null,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 65
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 81.5
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 79.29999999981374
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 79.0999999998603
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 17.800000000046566
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 11.199999999953434
+          },
+          {
+            "name": "/_astro/renderer.D_S4fBlJ.js",
+            "encoded": 0,
+            "decoded": 0,
+            "transfer": 0,
+            "duration": 5.5
+          },
+          {
+            "name": "/art/poster-playful.png",
+            "encoded": 58856,
+            "decoded": 58856,
+            "transfer": 59156,
+            "duration": 6.7999999998137355
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 238.20000000018626
+          }
+        ],
+        "lcp": 252
+      },
+      "errors": []
+    },
+    {
+      "name": "context-loss",
+      "checks": [
+        "poster immediately restored",
+        "choice retained",
+        "terminal degradation survives routes"
+      ],
+      "errors": []
+    },
+    {
+      "name": "no-javascript",
+      "checks": [
+        "HTML hero + proof",
+        "ordinary case link",
+        "case direct content"
+      ]
+    },
+    {
+      "name": "cold-full",
+      "firstView": {
+        "renderer": {
+          "angles": "[-18,22,8]",
+          "active": "false",
+          "choreographies": "0",
+          "drawCalls": "6",
+          "triangles": "180",
+          "framebuffer": "653x544",
+          "bounds": "[{\"name\":\"leaf_lead_hinge\",\"x0\":0.17064958254311752,\"x1\":0.3024809265666025,\"y0\":0.19262103660681562,\"y1\":0.79274954878789},{\"name\":\"leaf_secondary_hinge\",\"x0\":0.4041802738322286,\"x1\":0.8299921931122454,\"y0\":0.16768410926942962,\"y1\":0.32382010233899966},{\"name\":\"leaf_corner_hinge\",\"x0\":0.3752419743142581,\"x1\":0.8266318383665963,\"y0\":0.705312591365121,\"y1\":0.8103985615396905}]",
+          "frames": "[]",
+          "ready": "true"
+        },
+        "activeP95": null,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 23.799999999813735
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 26.100000000093132
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 26.399999999906868
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 25.699999999953434
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 7
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 5.699999999953434
+          },
+          {
+            "name": "/_astro/renderer.D_S4fBlJ.js",
+            "encoded": 130314,
+            "decoded": 509386,
+            "transfer": 130614,
+            "duration": 38.5
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 175.89999999990687
+          }
+        ],
+        "lcp": 272
+      },
+      "metrics": {
+        "renderer": {
+          "angles": "[-18,22,8]",
+          "active": "false",
+          "choreographies": "0",
+          "drawCalls": "6",
+          "triangles": "180",
+          "framebuffer": "653x544",
+          "bounds": "[{\"name\":\"leaf_lead_hinge\",\"x0\":0.17064958254311752,\"x1\":0.3024809265666025,\"y0\":0.19262103660681562,\"y1\":0.79274954878789},{\"name\":\"leaf_secondary_hinge\",\"x0\":0.4041802738322286,\"x1\":0.8299921931122454,\"y0\":0.16768410926942962,\"y1\":0.32382010233899966},{\"name\":\"leaf_corner_hinge\",\"x0\":0.3752419743142581,\"x1\":0.8266318383665963,\"y0\":0.705312591365121,\"y1\":0.8103985615396905}]",
+          "frames": "[]",
+          "ready": "true"
+        },
+        "activeP95": null,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 23.799999999813735
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 26.100000000093132
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 26.399999999906868
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 25.699999999953434
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 7
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 5.699999999953434
+          },
+          {
+            "name": "/_astro/renderer.D_S4fBlJ.js",
+            "encoded": 130314,
+            "decoded": 509386,
+            "transfer": 130614,
+            "duration": 38.5
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 175.89999999990687
+          }
+        ],
+        "lcp": 272
+      },
+      "errors": []
+    },
+    {
+      "name": "cold-light",
+      "firstView": {
+        "renderer": {},
+        "activeP95": null,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 31.9000000001397
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 31.699999999953434
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 32.10000000009313
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 31.199999999953434
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 7.800000000046566
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 15.199999999953434
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 242.9000000001397
+          }
+        ],
+        "lcp": 296
+      },
+      "metrics": {
+        "renderer": {},
+        "activeP95": null,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 31.9000000001397
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 31.699999999953434
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 32.10000000009313
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 31.199999999953434
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 7.800000000046566
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 15.199999999953434
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 242.9000000001397
+          }
+        ],
+        "lcp": 296
+      },
+      "errors": []
+    },
+    {
+      "name": "cold-reduced",
+      "firstView": {
+        "renderer": {},
+        "activeP95": null,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 43.800000000046566
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 25.800000000046566
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 24.700000000186265
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 24.199999999953434
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 3.5
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 8.699999999953434
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 155.5999999998603
+          }
+        ],
+        "lcp": 196
+      },
+      "metrics": {
+        "renderer": {},
+        "activeP95": null,
+        "resources": [
+          {
+            "name": "/_astro/index.C7ZJTxLK.css",
+            "encoded": 3935,
+            "decoded": 14655,
+            "transfer": 4235,
+            "duration": 43.800000000046566
+          },
+          {
+            "name": "/art/poster-precise.png",
+            "encoded": 72613,
+            "decoded": 72613,
+            "transfer": 72913,
+            "duration": 25.800000000046566
+          },
+          {
+            "name": "/art/study.svg",
+            "encoded": 683,
+            "decoded": 1574,
+            "transfer": 983,
+            "duration": 24.700000000186265
+          },
+          {
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BYKzOyEK.js",
+            "encoded": 2991,
+            "decoded": 6615,
+            "transfer": 3291,
+            "duration": 24.199999999953434
+          },
+          {
+            "name": "/_astro/draft.BenxQ6kx.js",
+            "encoded": 882,
+            "decoded": 882,
+            "transfer": 1182,
+            "duration": 3.5
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 8.699999999953434
+          }
+        ],
+        "navigation": [
+          {
+            "encoded": 2970,
+            "decoded": 8690,
+            "transfer": 3270,
+            "domContentLoaded": 155.5999999998603
+          }
+        ],
+        "lcp": 196
+      },
+      "errors": []
+    }
+  ]
+}
