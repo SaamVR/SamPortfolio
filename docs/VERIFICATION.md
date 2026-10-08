@@ -54,7 +54,7 @@ Screenshots show observed compositions, not backend persistence, GPU performance
 
 ## Limits and publication blockers
 
-No approved authentic project pack or owner identity/contact destination was provided. The original study is prominently marked as AI-assisted development placeholder. Hero capability copy remains pending owner approval. The contact route is a working anonymous note/export with an explicit unavailable-contact message; it cannot send enquiries. No enquiry receipt/backend, four-step complete brief, receipt signature C, about/privacy/error collection, deployed URL or approved résumé exists in this slice.
+No approved authentic project pack or owner identity/contact destination was provided. The original study is prominently marked as AI-assisted development placeholder. Hero capability copy remains pending owner approval. The contact route now has a full four-step anonymous brief and JSON/print HTML exports with explicit unavailable-contact messaging; it cannot send enquiries. No enquiry receipt/backend, receipt signature C, deployed URL or approved résumé exists.
 
 A02 removed production preserveDrawingBuffer retention; explicit capture tooling retains it for synchronous source capture. A03 adds automatic resolution-first degradation and terminal authored Light; physical calibration remains pending. Velocity continuity on retarget is not claimed (rendered position is continuous, bounded easing restarts with zero velocity). No physical phone, browser zoom, screen-reader, full contrast, cross-browser or deployed validation completed. 320 px reflow is a narrow-layout check, not a browser zoom certification.
 
@@ -75,3 +75,9 @@ See `automation/A02-RESULT.md` for current settings, executed checks, focused re
 ## A03 quality-policy checkpoint — 2026-10-08
 
 Engineering verified; physical calibration remains review_needed/device-blocked. See `automation/A03-RESULT.md`. Eighteen tests, clean type checks, build, 13 final browser scenarios, synthetic quality integration, renderer lifecycle and normal visual audit passed. A focused review measurement defect was fixed and regression-verified. Desktop normal aggregate p95 83.3 ms missed its target and triggered lower resolution; only five lower-phase samples cannot establish its effectiveness. Phone emulation p95 16.8 ms is not physical certification. Cold Full body cost 215.434 KB; Light/reduced 84.564 KB. Full/Light RGB difference remains approximately 0.148/255. No speed improvement or physical release pass. Next A04.
+
+## A04–A06 brief/export checkpoint — 2026-10-08
+
+Full anonymous schema/legacy migration, four-step editor and immutable JSON/print HTML exports are delivered. Final 28 unit tests passed; type checks 0 errors/warnings/hints; three-route build; 13 existing browser scenarios; four brief desktop/phone/reduced/storage/error journeys; two 1440/390 export journeys including instrumented successful print popup, blocked-window fallback, unchanged earlier exports and offline print-media reflow. Focused data/focus/privacy reviews and regression fixes are recorded in automation/A04-RESULT.md through A06-RESULT.md. Captures are synthetic development fixtures, not enquiries. Actual OS dialogs and physical/a11y conformance remain unvalidated.
+
+Latest cold response-body home+scroll Full 217.151 KB / Light or reduced 86.281 KB. Renderer 510.90 KB/130.87 KB gzip warning remains. No new frame-performance pass; A03 physical calibration remains review_needed. All independent engineering tasks are delivered; owner evidence/device/provider inputs block remaining work.

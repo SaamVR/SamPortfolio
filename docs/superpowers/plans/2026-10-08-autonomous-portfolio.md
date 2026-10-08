@@ -85,14 +85,14 @@ The user explicitly requested continuous autonomous execution: checkpoint every 
 - [x] Implement all four steps and editable review. Offer data/reference selections stay labeled according to approval status. Preserve an honest unavailable-contact message; no fake Send action or receipt.
 - [x] Run full unit/check/build plus the brief browser journey at desktop/phone and reduced motion. Capture only changed screens. Sol reviews state/focus only, not a redundant rebuild.
 
-### A06 — Snapshot print/JSON exports (ready after A05)
+### A06 — Snapshot print/JSON exports (completed)
 
 **Files:** create `src/features/brief/export.ts`, `tests/brief-export.test.ts`; modify `start.ts`, `start.astro`, `tests/brief-browser.mjs`.
 **Interfaces:** `snapshotDraft(draft): Readonly<BriefDraftV1>`, `serializeDraftJson(snapshot): string`, `renderPrintableHtml(snapshot): string`. Both outputs use an explicit anonymous-field allowlist and the same selected revision. Standalone accessible HTML includes title, headings, selected values and print styles; no PDF dependency, sign-up or contact gate.
 
-- [ ] Failing tests: angle brackets/quotes/script-like goal are escaped in HTML; snapshot stays at rN after source changes to rN+1; JSON/HTML identify the same revision; injected contact fields never export; unavailable reference status remains honest.
-- [ ] Implement printable HTML download/print path with a useful fallback when a new window is blocked. Freeze a snapshot at the requested export action, not at a later asynchronous print callback.
-- [ ] Browser test downloads and inspects JSON/HTML, edits afterward and confirms earlier exports unchanged. Unit/check/build; stronger focused review of serialization and privacy before done.
+- [x] Failing tests: angle brackets/quotes/script-like goal are escaped in HTML; snapshot stays at rN after source changes to rN+1; JSON/HTML identify the same revision; injected contact fields never export; unavailable reference status remains honest.
+- [x] Implement printable HTML download/print path with a useful fallback when a new window is blocked. Freeze a snapshot at the requested export action, not at a later asynchronous print callback.
+- [x] Browser test downloads and inspects JSON/HTML, edits afterward and confirms earlier exports unchanged. Unit/check/build; stronger focused review of serialization and privacy before done.
 
 ### A07 — Owner evidence pack (blocked on owner input)
 

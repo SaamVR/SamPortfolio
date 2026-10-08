@@ -2,15 +2,16 @@
 
 Repository: SaamVR/SamPortfolio. Upstream main inspected at cebab7f: README only, no dependencies, application or AGENTS.md. Preserve its history and original portfolio description. Integrate the existing Scenes 1–3 slice on feat/opening-scenes-1-3; avoid a second build or framework migration.
 
-## Next batch, in order
+## Remaining batches
 
-1. Content pack: approve owner name, capability copy and actual contact address; supply one genuine flagship with exact role, collaborators, rights/provenance, real media/deliverable links and limitations. Keep explicit placeholders until this exists. No extra fake projects.
-2. One flagship case study: replace the development placeholder using that approved pack, retaining the existing HTML proof and native image continuity. Verify media remains outside leaf projections at desktop/phone sizes.
-3. Render calibration: profile named real desktop/phone devices, test Safari/Firefox, measure first-frame poster match, and resolve the software desktop p95 target miss. Separate capture configuration from production rendering and implement a measured quality policy. Preserve the original three-leaf idea, immediate choice and interruption; no static-only Full shortcut.
-4. Brief batch: migrate the small direction note to the full versioned four-step draft, storage handling, editable review, printable HTML and JSON export. No contact gate for exports.
-5. Enquiry batch: configure the real deployment/provider and verified quick-contact path; implement immutable attempts, durable idempotent acceptance/outbox and secure owner retrieval before the receipt signature. Test lost response + newer edit + original retry. No fake successful receipt.
+A01/A02 and A04–A06 engineering are delivered on the draft PR. A03 quality-policy engineering is delivered but physical calibration remains review_needed. Current queue is authoritative; completed schema/editor/export work must not be repeated.
 
-Do 1–3 before expanding the page into Scenes 4–6. No deployment, GitHub push or PR is claimed by the local integration.
+1. Supply approved identity/capability/contact and one genuine flagship pack: exact role, collaborators, rights/provenance, actual media/deliverable links and limitations. A07/A08 stay blocked until this exists; explicit placeholders remain.
+2. Run named physical desktop/phone profiles and Safari/Firefox continuity review. A03/A09 stay calibration/release-blocked; software desktop p95 misses its target and lower-level evidence is insufficient.
+3. Establish the real hosting/enquiry provider contract, verified owner destination, retrieval/auth and retention. Then A10–A12 can implement durable idempotent acceptance/outbox and real receipt choreography. No invented enquiry or animated success.
+4. A13 publication checks require approved work, physical profiles and real enquiry operations. Merge/deployment/spend authority is unchanged and pending.
+
+User explicitly requested continuous autonomous execution: checkpoint each eligible task and continue without another go-ahead. Actual usage limits and required missing facts still apply. No scheduled runner is active.
 
 ## Model allocation
 

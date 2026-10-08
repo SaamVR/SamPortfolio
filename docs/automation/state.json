@@ -11,14 +11,16 @@
   },
   "currentTask": null,
   "lastCheckpoint": {
-    "stage": "A05_verified",
-    "lastKnownHead": "315dda119e75e25783b9473c6c81460069ae4fca",
+    "stage": "A04_A06_complete_required_inputs_pending",
+    "lastKnownHead": "5a52ada342b39f93441daa603c9732889b041e5d",
     "checks": [
-      "25 tests passed; clean check; 3-route build warning retained",
-      "four brief browser profiles passed after restored-page fix",
-      "13 existing browser scenarios passed after final changes"
+      "28 unit tests passed; type checks 0 errors/warnings/hints; 3-route build retains renderer warning",
+      "four brief browser profiles passed; restored-page regression passed",
+      "1440/390 export journeys passed, unblocked print instrumented, blocked fallback and offline print layout",
+      "13 final existing browser scenarios passed",
+      "cold encoded bodies Full217.151 KB, Light/reduced86.281 KB"
     ],
-    "nextAction": "Continue A06 revision-consistent print/JSON exports."
+    "nextAction": "No independent ready work remains. Await requested approved owner/flagship facts, physical profiles and real enquiry/provider contract; resume corresponding tasks without another routine go-ahead."
   },
   "tasks": [
     {
@@ -114,7 +116,7 @@
       "title": "Four-step accessible brief editor",
       "modelClass": "routine_then_review",
       "attempts": 1,
-      "commit": null,
+      "commit": "5a52ada342b39f93441daa603c9732889b041e5d",
       "evidence": [
         "docs/automation/A05-RESULT.md",
         "evidence/brief-browser.json"
@@ -128,16 +130,26 @@
     },
     {
       "id": "A06",
-      "status": "ready",
+      "status": "done",
       "dependencies": [
         "A05"
       ],
       "title": "Revision-consistent printable and JSON exports",
       "modelClass": "routine_then_review",
-      "attempts": 0,
+      "attempts": 1,
       "commit": null,
-      "evidence": [],
-      "blockers": []
+      "evidence": [
+        "docs/automation/A06-RESULT.md",
+        "evidence/brief-export-browser.json",
+        "evidence/brief-browser.json",
+        "evidence/browser-results.json"
+      ],
+      "blockers": [],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "No confirmed serialization/privacy issues. Successful-popup test added after review and passed with print instrumentation."
+      }
     },
     {
       "id": "A07",
@@ -149,7 +161,7 @@
       "commit": null,
       "evidence": [],
       "blockers": [
-        "Owner/device/provider/publication input required; see task plan."
+        "Approved identity/offer/contact and authentic flagship role/rights/media/links unavailable."
       ]
     },
     {
@@ -165,7 +177,7 @@
       "commit": null,
       "evidence": [],
       "blockers": [
-        "Owner/device/provider/publication input required; see task plan."
+        "A07 approved flagship pack required."
       ]
     },
     {
@@ -180,7 +192,7 @@
       "commit": null,
       "evidence": [],
       "blockers": [
-        "Owner/device/provider/publication input required; see task plan."
+        "Named physical desktop/phone and cross-browser access required; A03 physical calibration unresolved."
       ]
     },
     {
@@ -195,7 +207,7 @@
       "commit": null,
       "evidence": [],
       "blockers": [
-        "Owner/device/provider/publication input required; see task plan."
+        "Real hosting/enquiry/provider, verified owner retrieval/notification and retention contract unavailable; A06 dependency now complete."
       ]
     },
     {
@@ -210,7 +222,7 @@
       "commit": null,
       "evidence": [],
       "blockers": [
-        "Owner/device/provider/publication input required; see task plan."
+        "A10 operations contract required before durable enquiry implementation."
       ]
     },
     {
@@ -225,7 +237,7 @@
       "commit": null,
       "evidence": [],
       "blockers": [
-        "Owner/device/provider/publication input required; see task plan."
+        "A11 genuinely persisted accepted enquiries required before receipt choreography."
       ]
     },
     {
@@ -242,7 +254,7 @@
       "commit": null,
       "evidence": [],
       "blockers": [
-        "Owner/device/provider/publication input required; see task plan."
+        "Approved work, physical release evidence, real enquiry operations and explicit publication authority required."
       ]
     }
   ],
@@ -251,7 +263,7 @@
     "status": "published",
     "pullRequest": "https://github.com/SaamVR/SamPortfolio/pull/1",
     "draft": true,
-    "sourceCheckpoint": "246500f8405571b79c9abe3336d72186b6f6630a"
+    "sourceCheckpoint": "5a52ada342b39f93441daa603c9732889b041e5d"
   },
   "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply."
 }

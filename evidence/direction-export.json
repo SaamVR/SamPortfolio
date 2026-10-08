@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "draftId": "e42c9e66-e4d5-4e50-aefe-55cb7f1e676f",
+  "draftId": "2b364b7e-031b-4110-ad84-fd9734e251e5",
   "revision": 8,
   "feel": "playful",
   "serviceIds": [],
@@ -10,5 +10,10 @@
   "desiredAction": "",
   "constraints": "",
   "referenceURLs": [],
-  "updatedAt": "2026-10-08T17:31:44.137Z"
+  "updatedAt": "2026-10-08T17:37:30.510Z",
+  "referenceAvailability": {
+    "services": [],
+    "projects": [],
+    "notice": "Unavailable references are omitted. Listed offers and development references are pending owner approval."
+  }
 }
