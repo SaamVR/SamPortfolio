@@ -11,16 +11,18 @@
   },
   "currentTask": null,
   "lastCheckpoint": {
-    "stage": "A01_verified",
-    "lastKnownHead": "016203706bd19111c6a2903d269b2cd6be9800d8",
+    "stage": "A02_verified_and_reviewed",
+    "lastKnownHead": "acc46b6d7ae8a61358a8423a5d1b050c736ac496",
     "checks": [
-      "npm test: 14/14 passed",
-      "npm run check: 0 errors/warnings/hints",
-      "npm run build: 3 routes; existing chunk warning",
-      "npm run verify:browser: 13 scenarios passed on port 4330",
-      "actual Astro failure cleanup: exit 17; process reaped; port 4331 free"
+      "14 unit tests passed",
+      "type checks clean",
+      "3 routes built; renderer chunk warning retained",
+      "13 browser scenarios passed",
+      "renderer separation/lifecycle suite passed",
+      "normal-mode visual traces: desktop p95 33.4 ms misses 25 ms; phone emulation 16.7 ms",
+      "focused Sol/high source review: no blockers"
     ],
-    "nextAction": "A02 production/capture separation; A04 is independently eligible. Scheduler setup does not block current work."
+    "nextAction": "A03 quality policy; A04 independently eligible. Unknown live usage: bounded-task checkpoint under existing runbook; no reset wait or automatic runner claimed."
   },
   "tasks": [
     {
@@ -30,7 +32,7 @@
       "title": "Portable browser checks and reproducible preview",
       "modelClass": "routine",
       "attempts": 1,
-      "commit": null,
+      "commit": "acc46b6d7ae8a61358a8423a5d1b050c736ac496",
       "evidence": [
         "docs/automation/A01-RESULT.md",
         "evidence/browser-results.json"
@@ -39,16 +41,27 @@
     },
     {
       "id": "A02",
-      "status": "ready",
+      "status": "done",
       "dependencies": [
         "A01"
       ],
       "title": "Capture-only WebGL buffer and bounded diagnostics",
       "modelClass": "implementation_and_review",
-      "attempts": 0,
+      "attempts": 1,
       "commit": null,
-      "evidence": [],
-      "blockers": []
+      "evidence": [
+        "docs/automation/A02-RESULT.md",
+        "evidence/renderer-lifecycle.json",
+        "evidence/visual-audit.json",
+        "evidence/browser-results.json"
+      ],
+      "blockers": [],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "scope": "bounded read-only A02 renderer ownership and diagnostics",
+        "result": "no confirmed findings or review blockers"
+      }
     },
     {
       "id": "A03",

@@ -36,3 +36,11 @@ No approved owner identity, authentic flagship rights/content pack, verified con
 ## Autonomous continuation
 
 The slice and next-task queue are on `feat/opening-scenes-1-3`: [draft PR #1](https://github.com/SaamVR/SamPortfolio/pull/1). Read [the runbook](docs/automation/RUNBOOK.md), [task queue](docs/automation/state.json) and [implementation plan](docs/superpowers/plans/2026-10-08-autonomous-portfolio.md). One main agent, bounded tasks, checked checkpoints and feature-branch pushes. No scheduler, merge, paid service or production deployment is implied by these files. Runner configuration remains a separate verified setup.
+
+Renderer tooling: ordinary visits use a non-retained framebuffer and minimal lifecycle diagnostics. `/?openingCapture=1` enables the synchronous PNG adapter used by `tests/capture-posters.mjs`; `/?openingDiagnostics=1` enables heavier bounds/frame traces without capture retention. These are explicit tooling configurations, not performance representative defaults.
+
+To check renderer separation and run normal-mode visual traces against owned previews after building:
+```sh
+node scripts/preview-browser.mjs tests/renderer-lifecycle.mjs
+node scripts/preview-browser.mjs tests/visual-audit.mjs
+```

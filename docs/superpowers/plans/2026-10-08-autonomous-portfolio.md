@@ -44,15 +44,15 @@ Use one task per invocation when meter visibility is unknown. Target roughly 15�
 - [x] Run `npm test`, `npm run check`, `npm run build`, `npm run verify:browser`; verify the child preview exits after both a normal run and an intentionally failing suite. Record actual browser/version, not inferred passes.
 - [x] Commit task + checkpoint. This makes later checks reproducible in the actual SamPortfolio checkout.
 
-### A02 — Production renderer and capture separation (ready after A01)
+### A02 — Production renderer and capture separation (completed)
 
 **Files:** modify `src/features/hero/renderer.ts`, `client.ts`, `tests/capture-posters.mjs`, `tests/visual-audit.mjs`, `tests/browser.mjs`; create `tests/renderer-lifecycle.mjs` if lifecycle assertions cannot fit cleanly in the existing suite.
 **Interfaces:** `createStage(host, feel, onFailure, options?: { capture?: boolean; diagnostics?: boolean })`; production defaults false. Add `capturePng(): string` that renders and reads synchronously in capture configuration. Minimal pose/selection diagnostics remain available for lifecycle checks; expensive projected-bounds/full-frame-array serialization is opt-in, outside normal per-frame DOM writes. Capture/trace runs are labeled and measured separately.
 
-- [ ] Pin current pose/repeat/hide/switch/context-loss behavior with browser assertions before changing buffer/reporting behavior. Capture a normal-mode frame and ensure it is nonblank, not merely a canvas node.
-- [ ] Remove default `preserveDrawingBuffer` retention and per-frame full projection serialization. Expose source capture through an explicit diagnostic adapter; do not enable capture overhead in normal production visits.
-- [ ] Regenerate posters only if visual output changes. Compare actual normal Full frame and actual Light poster; preserve geometry/pivot/proof contracts. Test Light-switch during loading, hidden reentry, rapid retarget, context loss and Back cleanup.
-- [ ] Run unit/check/build and the relevant browser/visual suite. Record before/after trace settings and costs; no promised frame improvement. Sol/high reviews renderer ownership/disposal and diagnostic parity before done.
+- [x] Pin current pose/repeat/hide/switch/context-loss behavior with browser assertions before changing buffer/reporting behavior. Capture a normal-mode frame and ensure it is nonblank, not merely a canvas node.
+- [x] Remove default `preserveDrawingBuffer` retention and per-frame full projection serialization. Expose source capture through an explicit diagnostic adapter; do not enable capture overhead in normal production visits.
+- [x] Regenerate posters only if visual output changes. Compare actual normal Full frame and actual Light poster; preserve geometry/pivot/proof contracts. Test Light-switch during loading, hidden reentry, rapid retarget, context loss and Back cleanup.
+- [x] Run unit/check/build and the relevant browser/visual suite. Record before/after trace settings and costs; no promised frame improvement. Sol/high reviews renderer ownership/disposal and diagnostic parity before done.
 
 ### A03 — Measured, monotonic quality policy (ready after reviewed A02)
 

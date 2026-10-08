@@ -56,7 +56,7 @@ Screenshots show observed compositions, not backend persistence, GPU performance
 
 No approved authentic project pack or owner identity/contact destination was provided. The original study is prominently marked as AI-assisted development placeholder. Hero capability copy remains pending owner approval. The contact route is a working anonymous note/export with an explicit unavailable-contact message; it cannot send enquiries. No enquiry receipt/backend, four-step complete brief, receipt signature C, about/privacy/error collection, deployed URL or approved résumé exists in this slice.
 
-The scene still retains preserveDrawingBuffer for exact source capture; profile its cost and separate capture configuration before final renderer tuning. No measured automatic quality downgrade is implemented beyond explicit Light/reduced and terminal failures. Velocity continuity on retarget is not claimed (rendered position is continuous, bounded easing restarts with zero velocity). No physical phone, browser zoom, screen-reader, full contrast, cross-browser or deployed validation completed. 320 px reflow is a narrow-layout check, not a browser zoom certification.
+A02 removed production preserveDrawingBuffer retention; explicit capture tooling retains it for synchronous source capture. No measured automatic quality downgrade is implemented beyond explicit Light/reduced and terminal failures. Velocity continuity on retarget is not claimed (rendered position is continuous, bounded easing restarts with zero velocity). No physical phone, browser zoom, screen-reader, full contrast, cross-browser or deployed validation completed. 320 px reflow is a narrow-layout check, not a browser zoom certification.
 
 Next batch is concrete in HANDOFF.md: approve a genuine flagship/identity/contact pack; calibrate physical-device render costs and first-frame/cross-browser continuity; then implement the full draft and real durable enquiry operations. Publication remains blocked until those gates are met.
 
@@ -67,3 +67,7 @@ SaamVR/SamPortfolio cloned at cebab7f and integrated locally on feat/opening-sce
 ## A01 reproducibility checkpoint — 2026-10-08
 
 Browser tooling now accepts configurable origins and executable paths. The owned Astro preview on port 4330 passed the existing 13 scenarios against this checkout. Fourteen unit/lifecycle tests passed, and type checks returned zero errors, warnings or hints. A real Astro failure run on port 4331 preserved exit 17 and released its process/port. Build retained the existing >500 KB renderer warning. See `automation/A01-RESULT.md` for scope; previous performance limitations remain applicable.
+
+## A02 renderer checkpoint — 2026-10-08
+
+See `automation/A02-RESULT.md` for current settings, executed checks, focused review and before/after measurement limits. Production has no heavy bounds/frame-array diagnostics. Fourteen tests, clean type checks, three-route build, 13 browser scenarios, renderer lifecycle/separation suite and normal-mode visual audit passed. Desktop p95 remains 33.4 ms (misses 25 ms); phone emulation is 16.7 ms (not physical certification). Cold Full body cost 214.771 KB; Light/reduced 84.296 KB. Matching Full/Light RGB difference remains approximately 0.148/255. No performance improvement, automatic quality policy or publication pass is claimed.

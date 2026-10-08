@@ -1,0 +1,13 @@
+{
+  "runAt": "2026-10-08T14:00:46.411Z",
+  "browser": "151.0.7922.173",
+  "environment": "Headless Chromium / SwiftShader; capture mode explicitly enabled only in final profile",
+  "checks": [
+    "normal mode: non-retained buffer, no heavy diagnostics or adapter; rendered canvas differs from empty host",
+    "simulated hidden-document event settles latest choice; native scroll reentry, resize and idle frame count preserved",
+    "active Light switch disposes scene; Full reentry settles current choice",
+    "diagnostics-only tracing leaves capture retention and PNG adapter disabled",
+    "Light chosen during dynamic import never revives stale renderer",
+    "explicit capture renders/reads synchronously and removes diagnostic adapter on disposal"
+  ]
+}
