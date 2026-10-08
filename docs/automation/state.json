@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/SaamVR/SamPortfolio",
+  "branch": "feat/opening-scenes-1-3",
+  "baselineCommit": "8120be8",
+  "executionMode": "single_main_agent",
+  "publicationAuthority": "feature_branch_push_and_draft_pr; merging, paid services and production deployment pending",
+  "scheduler": {
+    "status": "not_configured",
+    "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
+  },
+  "currentTask": null,
+  "lastCheckpoint": {
+    "stage": "queue_prepared",
+    "checks": [
+      "npm test: 8/8 pass",
+      "git diff --check: pass",
+      "private usage metadata ignored by Git"
+    ],
+    "nextAction": "Publish this verified preparation checkpoint; then A01 at a bounded invocation. Activate scheduling only after runner confirmation.",
+    "changedFiles": [
+      "AGENTS.md",
+      "docs/automation/",
+      "docs/superpowers/plans/2026-10-08-autonomous-portfolio.md",
+      ".gitignore"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "A01",
+      "status": "ready",
+      "dependencies": [],
+      "title": "Portable browser checks and reproducible preview",
+      "modelClass": "routine",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": []
+    },
+    {
+      "id": "A02",
+      "status": "ready",
+      "dependencies": [
+        "A01"
+      ],
+      "title": "Capture-only WebGL buffer and bounded diagnostics",
+      "modelClass": "implementation_and_review",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": []
+    },
+    {
+      "id": "A03",
+      "status": "ready",
+      "dependencies": [
+        "A02"
+      ],
+      "title": "Evidence-backed renderer quality policy",
+      "modelClass": "implementation_and_review",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": []
+    },
+    {
+      "id": "A04",
+      "status": "ready",
+      "dependencies": [
+        "A01"
+      ],
+      "title": "Full brief schema and direction-note migration",
+      "modelClass": "implementation_and_review",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": []
+    },
+    {
+      "id": "A05",
+      "status": "ready",
+      "dependencies": [
+        "A04"
+      ],
+      "title": "Four-step accessible brief editor",
+      "modelClass": "routine_then_review",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": []
+    },
+    {
+      "id": "A06",
+      "status": "ready",
+      "dependencies": [
+        "A05"
+      ],
+      "title": "Revision-consistent printable and JSON exports",
+      "modelClass": "routine_then_review",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": []
+    },
+    {
+      "id": "A07",
+      "status": "blocked",
+      "dependencies": [],
+      "title": "Approved identity and flagship content pack",
+      "modelClass": "owner_input",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "Owner/device/provider/publication input required; see task plan."
+      ]
+    },
+    {
+      "id": "A08",
+      "status": "blocked",
+      "dependencies": [
+        "A07",
+        "A01"
+      ],
+      "title": "Authentic flagship route and proof replacement",
+      "modelClass": "routine",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "Owner/device/provider/publication input required; see task plan."
+      ]
+    },
+    {
+      "id": "A09",
+      "status": "blocked",
+      "dependencies": [
+        "A03"
+      ],
+      "title": "Named physical-device and cross-browser release review",
+      "modelClass": "device_access",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "Owner/device/provider/publication input required; see task plan."
+      ]
+    },
+    {
+      "id": "A10",
+      "status": "blocked",
+      "dependencies": [
+        "A06"
+      ],
+      "title": "Enquiry/provider/deployment contract",
+      "modelClass": "owner_input",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "Owner/device/provider/publication input required; see task plan."
+      ]
+    },
+    {
+      "id": "A11",
+      "status": "blocked",
+      "dependencies": [
+        "A10"
+      ],
+      "title": "Durable enquiry transactions and reconciliation",
+      "modelClass": "strong",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "Owner/device/provider/publication input required; see task plan."
+      ]
+    },
+    {
+      "id": "A12",
+      "status": "blocked",
+      "dependencies": [
+        "A11"
+      ],
+      "title": "Real accepted receipt choreography",
+      "modelClass": "implementation_and_review",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "Owner/device/provider/publication input required; see task plan."
+      ]
+    },
+    {
+      "id": "A13",
+      "status": "blocked",
+      "dependencies": [
+        "A08",
+        "A09",
+        "A12"
+      ],
+      "title": "Production publication checks",
+      "modelClass": "publication",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "Owner/device/provider/publication input required; see task plan."
+      ]
+    }
+  ],
+  "authoritySource": "User answered choose the best option; main agent selected branch pushes + draft PR for recoverable autonomous progress.",
+  "remoteCheckpoint": {
+    "status": "pending_push",
+    "pullRequest": null
+  }
+}

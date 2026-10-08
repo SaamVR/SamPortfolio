@@ -33,3 +33,7 @@ Example task:
 > In SaamVR/SamPortfolio on feat/opening-scenes-1-3, read docs/HANDOFF.md and the approved project pack. Replace only the placeholder content/media in index.astro and work/opening-study.astro. Preserve geometry, selection and native navigation. Do not invent missing claims; record missing evidence. Run the build and relevant desktop/phone content/navigation checks. Save the short result and make one local commit.
 
 Escalate when the task affects state ownership or durable enquiries, when the cheap model cannot explain a recurring failure after two focused attempts, or when a motion/performance change needs technical judgment. Do not spend many cheap retries rebuilding a fragile solution.
+
+## Autonomous execution update
+
+Use `docs/automation/state.json`, `WORKER-PROMPT.md`, `RUNBOOK.md` and `docs/superpowers/plans/2026-10-08-autonomous-portfolio.md` as the task-by-task queue. Earlier ordering was a broad roadmap; eligible brief/export work may proceed while genuine content/device inputs remain blocked. User delegated the publication-scope choice: feature-branch pushes + a draft PR selected; no merge, paid services or production deployment. Reset metadata is private and scheduler activation awaits project-runner confirmation.
