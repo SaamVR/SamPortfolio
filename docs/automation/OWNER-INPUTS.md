@@ -1,6 +1,8 @@
-# Inputs needed — engineering can continue while these are missing
+# Inputs needed — remaining release and enquiry gates
 
 Supplied facts: public name Shusmoy; seven owner-selected GitHub projects; feature-branch pushes/draft PR and Render static preview deployment. These do not imply the remaining facts below.
+
+Current checkpoint: F01 motion is implemented and publicly verified; A01/A02/A04–A06 are complete. No ready implementation task remains in the saved queue. Owner facts and physical access below unblock the next batches. Runner configuration is optional for future scheduled execution, not a reason to repeat completed work.
 
 ## Runner and account
 - Codex surface: desktop app / CLI on an always-on machine / cloud workspace

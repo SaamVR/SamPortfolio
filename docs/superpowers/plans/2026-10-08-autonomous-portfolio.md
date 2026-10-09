@@ -101,12 +101,15 @@ The user explicitly requested continuous autonomous execution: checkpoint every 
 - [ ] Audit supplied facts against source material. Record provenance/approval explicitly. Missing evidence remains blocked; do not create a fictitious flagship from repository metadata.
 - [ ] Owner approval clears A07; this is factual approval, not repeated implementation permission.
 
-### A08 — Genuine flagship and continuity (blocked on A07)
+### A08 — Repository-backed cases and continuity (engineering delivered; credits gate open)
 
-**Files:** `src/content/projects.ts`, `src/pages/index.astro`, new `src/pages/work/[slug].astro` or one static approved-slug page, `src/features/motion/navigation.ts`, `tests/browser.mjs`; preserve development-study route as a labeled artifact.
-- [ ] Add media/title/type/role/status/provenance outside decoration before the scene; no extra filler projects. Use the approved slug consistently in route/image continuity.
-- [ ] Test direct URL, missing media fallback, modified click, Back source scroll, focus, second navigation cancellation, protected crop and Light/no-JS journey. Actual media costs join the ledger.
-- [ ] Unit/check/build + relevant desktop/phone navigation; commit approved evidence and content change together.
+**Actual files:** `src/content/projects.ts`, `src/pages/index.astro`, `src/pages/work/[slug].astro`, `src/features/motion/navigation.ts`, `tests/browser.mjs`; development-study route remains a labeled artifact. Source snapshots/media provenance are recorded in `public/work/evidence.json` and `docs/PROJECT-EVIDENCE.md`.
+- [x] Seven owner-selected repository-backed cases and source provenance are accessible in ordinary HTML; featured StayPilot proof is visible before runtime. Stable slugs preserve image continuity.
+- [ ] Complete exact personal contribution/collaborator/asset-origin credits and contact before closing the authentic flagship release gate.
+
+**Status:** `review_needed` for owner facts; implementation and focused review delivered. See `docs/PROJECT-EVIDENCE.md`; do not rebuild completed case routes merely because this release gate is open.
+- [x] Test direct URL, missing media fallback, modified click, Back source scroll, focus, second navigation cancellation, protected crop and Light/no-JS journey. Actual media costs join the ledger.
+- [x] Unit/check/build and desktop/phone/public navigation completed for the repository-backed collection. Source-observed evidence and content committed together; exact personal roles/collaborator/asset credits remain explicitly unapproved.
 
 ### A09 — Real-device and cross-browser validation (blocked on device access)
 
@@ -114,6 +117,8 @@ The user explicitly requested continuous autonomous execution: checkpoint every 
 - [ ] Record actual hardware, OS/browser, viewport/DPR/network, normal capture settings and active trace method. Test first-valid-frame/poster correspondence, 25 ms desktop / 40 ms supported-phone p95 targets, fast/reverse scroll and native continuity (supported enhancement or complete normal route).
 - [ ] Run actual keyboard/zoom/screen-reader and contrast checks with recorded scope. Phone emulation and Playwright WebKit cannot be labeled physical iPhone/Safari verification.
 - [ ] Record failures and fixes; do not approve publication while profile targets or protected proof fail.
+
+**Preparation delivered:** Linux Chromium/Firefox/WebKit functional and automated accessibility profiles, plus public Chrome motion recordings at desktop/phone emulation. Evidence is source-versioned under `evidence/`. These do not close the physical-device, Safari, screen-reader, actual zoom or quality-calibration gates. See `docs/automation/A09-AUDIT.md` and `docs/automation/F01-MOTION.md`.
 
 ### A10 — Operations contract (blocked on owner/provider/deployment input)
 
@@ -141,3 +146,7 @@ The user explicitly requested continuous autonomous execution: checkpoint every 
 - [ ] Finish missing readable routes using approved facts and actual data practices; inspect auth/retention/owner retrieval and notification recovery. No invented résumé/results.
 - [ ] Run complete relevant suites and deployed end-to-end checks, bounded network ledger, desktop/phone captures, ordinary navigation and failure modes. Publish only within explicit scope; a preview is not a production release.
 - [ ] Record final URL/commit/provider/profile limitations and next maintenance actions. Never claim a universal performance/accessibility/recruiter pass.
+
+### F01 — Visible Full opening (completed)
+
+User-directed follow-up to the motion complaint. First Full entry now has a matched-poster, one-time1.1s fold/hold/open entrance; original pivots/protected bounds and feel scores remain. Retarget/repeat/Back/scroll reentry and authored alternatives preserve existing contracts. This deliberately extends D07 fixed-pose startup.33 units, clean check,11-page build; local8 motion profiles/13 core/quality/lifecycle and public8 motion/13 core/11 HTTP checks pass. Focused stronger structural review completed. Actual deployed source772e299 and recordings/costs: `docs/automation/F01-MOTION.md`, `evidence/motion/render/`.
