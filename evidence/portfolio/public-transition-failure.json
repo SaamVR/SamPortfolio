@@ -8,6 +8,8 @@
   "url": "/start/?project=staypilot",
   "reproducedRuns": 2,
   "functionalResult": "Direct cases/HTTP passed; project browser profile failed zero-error assertion during case-to-brief navigation.",
-  "fix": "Observe the native ViewTransition.ready rejection on both pageswap and pagereveal; no global page-error suppression or route interception.",
-  "status": "local verification in progress"
+  "fix": "Brief entry opts both source and destination out of decorative native transitions, without intercepting ordinary links. Hero-to-case transitions remain enabled. Scoped readiness handlers retained; parser-time marker independently fixes delayed module registration.",
+  "status": "resolved in final live verified deployment b3e4b0a",
+  "controls": "History/URL replacement disabled still reproduced error; both-document opt-out passed. Destination-only opt-out did not pass.",
+  "finalEvidence": "evidence/portfolio/render/"
 }

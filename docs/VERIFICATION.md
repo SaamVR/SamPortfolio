@@ -1,3 +1,7 @@
+# Verification history
+
+The sections below retain historical measurements for earlier sources. The current seven-project collection report is docs/PROJECT-EVIDENCE.md; final live evidence will be in evidence/portfolio/render/. Historical lower byte counts and route counts do not describe the current app.
+
 # Scenes 1–3 verification — 2026-10-08
 
 Scope: local production build, 151.0.7922.173, Linux headless Chromium and SwiftShader software WebGL; localhost, unthrottled, shared workspace. Desktop/phone are viewport and touch/DPR emulation, not named physical devices. No field Web Vitals, Safari/Firefox, deployed-host or accessibility conformance pass is claimed.

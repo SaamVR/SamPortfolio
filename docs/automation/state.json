@@ -9,36 +9,35 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "A08 final brief transition policy locally verified; Render replacement pending",
+  "currentTask": null,
   "lastCheckpoint": {
-    "stage": "A08_final_native_policy",
-    "lastKnownHead": "bd7ba641dad29fd915dcfdc5334f64013bda209c",
+    "stage": "A08_repository_collection_live_verified",
+    "lastKnownHead": "b3e4b0a48bec6f51b47733f24c4247da5c248562",
     "checks": [
-      "29 units pass; clean type checks;11-page build",
-      "Seven case routes, three widths, reference continuity/removal/recovery/noJS proof pass",
-      "13 core scene/navigation/fallback scenarios and brief/export journeys pass",
-      "16 sampled keyboard-focus/reflow profiles pass after awaiting native fragment URL",
-      "Public11 HTTP route/status checks passed at6ab454a; browser found native-ready cancellation error twice",
-      "Native readiness handling fixed; deterministic both-event and actual project local suite pass; clean check/build",
-      "Focused cancellation review found no confirmed blocker",
-      "Coordinated early marker fixes late registration;1.5s JS-delay removal/reload, native-ready cancellation and actual project profiles pass",
-      "Final focused ordering review no confirmed blockers; independent reviewer runtime unavailable after owned preview stopped",
-      "Final rebuilt policy: seven-project suite and13 core browser scenarios pass; focused review no confirmed blockers"
+      "11 direct HTTP checks including authored404",
+      "Seven cases at1440/390/320 with zero unexpected page errors",
+      "Delayed module, removed-reference reload, corrupt recovery, no-JS proof",
+      "13 core scene/native navigation/fallback scenarios",
+      "Two-width JSON/HTML/print fallback export journeys",
+      "29 units, clean Astro/TypeScript,11-page build",
+      "Final focused structural review no confirmed blockers"
     ],
-    "nextAction": "Deploy final source/destination brief policy and verify public project, core, export and HTTP suites.",
+    "nextAction": "Complete identity/contact and exact project/asset credits; perform named physical/cross-browser calibration; establish real enquiry provider contract. No eligible unblocked queue task remains.",
     "changedFiles": [
+      "src/content/projects.ts",
+      "src/pages/work/[slug].astro",
+      "src/features/motion/navigation.ts",
+      "src/layouts/Base.astro",
       "src/styles/global.css",
-      "tests/accessibility-browser.mjs",
-      "evidence/accessibility/",
-      "docs/automation/state.json",
-      "docs/automation/A09-PRE-RESULT.md"
+      "public/work/",
+      "evidence/portfolio/"
     ],
     "failedRepairApproaches": [
-      "Ready catch on late module events still failed public20363f3",
-      "Deferred reveal listener missed event under late JS; local390 timeout/unhandled ready; focused reviewer reproduced1.5s JS delay",
-      "Readiness and URL-cleanup changes alone failed live6aa0cca; history-disabled controls disproved cleanup as cancellation cause"
+      "Scoped readiness catch alone failed live20363f3",
+      "Early reveal tracking fixed delayed module but cancellation persisted6aa0cca",
+      "History-disabled controls disproved URL cleanup as cancellation cause; destination-only opt-out failed"
     ],
-    "escalation": "Focused Sol/high review requested of coordinated early head reveal marker + readiness-based URL consumption; no unrelated redesign. Current patch verification in progress."
+    "escalation": "Sequential focused stronger review and controlled both-document opt-out; final rebuilt and live suites pass."
   },
   "tasks": [
     {
@@ -192,11 +191,12 @@
       "title": "Authentic flagship route and proof replacement",
       "modelClass": "routine",
       "attempts": 1,
-      "commit": null,
+      "commit": "b3e4b0a48bec6f51b47733f24c4247da5c248562",
       "evidence": [
         "docs/PROJECT-EVIDENCE.md",
         "public/work/evidence.json",
-        "evidence/portfolio/results.json"
+        "evidence/portfolio/results.json",
+        "evidence/portfolio/render/"
       ],
       "blockers": [
         "Repository-backed collection implemented and reviewed; exact contribution/collaborator/asset-origin credits remain pending before authentic flagship release gate can close."
@@ -205,7 +205,7 @@
         "model": "gpt-6.1-sol",
         "reasoningEffort": "high",
         "scope": "project query, draft recovery/export privacy and private source links",
-        "result": "Query replay and corrupt recovery overwrite fixed and browser-regression verified; rereview no confirmed blockers."
+        "result": "Query replay/corrupt recovery fixed; delayed-module readiness fixed; brief transition policy focused-reviewed. Final rebuilt and live suites pass. Content credits gate remains open."
       }
     },
     {
@@ -294,7 +294,7 @@
     "status": "published",
     "pullRequest": "https://github.com/SaamVR/SamPortfolio/pull/1",
     "draft": true,
-    "sourceCheckpoint": "488c0fbccf9b5fa36a3824a3ac1127f445b5431b"
+    "sourceCheckpoint": "b3e4b0a48bec6f51b47733f24c4247da5c248562"
   },
   "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply.",
   "deployment": {
@@ -319,24 +319,22 @@
     ],
     "workspace": "My Workspace; sole accessible workspace selected under renewed user delegation to make autonomous decisions",
     "localChecks": [
-      "4-page production build passed; renderer chunk warning retained",
-      "HTTP200 direct routes /, /work/opening-study/, /start/; authored unknown-route HTTP404 passed"
+      "29 units, clean check,11-page build",
+      "Seven-project and13 core local browser suites pass"
     ],
     "workspaceId": "tea-d1ihdsbipnbc73bpc8f0",
     "serviceId": "srv-db45hirl550s73akul50",
-    "deployId": "dep-db46d6nlot8c73fvhk00",
+    "deployId": "dep-db47fru0tbcc73ddmneg",
     "url": "https://the-opening-preview.onrender.com",
-    "deployedCommit": "8d71c0ae328effa312bbee037e0670ee64e92a52",
-    "finishedAt": "2026-10-09T03:59:45.883446Z",
+    "deployedCommit": "b3e4b0a48bec6f51b47733f24c4247da5c248562",
+    "finishedAt": "2026-10-09T05:13:45.189883Z",
     "evidence": [
-      "evidence/render/deployment.json",
-      "evidence/render/deployment-http.json",
-      "evidence/render/browser-results.json",
-      "evidence/render/brief-browser.json",
-      "evidence/render/brief-export-browser.json",
-      "evidence/accessibility/render-deployment.json",
-      "evidence/accessibility/render-http.json",
-      "evidence/accessibility/render/results.json"
+      "evidence/portfolio/render/deployment.json",
+      "evidence/portfolio/render/deployment-http.json",
+      "evidence/portfolio/render/portfolio/results.json",
+      "evidence/portfolio/render/browser-results.json",
+      "evidence/portfolio/render/brief-export-browser.json",
+      "evidence/portfolio/render/measurement-summary.json"
     ]
   },
   "contentAuthority": "User selected SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other works from SaamVR GitHub on2026-10-09. Curated public project presentation authorized; exact roles, collaborators, asset-origin rights and identity/contact remain unspecified."

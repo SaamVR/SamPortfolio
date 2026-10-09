@@ -32,3 +32,9 @@ Results and synthetic anonymous fixtures: evidence/render/deployment.json, deplo
 ## Keyboard contrast update — 2026-10-09
 
 Current deployed source8d71c0ae328effa312bbee037e0670ee64e92a52, deploydep-db46d6nlot8c73fvhk00, live03:59:45.883446Z. Contextual focus colors correct coral-on-paper2.73:1. Local/public16 keyboard-focus/reflow profiles passed; public direct HTTP200/authored404 passed. Sampled contrast5.68–15.50:1. First browser request after deploy saw stale focus CSS; inspected current hashed CSS and repeated the unmodified suite successfully. This is limited keyboard/layout preparation, not physical/cross-browser or full accessibility certification. New evidence: evidence/accessibility/render/ and render-deployment.json.
+
+## Seven-project collection — final verified deployment
+
+Source b3e4b0a48bec6f51b47733f24c4247da5c248562, deploy dep-db47fru0tbcc73ddmneg, live2026-10-09T05:13:45.189883Z. Seven case routes at1440/390/320,13 core scenarios, two-width export journeys and11 HTTP checks passed publicly. Case-to-brief entry uses ordinary navigation without decorative transitions on either document; hero-to-case image continuity remains enabled. Early reveal tracking separately handles delayed modules. Earlier failed collection deploys and disproved URL-cleanup hypothesis are recorded in docs/PROJECT-EVIDENCE.md.
+
+Evidence: evidence/portfolio/render/. Actual cold home+bottom-scroll encoded bodies Full239,365 bytes, Light/reduced106,391; individual lab LCP416/428/432ms. Middle gallery images are not all fetched by this journey. Four screenshots plus three diagrams total346,071bytes. Chromium151/SwiftShader, phone emulation, unthrottled: no physical/cross-browser/field certification. Static hosting still does not accept enquiries. Documentation-only later commits do not change the deployed app source.

@@ -34,4 +34,8 @@ Public collection deployments exposed an unhandled `Transition was skipped` erro
 
 A separate slow-module defect was confirmed: pagereveal can fire before the brief module loads. A parser-time marker records reveal/readiness; known project hints are consumed after readiness for both early and late registration. The 1.5s module-delay regression verifies removal persists across reload.
 
-The final rebuilt local project suite (seven cases, three widths, reference selection/removal, corrupt recovery and no-JS proof) and 13 core scene/navigation/fallback scenarios pass. Focused structural review found no confirmed blockers. Final replacement deployment and live browser validation are pending at this checkpoint; earlier failed deployments are not recorded as public browser passes.
+The final rebuilt local project suite (seven cases, three widths, reference selection/removal, corrupt recovery and no-JS proof) and 13 core scene/navigation/fallback scenarios pass. Focused structural review found no confirmed blockers. Final Render deployment b3e4b0a (dep-db47fru0tbcc73ddmneg) is live and verified. Public seven-case/three-width profiles,13 core scenarios, two-width export journeys and11 HTTP checks passed. Captures/results: evidence/portfolio/render/. Earlier failed deployments remain documented as failures.
+
+## Final public measurements
+
+Render reported live at2026-10-09T05:13:45.189883Z. Cold home+bottom-scroll encoded bodies: Full239,365 bytes, Light106,391 and reduced106,391. Individual lab LCP entries416/428/432ms respectively. This unthrottled software browser journey does not fetch every middle gallery image; all project media assets total346,071 bytes. These are observations, not field or physical-device passes. Live desktop home and390px case captures were visually inspected. Deferred renderer size warning remains. The draft PR is not merged; documentation-only commits after b3e4b0a are not automatically deployed.

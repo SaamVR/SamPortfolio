@@ -6,7 +6,7 @@ Repository: SaamVR/SamPortfolio. Upstream main inspected at cebab7f: README only
 
 A01/A02 and A04–A06 engineering are delivered on the draft PR. A03 quality-policy engineering is delivered but physical calibration remains review_needed. Current queue is authoritative; completed schema/editor/export work must not be repeated.
 
-1. Repository-backed work collection is implemented from owner-selected GitHub projects. Finish approved identity/capability/contact and project credits: exact role, collaborators, rights/provenance, actual media/deliverable links and limitations. A07/A08 stay blocked until this exists; explicit placeholders remain.
+1. Repository-backed work collection is implemented from owner-selected GitHub projects. Finish approved identity/capability/contact and project credits: exact role, collaborators, rights/provenance, actual media/deliverable links and limitations. A07 remains input-blocked and A08 review_needed until credits are complete; source-observed cases and demo limitations remain explicit.
 2. Run named physical desktop/phone profiles and Safari/Firefox continuity review. A03/A09 stay calibration/release-blocked; software desktop p95 misses its target and lower-level evidence is insufficient.
 3. Render static preview is live; establish the real enquiry provider contract, verified owner destination, retrieval/auth and retention. Then A10–A12 can implement durable idempotent acceptance/outbox and real receipt choreography. No invented enquiry or animated success.
 4. A13 publication checks require approved work, physical profiles and real enquiry operations. Render preview authority is supplied; merge/genuine publication/spend authority remains pending.
@@ -31,7 +31,7 @@ Each task has one deliverable and explicit acceptance checks, then one reviewed 
 
 Example task:
 
-> In SaamVR/SamPortfolio on feat/opening-scenes-1-3, read docs/HANDOFF.md and the approved project pack. Replace only the placeholder content/media in index.astro and work/opening-study.astro. Preserve geometry, selection and native navigation. Do not invent missing claims; record missing evidence. Run the build and relevant desktop/phone content/navigation checks. Save the short result and make one local commit.
+> In SaamVR/SamPortfolio on feat/opening-scenes-1-3, read docs/HANDOFF.md and the approved project pack. Apply only approved identity/contact and project-credit facts to index.astro and src/content/projects.ts. Preserve the existing seven-case collection and legacy study. Preserve geometry, selection and native navigation. Do not invent missing claims; record missing evidence. Run the build and relevant desktop/phone content/navigation checks. Save the short result and make one local commit.
 
 Escalate when the task affects state ownership or durable enquiries, when the cheap model cannot explain a recurring failure after two focused attempts, or when a motion/performance change needs technical judgment. Do not spend many cheap retries rebuilding a fragile solution.
 

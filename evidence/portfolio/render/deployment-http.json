@@ -1,0 +1,94 @@
+{
+  "runAt": "2026-10-09T05:14:07.330Z",
+  "baseUrl": "https://the-opening-preview.onrender.com",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/work/opening-study/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/start/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/this-page-does-not-exist/",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/work/staypilot/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/work/sm-manager/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/work/ecomcms/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/work/tingtune/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/work/nova/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/work/servicedesk/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/work/ezcomo/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    }
+  ]
+}

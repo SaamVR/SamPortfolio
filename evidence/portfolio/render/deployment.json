@@ -1,0 +1,17 @@
+{
+  "provider": "Render",
+  "baseUrl": "https://the-opening-preview.onrender.com",
+  "serviceId": "srv-db45hirl550s73akul50",
+  "deployId": "dep-db47fru0tbcc73ddmneg",
+  "sourceCommit": "b3e4b0a48bec6f51b47733f24c4247da5c248562",
+  "status": "live_verified",
+  "finishedAt": "2026-10-09T05:13:45.189883Z",
+  "checks": [
+    "11 direct HTTP checks including authored404",
+    "Seven cases at1440/390/320 with zero unexpected page errors",
+    "Delayed module, removed-reference reload, corrupt recovery, no-JS proof",
+    "13 core scene/native navigation/fallback scenarios",
+    "Two-width JSON/HTML/print fallback export journeys"
+  ],
+  "limits": "Linux Chromium151/SwiftShader and phone emulation, unthrottled. No physical, Safari/Firefox, OS print dialog, field performance or full accessibility certification."
+}
