@@ -9,14 +9,16 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "M01 interaction feedback in progress",
+  "currentTask": "M02 cut accents in progress",
   "lastCheckpoint": {
-    "stage": "M01_local_verified",
+    "stage": "M01_M02_local_verified",
     "checks": [
-      "Clean54-file check;12-page build",
-      "Full feedback1440/390/320, keyboard/fixed bounds/repeat, static Light/reduced and touch pass"
+      "33 units;clean56-file check;12-page build",
+      "11 decoration profiles pass; mid-animation and actual stroke checks",
+      "Stronger sequential structural review: no source blocker; missing lifecycle probes added",
+      "M01 feedback6 profiles,13 core and privacy4 pass"
     ],
-    "nextAction": "Implement M02 chapter/gallery/closing cut accents with lifecycle cancellation; combined review and deployment"
+    "nextAction": "Push combined motion application and deploy manual Render preview; public suites/HTTP and actual recordings"
   },
   "tasks": [
     {

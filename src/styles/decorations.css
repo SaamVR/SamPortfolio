@@ -1,0 +1,4 @@
+.cut-accent{display:block;width:44px;height:24px;margin:14px 0;color:var(--ink);pointer-events:none}
+.cut-accent path{fill:none;stroke:currentColor;stroke-width:1.5;vector-effect:non-scaling-stroke}
+.work-tile .cut-accent{position:absolute;left:12px;top:12px;margin:0;width:32px;height:20px}
+.closing .cut-accent{width:70px;height:35px;color:var(--coral);margin-bottom:24px}

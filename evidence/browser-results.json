@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-10-09T13:32:48.222Z",
+  "runAt": "2026-10-09T18:55:42.840Z",
   "browser": "151.0.7922.173",
   "baseUrl": "http://127.0.0.1:4330",
   "environment": "Linux Chromium headless, SwiftShader software WebGL; configured origin, no throttling. Phone is viewport/touch emulation, not hardware.",
@@ -17,99 +17,99 @@
           "angles": "[-38,42,18]",
           "active": "false",
           "choreographies": "6",
-          "frameCount": "25",
-          "quality": "full",
+          "frameCount": "150",
+          "quality": "lower",
           "ready": "true"
         },
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 22.399999998509884
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 69
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 21.5
+            "duration": 70.19999999552965
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 25.30000000447035
+            "duration": 70.5
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 24.400000005960464
-          },
-          {
-            "name": "/work/sm-manager.svg",
-            "encoded": 520,
-            "decoded": 1853,
-            "transfer": 820,
-            "duration": 37
-          },
-          {
-            "name": "/work/ecomcms.svg",
-            "encoded": 525,
-            "decoded": 1864,
-            "transfer": 825,
-            "duration": 36.30000000447035
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 70
           },
           {
             "name": "/_astro/draft.BUOrRc-W.js",
             "encoded": 2203,
             "decoded": 5973,
             "transfer": 2503,
-            "duration": 34
+            "duration": 13
           },
           {
-            "name": "/_astro/renderer.romP-DSS.js",
-            "encoded": 131090,
-            "decoded": 511506,
-            "transfer": 131390,
-            "duration": 241.89999999850988
+            "name": "/work/sm-manager.svg",
+            "encoded": 520,
+            "decoded": 1853,
+            "transfer": 820,
+            "duration": 24.899999998509884
+          },
+          {
+            "name": "/work/ecomcms.svg",
+            "encoded": 525,
+            "decoded": 1864,
+            "transfer": 825,
+            "duration": 24.600000001490116
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 106.40000000596046
+            "duration": 5.4000000059604645
+          },
+          {
+            "name": "/_astro/renderer.romP-DSS.js",
+            "encoded": 131090,
+            "decoded": 511506,
+            "transfer": 131390,
+            "duration": 70.30000000447035
           },
           {
             "name": "/art/poster-playful.png",
             "encoded": 58856,
             "decoded": 58856,
             "transfer": 59156,
-            "duration": 10.5
+            "duration": 7.100000001490116
           },
           {
             "name": "/art/poster-cinematic.png",
             "encoded": 49040,
             "decoded": 49040,
             "transfer": 49340,
-            "duration": 5
+            "duration": 12.599999994039536
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 600.1000000014901
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 410.5
           }
         ],
-        "lcp": 580
+        "lcp": 464
       }
     },
     {
@@ -138,85 +138,85 @@
           "angles": "[-38,42,18]",
           "active": "false",
           "choreographies": "1",
-          "frameCount": "81",
+          "frameCount": "94",
           "quality": "full",
           "ready": "true"
         },
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 15.700000002980232
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 52.79999999701977
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 50.69999999552965
+            "duration": 52.30000000447035
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 51.100000001490116
+            "duration": 52
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 49.80000000447035
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 51.29999999701977
           },
           {
             "name": "/_astro/draft.BUOrRc-W.js",
             "encoded": 2203,
             "decoded": 5973,
             "transfer": 2503,
-            "duration": 5.699999995529652
+            "duration": 9.100000001490116
           },
           {
             "name": "/_astro/renderer.romP-DSS.js",
             "encoded": 131090,
             "decoded": 511506,
             "transfer": 131390,
-            "duration": 65.29999999701977
+            "duration": 61.399999998509884
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 45.79999999701977
+            "duration": 8.199999995529652
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 9.099999994039536
+            "duration": 4.899999998509884
           },
           {
             "name": "/art/poster-cinematic.png",
             "encoded": 49040,
             "decoded": 49040,
             "transfer": 49340,
-            "duration": 5.399999998509884
+            "duration": 7.299999997019768
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 424.3999999985099
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 397.80000000447035
           }
         ],
-        "lcp": 448
+        "lcp": 396
       },
       "errors": []
     },
@@ -233,85 +233,85 @@
           "angles": "[-38,42,18]",
           "active": "false",
           "choreographies": "1",
-          "frameCount": "89",
+          "frameCount": "90",
           "quality": "full",
           "ready": "true"
         },
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 26.299999997019768
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 43.69999999552965
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 35.899999998509884
+            "duration": 43.70000000298023
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 36.600000001490116
+            "duration": 43.79999999701977
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 37.5
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 44.600000001490116
           },
           {
             "name": "/_astro/draft.BUOrRc-W.js",
             "encoded": 2203,
             "decoded": 5973,
             "transfer": 2503,
-            "duration": 14.399999998509884
+            "duration": 31.600000001490116
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 45.099999994039536
+            "duration": 8.600000001490116
           },
           {
             "name": "/_astro/renderer.romP-DSS.js",
             "encoded": 131090,
             "decoded": 511506,
             "transfer": 131390,
-            "duration": 77.60000000149012
+            "duration": 100.90000000596046
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 7.300000004470348
+            "duration": 9
           },
           {
             "name": "/art/poster-cinematic.png",
             "encoded": 49040,
             "decoded": 49040,
             "transfer": 49340,
-            "duration": 3.100000001490116
+            "duration": 8.100000001490116
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 309.29999999701977
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 272
           }
         ],
-        "lcp": 384
+        "lcp": 296
       },
       "errors": []
     },
@@ -329,71 +329,71 @@
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 76.19999999552965
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 41.70000000298023
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 73.60000000149012
+            "duration": 57.20000000298023
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 67.89999999850988
+            "duration": 58.20000000298023
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 67.30000000447035
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 51.79999999701977
           },
           {
             "name": "/_astro/draft.BUOrRc-W.js",
             "encoded": 2203,
             "decoded": 5973,
             "transfer": 2503,
-            "duration": 44.599999994039536
+            "duration": 20
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 18.099999994039536
+            "duration": 10.899999998509884
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 18.100000001490116
+            "duration": 7.399999998509884
           },
           {
             "name": "/art/poster-playful.png",
             "encoded": 58856,
             "decoded": 58856,
             "transfer": 59156,
-            "duration": 9.599999994039536
+            "duration": 12.399999998509884
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 416
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 312.5
           }
         ],
-        "lcp": 460
+        "lcp": 416
       },
       "errors": []
     },
@@ -411,71 +411,71 @@
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 31.600000001490116
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 32
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 27.700000002980232
+            "duration": 36.69999999552965
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 53.5
+            "duration": 35.399999998509884
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 27.200000002980232
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 34
           },
           {
             "name": "/_astro/draft.BUOrRc-W.js",
             "encoded": 2203,
             "decoded": 5973,
             "transfer": 2503,
-            "duration": 28.30000000447035
+            "duration": 14.400000005960464
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 15.899999998509884
+            "duration": 6.200000002980232
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 4.100000001490116
+            "duration": 4.5
           },
           {
             "name": "/art/poster-playful.png",
             "encoded": 58856,
             "decoded": 58856,
             "transfer": 59156,
-            "duration": 5.600000001490116
+            "duration": 4.800000004470348
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 288.20000000298023
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 341.5
           }
         ],
-        "lcp": 396
+        "lcp": 372
       },
       "errors": []
     },
@@ -492,78 +492,78 @@
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 39.69999999552965
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 62.5
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 45.29999999701977
+            "duration": 63.399999998509884
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 45.599999994039536
+            "duration": 63.30000000447035
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 44.80000000447035
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 62.70000000298023
           },
           {
             "name": "/_astro/draft.BUOrRc-W.js",
             "encoded": 2203,
             "decoded": 5973,
             "transfer": 2503,
-            "duration": 14.899999998509884
+            "duration": 6.699999995529652
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 39.5
+            "duration": 3.899999998509884
           },
           {
             "name": "/_astro/renderer.romP-DSS.js",
             "encoded": 131090,
             "decoded": 511506,
             "transfer": 131390,
-            "duration": 51.600000001490116
+            "duration": 27.80000000447035
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 3.9000000059604645
+            "duration": 8.199999995529652
           },
           {
             "name": "/art/poster-playful.png",
             "encoded": 58856,
             "decoded": 58856,
             "transfer": 59156,
-            "duration": 2.6999999955296516
+            "duration": 7
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 249.10000000149012
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 228.79999999701977
           }
         ],
-        "lcp": 404
+        "lcp": 300
       },
       "errors": []
     },
@@ -580,78 +580,78 @@
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 97.30000000447035
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 74.19999999552965
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 96.10000000149012
+            "duration": 82.40000000596046
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 99.89999999850988
+            "duration": 82.60000000149012
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 99.5
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 56.5
           },
           {
             "name": "/_astro/draft.BUOrRc-W.js",
             "encoded": 2203,
             "decoded": 5973,
             "transfer": 2503,
-            "duration": 27.700000002980232
-          },
-          {
-            "name": "/art/mark.svg",
-            "encoded": 158,
-            "decoded": 158,
-            "transfer": 458,
-            "duration": 17.399999998509884
+            "duration": 62.599999994039536
           },
           {
             "name": "/_astro/renderer.romP-DSS.js",
             "encoded": 0,
             "decoded": 0,
             "transfer": 0,
-            "duration": 7.399999998509884
+            "duration": 34.100000001490116
+          },
+          {
+            "name": "/art/mark.svg",
+            "encoded": 158,
+            "decoded": 158,
+            "transfer": 458,
+            "duration": 55.79999999701977
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 19.200000002980232
+            "duration": 11.299999997019768
           },
           {
             "name": "/art/poster-playful.png",
             "encoded": 58856,
             "decoded": 58856,
             "transfer": 59156,
-            "duration": 6.700000002980232
+            "duration": 12.100000001490116
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 373.1000000014901
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 403.20000000298023
           }
         ],
-        "lcp": 400
+        "lcp": 388
       },
       "errors": []
     },
@@ -676,173 +676,201 @@
       "name": "cold-full",
       "firstView": {
         "renderer": {
-          "angles": "[-61.11147675885881,48.81726724334471,44.48248979103002]",
+          "angles": "[-62.70785713195801,49.4619575308642,44.87919468078777]",
           "active": "true",
           "choreographies": "0",
-          "frameCount": "4",
+          "frameCount": "16",
           "quality": "full",
           "ready": "true"
         },
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 35.69999999552965
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 40.100000001490116
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 40.600000001490116
+            "duration": 40.19999999552965
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 63.79999999701977
+            "duration": 78.10000000149012
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 39.79999999701977
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 43.29999999701977
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 13.599999994039536
+            "duration": 15.100000001490116
           },
           {
             "name": "/work/ecomcms.svg",
             "encoded": 525,
             "decoded": 1864,
             "transfer": 825,
-            "duration": 53.5
+            "duration": 15.299999997019768
           },
           {
             "name": "/_astro/draft.BUOrRc-W.js",
             "encoded": 2203,
             "decoded": 5973,
             "transfer": 2503,
-            "duration": 50.599999994039536
+            "duration": 44.899999998509884
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 9.400000005960464
+            "duration": 3.3000000044703484
           },
           {
             "name": "/_astro/renderer.romP-DSS.js",
             "encoded": 131090,
             "decoded": 511506,
             "transfer": 131390,
-            "duration": 36.100000001490116
+            "duration": 35.5
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 368.1000000014901
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 358.19999999552965
           }
         ],
-        "lcp": 532
+        "lcp": 432
       },
       "metrics": {
         "renderer": {
           "angles": "[-18,22,8]",
           "active": "false",
           "choreographies": "0",
-          "frameCount": "6",
+          "frameCount": "18",
           "quality": "full",
           "ready": "true"
         },
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 35.69999999552965
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 40.100000001490116
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 40.600000001490116
+            "duration": 40.19999999552965
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 63.79999999701977
+            "duration": 78.10000000149012
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 39.79999999701977
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 43.29999999701977
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 13.599999994039536
+            "duration": 15.100000001490116
           },
           {
             "name": "/work/ecomcms.svg",
             "encoded": 525,
             "decoded": 1864,
             "transfer": 825,
-            "duration": 53.5
+            "duration": 15.299999997019768
           },
           {
             "name": "/_astro/draft.BUOrRc-W.js",
             "encoded": 2203,
             "decoded": 5973,
             "transfer": 2503,
-            "duration": 50.599999994039536
+            "duration": 44.899999998509884
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 9.400000005960464
+            "duration": 3.3000000044703484
           },
           {
             "name": "/_astro/renderer.romP-DSS.js",
             "encoded": 131090,
             "decoded": 511506,
             "transfer": 131390,
-            "duration": 36.100000001490116
+            "duration": 35.5
+          },
+          {
+            "name": "/work/tingtune.jpg",
+            "encoded": 89897,
+            "decoded": 89897,
+            "transfer": 90197,
+            "duration": 14.5
+          },
+          {
+            "name": "/work/nova.jpg",
+            "encoded": 64330,
+            "decoded": 64330,
+            "transfer": 64630,
+            "duration": 14.100000001490116
+          },
+          {
+            "name": "/work/ezcomo.jpg",
+            "encoded": 88044,
+            "decoded": 88044,
+            "transfer": 88344,
+            "duration": 14.5
+          },
+          {
+            "name": "/work/servicedesk.svg",
+            "encoded": 541,
+            "decoded": 1876,
+            "transfer": 841,
+            "duration": 13.899999998509884
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 368.1000000014901
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 358.19999999552965
           }
         ],
-        "lcp": 532
+        "lcp": 432
       },
       "errors": []
     },
@@ -853,142 +881,142 @@
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 51.899999998509884
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 41
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 56
+            "duration": 45.399999998509884
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 56.600000001490116
+            "duration": 45.600000001490116
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 55.30000000447035
-          },
-          {
-            "name": "/_astro/draft.BUOrRc-W.js",
-            "encoded": 2203,
-            "decoded": 5973,
-            "transfer": 2503,
-            "duration": 4.100000001490116
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 45.70000000298023
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 15.399999998509884
+            "duration": 27.299999997019768
           },
           {
             "name": "/work/ecomcms.svg",
             "encoded": 525,
             "decoded": 1864,
             "transfer": 825,
-            "duration": 19.700000002980232
+            "duration": 32.79999999701977
+          },
+          {
+            "name": "/_astro/draft.BUOrRc-W.js",
+            "encoded": 2203,
+            "decoded": 5973,
+            "transfer": 2503,
+            "duration": 28.100000001490116
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 5.299999997019768
+            "duration": 8.699999995529652
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 318.19999999552965
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 264.5
           }
         ],
-        "lcp": 416
+        "lcp": 328
       },
       "metrics": {
         "renderer": {},
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 51.899999998509884
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 41
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 56
+            "duration": 45.399999998509884
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 56.600000001490116
+            "duration": 45.600000001490116
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 55.30000000447035
-          },
-          {
-            "name": "/_astro/draft.BUOrRc-W.js",
-            "encoded": 2203,
-            "decoded": 5973,
-            "transfer": 2503,
-            "duration": 4.100000001490116
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 45.70000000298023
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 15.399999998509884
+            "duration": 27.299999997019768
           },
           {
             "name": "/work/ecomcms.svg",
             "encoded": 525,
             "decoded": 1864,
             "transfer": 825,
-            "duration": 19.700000002980232
+            "duration": 32.79999999701977
+          },
+          {
+            "name": "/_astro/draft.BUOrRc-W.js",
+            "encoded": 2203,
+            "decoded": 5973,
+            "transfer": 2503,
+            "duration": 28.100000001490116
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 5.299999997019768
+            "duration": 8.699999995529652
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 318.19999999552965
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 264.5
           }
         ],
-        "lcp": 416
+        "lcp": 328
       },
       "errors": []
     },
@@ -999,142 +1027,142 @@
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 22
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 55.899999998509884
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 26.5
+            "duration": 57.100000001490116
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 26.700000002980232
+            "duration": 62.899999998509884
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 24
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 62
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 16.19999999552965
+            "duration": 15.899999998509884
           },
           {
             "name": "/work/ecomcms.svg",
             "encoded": 525,
             "decoded": 1864,
             "transfer": 825,
-            "duration": 28.099999994039536
+            "duration": 15
           },
           {
             "name": "/_astro/draft.BUOrRc-W.js",
             "encoded": 2203,
             "decoded": 5973,
             "transfer": 2503,
-            "duration": 22.5
+            "duration": 13.600000001490116
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 40.5
+            "duration": 8.300000004470348
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 295.79999999701977
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 384.3999999985099
           }
         ],
-        "lcp": 412
+        "lcp": 440
       },
       "metrics": {
         "renderer": {},
         "activeP95": null,
         "resources": [
           {
-            "name": "/_astro/index.C2zBaAjg.css",
-            "encoded": 5064,
-            "decoded": 20048,
-            "transfer": 5364,
-            "duration": 22
+            "name": "/_astro/index.BdyPYql1.css",
+            "encoded": 5447,
+            "decoded": 22405,
+            "transfer": 5747,
+            "duration": 55.899999998509884
           },
           {
             "name": "/art/poster-precise.png",
             "encoded": 72613,
             "decoded": 72613,
             "transfer": 72913,
-            "duration": 26.5
+            "duration": 57.100000001490116
           },
           {
             "name": "/work/staypilot.jpg",
             "encoded": 98207,
             "decoded": 98207,
             "transfer": 98507,
-            "duration": 26.700000002980232
+            "duration": 62.899999998509884
           },
           {
-            "name": "/_astro/index.astro_astro_type_script_index_0_lang.BnsgKueK.js",
-            "encoded": 3509,
-            "decoded": 8038,
-            "transfer": 3809,
-            "duration": 24
+            "name": "/_astro/index.astro_astro_type_script_index_0_lang.DenPEU0A.js",
+            "encoded": 4104,
+            "decoded": 9928,
+            "transfer": 4404,
+            "duration": 62
           },
           {
             "name": "/work/sm-manager.svg",
             "encoded": 520,
             "decoded": 1853,
             "transfer": 820,
-            "duration": 16.19999999552965
+            "duration": 15.899999998509884
           },
           {
             "name": "/work/ecomcms.svg",
             "encoded": 525,
             "decoded": 1864,
             "transfer": 825,
-            "duration": 28.099999994039536
+            "duration": 15
           },
           {
             "name": "/_astro/draft.BUOrRc-W.js",
             "encoded": 2203,
             "decoded": 5973,
             "transfer": 2503,
-            "duration": 22.5
+            "duration": 13.600000001490116
           },
           {
             "name": "/art/mark.svg",
             "encoded": 158,
             "decoded": 158,
             "transfer": 458,
-            "duration": 40.5
+            "duration": 8.300000004470348
           }
         ],
         "navigation": [
           {
-            "encoded": 4156,
-            "decoded": 12970,
-            "transfer": 4456,
-            "domContentLoaded": 295.79999999701977
+            "encoded": 4463,
+            "decoded": 14472,
+            "transfer": 4763,
+            "domContentLoaded": 384.3999999985099
           }
         ],
-        "lcp": 412
+        "lcp": 440
       },
       "errors": []
     }
