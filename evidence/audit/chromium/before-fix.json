@@ -1,0 +1,534 @@
+{
+  "runAt": "2026-10-09T12:51:56.312Z",
+  "baseUrl": "http://127.0.0.1:4330",
+  "engine": "chromium",
+  "version": "151.0.7922.173",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "profiles": [
+    {
+      "path": "/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 26,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "Explore the work"
+        }
+      }
+    },
+    {
+      "path": "/work/opening-study/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 17,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "All work"
+        }
+      }
+    },
+    {
+      "path": "/work/staypilot/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/sm-manager/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/ecomcms/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/tingtune/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/nova/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/servicedesk/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/ezcomo/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/start/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← The Opening"
+        }
+      }
+    },
+    {
+      "path": "/start/",
+      "width": 1440,
+      "step": "direction",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/start/",
+      "width": 1440,
+      "step": "scope",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/start/",
+      "width": 1440,
+      "step": "review",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/unknown-audit-route/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 15,
+      "incomplete": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "target": [
+                ".approval-note"
+              ],
+              "html": "<p class=\"approval-note\">Development preview · project evidence and contact configuration pending.</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #afb4b5, background color: #f4f1ea, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "Explore the work ↗"
+        }
+      }
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 26,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "Explore the work"
+        }
+      }
+    },
+    {
+      "path": "/work/opening-study/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 17,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "All work"
+        }
+      }
+    },
+    {
+      "path": "/work/staypilot/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/sm-manager/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/ecomcms/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/tingtune/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/nova/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/servicedesk/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/work/ezcomo/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/start/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← The Opening"
+        }
+      }
+    },
+    {
+      "path": "/start/",
+      "width": 390,
+      "step": "direction",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/start/",
+      "width": 390,
+      "step": "scope",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/start/",
+      "width": 390,
+      "step": "review",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/unknown-audit-route/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 15,
+      "incomplete": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "target": [
+                ".approval-note"
+              ],
+              "html": "<p class=\"approval-note\">Development preview · project evidence and contact configuration pending.</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #afb4b5, background color: #f4f1ea, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "Explore the work ↗"
+        }
+      }
+    }
+  ],
+  "limits": "Automated axe audit and sampled keyboard input on Linux headless engines. Narrow viewport is reflow, not actual browser zoom. No screen reader, physical device, Safari, full WCAG conformance or GPU/performance pass.",
+  "failure": {
+    "message": "Automated accessibility findings\n+ actual - expected\n\n+ [\n+   '/unknown-audit-route/ 1440 page: color-contrast',\n+   '/unknown-audit-route/ 390 page: color-contrast'\n+ ]\n- []\n",
+    "stack": "AssertionError [ERR_ASSERTION]: Automated accessibility findings\n+ actual - expected\n\n+ [\n+   '/unknown-audit-route/ 1440 page: color-contrast',\n+   '/unknown-audit-route/ 390 page: color-contrast'\n+ ]\n- []\n\n    at file:///workspace/SamPortfolio/tests/audit-browser.mjs:44:9"
+  }
+}

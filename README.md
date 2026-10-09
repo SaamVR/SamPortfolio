@@ -60,3 +60,13 @@ node scripts/preview-browser.mjs tests/brief-export-browser.mjs
 ```
 
 Anonymous storage uses `opening-brief-v1`; a valid legacy direction note migrates once with its identity/goal/feel preserved. JSON and printable HTML freeze the selected revision and exclude contact/unknown fields. Offline HTML includes print styles and provenance labels; successful print-window invocation is tested with instrumentation, not a certified OS print dialog.
+
+## Automated accessibility preparation
+
+`tests/audit-browser.mjs` uses development-only axe4.13 and sampled keyboard input. Chromium covers all cases and four brief states at1440/390/320; Firefox/WebKit cover shared representative routes and brief states. Set OPENING_AUDIT_ENGINE and OPENING_AUDIT_EVIDENCE to select engine/output. Run against an existing OPENING_BASE_URL, or use the owned preview runner:
+
+```sh
+node --input-type=module -e 'import {runPreviewBrowser} from "./scripts/preview-browser.mjs";const r=await runPreviewBrowser({suiteCommand:["node","tests/audit-browser.mjs"]});process.exitCode=r.exitCode;'
+```
+
+Results retain automated violations and incomplete checks requiring manual review. This is not screen-reader, actual zoom, physical-device/Safari or full WCAG certification. See docs/automation/A09-AUDIT.md.
