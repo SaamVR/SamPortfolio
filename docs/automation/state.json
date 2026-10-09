@@ -9,18 +9,21 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "F01 visible Full entry and motion explanation",
+  "currentTask": "F01 completed; required physical-device/content inputs pending",
   "lastCheckpoint": {
-    "stage": "F01_local_verified",
+    "stage": "F01_live_verified",
+    "sourceCommit": "772e2991517b2a5336cd97cc7d88330bb4df67e1",
     "checks": [
-      "33 units; clean check;11-page build",
-      "8 motion profiles;13 core scenarios;quality and lifecycle pass",
-      "Focused structural review: no remaining blockers"
+      "33 units;clean check;11-page build",
+      "Local8 motion profiles,13 core scenarios,quality and lifecycle pass",
+      "Public8 motion profiles,13 core scenarios,11 HTTP checks pass",
+      "Focused structural review: no remaining blocker"
     ],
-    "nextAction": "Push verified implementation, deploy Render manually and verify public motion recording",
+    "nextAction": "Named physical Chrome desktop/phone motion and quality calibration; approved contact/project contribution/asset credits; preserve enquiry blockers",
     "limitations": [
-      "Chrome user mode/device unknown",
-      "Software rendering and phone emulation; physical release gates remain open"
+      "User Chrome mode/device not supplied",
+      "Software rendering and phone emulation are not physical calibration",
+      "No live usage meter or scheduled autonomous runner"
     ]
   },
   "tasks": [
@@ -275,6 +278,21 @@
       "blockers": [
         "Approved work, physical release evidence, real enquiry operations and explicit publication authority required."
       ]
+    },
+    {
+      "id": "F01",
+      "status": "done",
+      "title": "Visible first Full opening and explicit alternative hints",
+      "commit": "772e2991517b2a5336cd97cc7d88330bb4df67e1",
+      "evidence": [
+        "docs/automation/F01-MOTION.md",
+        "evidence/motion/render/"
+      ],
+      "review": {
+        "scope": "bounded stronger sequential structural motion review",
+        "result": "no remaining confirmed blocker"
+      },
+      "blockers": []
     }
   ],
   "authoritySource": "User answered choose the best option; main agent selected branch pushes + draft PR for recoverable autonomous progress.",
@@ -282,7 +300,7 @@
     "status": "published",
     "pullRequest": "https://github.com/SaamVR/SamPortfolio/pull/1",
     "draft": true,
-    "sourceCheckpoint": "8cc9eed1758558af64f8fc18613445f550ca02da"
+    "sourceCheckpoint": "772e2991517b2a5336cd97cc7d88330bb4df67e1"
   },
   "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply.",
   "deployment": {
@@ -307,15 +325,15 @@
     ],
     "workspace": "My Workspace; sole accessible workspace selected under renewed user delegation to make autonomous decisions",
     "localChecks": [
-      "29 units; clean check;11-page build",
-      "84 local accessibility audit/keyboard profiles pass"
+      "33 units;clean check;11-page build",
+      "8 motion profiles;13 core scenarios;quality and lifecycle pass"
     ],
     "workspaceId": "tea-d1ihdsbipnbc73bpc8f0",
     "serviceId": "srv-db45hirl550s73akul50",
-    "deployId": "dep-db4e9du0tbcc73e3dh30",
+    "deployId": "dep-db4es3bncjis73cp61d0",
     "url": "https://the-opening-preview.onrender.com",
-    "deployedCommit": "8cc9eed1758558af64f8fc18613445f550ca02da",
-    "finishedAt": "2026-10-09T12:57:53.273172Z",
+    "deployedCommit": "772e2991517b2a5336cd97cc7d88330bb4df67e1",
+    "finishedAt": "2026-10-09T13:37:42.540987Z",
     "evidence": [
       "evidence/portfolio/render/deployment.json",
       "evidence/portfolio/render/deployment-http.json",
@@ -328,7 +346,12 @@
       "evidence/cross-engine/render/cross-engine/results.json",
       "evidence/audit/render/deployment.json",
       "evidence/audit/render/deployment-http.json",
-      "evidence/audit/render/summary.json"
+      "evidence/audit/render/summary.json",
+      "evidence/motion/render/deployment.json",
+      "evidence/motion/render/deployment-http.json",
+      "evidence/motion/render/motion/results.json",
+      "evidence/motion/render/browser-results.json",
+      "evidence/motion/render/measurement-summary.json"
     ]
   },
   "contentAuthority": "User selected SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other works from SaamVR GitHub on2026-10-09. Curated public project presentation authorized; exact roles, collaborators, asset-origin rights and identity/contact remain unspecified. User supplied public name Shusmoy; no contact address or exact project credits supplied.",

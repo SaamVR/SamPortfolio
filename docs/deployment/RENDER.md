@@ -46,3 +46,7 @@ Current app source01e3c441bbe0b5708f2fd50f19a97406372dabb4, deploydep-db48m4lg1s
 ## Paper-note contrast and automated accessibility audit
 
 Current app source8cc9eed1758558af64f8fc18613445f550ca02da, deploydep-db4e9du0tbcc73e3dh30, live2026-10-09T12:57:53.273172Z.404 note contrast corrected1.85→5.3255:1. Fresh29 units, clean check,11-page build.84 local and84 live axe/keyboard profiles pass, plus11 live HTTP checks. Widths1440/390/320; Chromium allcases and eachbriefstep; Firefox/WebKit representative shared-template routes and eachbriefstep. Development-only audit dependency does not ship to public assets. Captures/results and incomplete manual targets: evidence/audit/render/. Stage/geometry/state/navigation runtime unchanged; no new physical/Safari/screen-reader/field-performance or full WCAG pass. Documentation-only later commits are not automatically deployed.
+
+## F01 visible motion checkpoint
+
+Current application 772e2991517b2a5336cd97cc7d88330bb4df67e1; deploy dep-db4es3bncjis73cp61d0; live 2026-10-09T13:37:42.540987Z. Public8 motion profiles at1440/390,13 core scenarios and11 HTTP checks passed. One-time matched-poster fold/open entrance deliberately extends D07 startup; original geometry/protected proof bounds and repeat/retarget/reentry policy remain. Actual unedited recordings, captures, reports and cost observations: evidence/motion/render/. No physical performance or full publication claim; contact/credits/device/enquiry gates remain open.

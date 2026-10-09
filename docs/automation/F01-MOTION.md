@@ -8,4 +8,10 @@ The entrance clock starts on its first active rendered tick, so GPU setup or a d
 
 Validation: 33 unit tests, clean 51-file Astro check, 11-page build; eight motion profiles at desktop1440 and phone390, 13 core scenarios, quality and lifecycle suites all passed after the final rebuild. Delayed first-frame and pre-import selection tests cover actual startup races. Red failures and unedited Chrome WebM recordings are in evidence/motion/. Bounded stronger read-only structural review found no remaining blocker after the storage-copy correction; reviewer also sampled 15,189 protected geometry checks. Phone is emulation and rendering is software; no physical performance certification.
 
-Current build renderer:511.51kB minified /131.09kB gzip; large chunk warning remains. Demand RAF stops when settled. Public deployment verification is the next checkpoint; local checks alone do not establish the deployed result.
+Current build renderer:511.51kB minified /131.09kB gzip; large chunk warning remains. Demand RAF stops when settled. Public verification completed after manual deployment:8 motion profiles,13 core browser scenarios and11 direct HTTP route/404 checks passed.
+
+## Verified public checkpoint
+
+Source 772e2991517b2a5336cd97cc7d88330bb4df67e1; Render dep-db4es3bncjis73cp61d0 live at 2026-10-09T13:37:42.540987Z. Unedited normal-renderer videos and phone/desktop captures: evidence/motion/render/motion/. Public report at13:38:56.040Z. Encoded cold home+bottom-scroll bodies:Full239,783bytes; Light/reduced106,604bytes. Individual LCP512/688/584ms respectively; unthrottled software observations, not a performance pass. Production diagnostic sample is absent (activeP95 null); do not infer GPU calibration. Idle RAF is tested stopped. The phone moving-frame recording was visually sampled.
+
+Next concrete batch: named physical Chrome desktop/phone recording and quality calibration, then contact/contribution/asset-credit completion. These require unavailable device access or owner facts; do not manufacture evidence or enquiry delivery.

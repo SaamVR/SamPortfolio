@@ -39,3 +39,7 @@ The final rebuilt local project suite (seven cases, three widths, reference sele
 ## Final public measurements
 
 Render reported live at2026-10-09T05:13:45.189883Z. Cold home+bottom-scroll encoded bodies: Full239,365 bytes, Light106,391 and reduced106,391. Individual lab LCP entries416/428/432ms respectively. This unthrottled software browser journey does not fetch every middle gallery image; all project media assets total346,071 bytes. These are observations, not field or physical-device passes. Live desktop home and390px case captures were visually inspected. Deferred renderer size warning remains. The draft PR is not merged; documentation-only commits after b3e4b0a are not automatically deployed.
+
+## F01 visible motion checkpoint
+
+Current application 772e2991517b2a5336cd97cc7d88330bb4df67e1; deploy dep-db4es3bncjis73cp61d0; live 2026-10-09T13:37:42.540987Z. Public8 motion profiles at1440/390,13 core scenarios and11 HTTP checks passed. One-time matched-poster fold/open entrance deliberately extends D07 startup; original geometry/protected proof bounds and repeat/retarget/reentry policy remain. Actual unedited recordings, captures, reports and cost observations: evidence/motion/render/. No physical performance or full publication claim; contact/credits/device/enquiry gates remain open.
