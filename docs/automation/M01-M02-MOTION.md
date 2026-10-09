@@ -10,4 +10,8 @@ Current checks:33 units, clean56-file check,12-page build;11 decoration profiles
 
 Bounded stronger sequential structural review: no confirmed blockers. Reviewer identified missing meaningful interruption probes; added explicit running/intermediate stroke checks before policy/hidden/pagehide/resize, and actual pageshow.persisted reporting. No duplicate reviewer/build swarm.
 
-Evidence: evidence/feedback/, evidence/decorations/. Do not call public validation complete until the combined application is deployed and verified. Next implementation after deployment: M03 all-project native image continuity; preserve brief-entry opt-out and ordinary navigation. No accepted receipt until genuine enquiry operations.
+Evidence: evidence/feedback/, evidence/decorations/. Public verification completed after manual Render deployment:11 decoration profiles,6 feedback profiles,13 core navigation/fallback scenarios and12 HTTP direct-route/authored404 checks pass. Next implementation after deployment: M03 all-project native image continuity; preserve brief-entry opt-out and ordinary navigation. No accepted receipt until genuine enquiry operations.
+
+## Live checkpoint
+
+Application bc1f7e1f9d517802c918ce7ca748ba02f12afc67; deploy dep-db4jhqt9fdbs73fhct4g live 2026-10-09T18:57:10.881121Z. Source-versioned unedited videos/captures/reports: evidence/motion-expansion/render/. Public cold home+bottom-scroll bodies:Full241,073bytes; Light/reduced107,894bytes. Individual LCP500/492/508ms; activeP95 absent in production diagnostics. No physical performance pass. Home client entry9.93kB minified/4.10kB gzip; renderer unchanged511.51kB/131.09kB gzip retains warning. Public phone moving frame visually sampled. Back profiles used reconstructed navigation; synthetic hidden/pagehide probes are not actual BFCache certification.

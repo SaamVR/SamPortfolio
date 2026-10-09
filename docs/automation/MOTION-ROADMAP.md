@@ -8,9 +8,9 @@ Extend Cut / Fold / Reveal into work inspection and the useful brief. The desire
 
 Three approaches considered: concentrate further movement in the hero (limited improvement to the rest of the journey); add generic entrance effects everywhere (repetitive and can obstruct proof); extend the existing visual grammar at specific meaningful actions (recommended). Use small CSS feedback, scoped WAAPI/SVG accents and native cross-document image continuity. Global text entrances, scroll hijacking, looping scenes and extra loading ceremonies are outside this roadmap.
 
-## M01 — Links, cards and selected-control feedback
+## M01 — Links, cards and selected-control feedback (completed)
 
-First batch; ready for implementation. Existing .button, .text-link, .work-tile and .feel-controls in src/styles/global.css; targeted markup only where an inner icon/wrapper needs identification.
+Implemented and publicly verified. Existing .button, .text-link, .work-tile and .feel-controls in src/styles/global.css; targeted markup only where an inner icon/wrapper needs identification.
 
 - Fine-pointer hover and keyboard focus: inner arrow travels up to4px, underline draws over160–180ms, card’s decorative corner rule responds. Link hitbox, text and project screenshot remain fixed. Existing focus outline is immediate.
 - Press:120ms inner-icon response, including touch. No moving outer button, hover-only action or hidden caption.
@@ -19,7 +19,7 @@ First batch; ready for implementation. Existing .button, .text-link, .work-tile 
 
 Acceptance:1440/390/320, keyboard and touch emulation, repeated feel, rapid hover/focus changes, fixed clickable bounds and readable project proof. CSS-only scope needs no routine subagent. No timing/visual pass assumed yet.
 
-## M02 — Chapter and gallery accents
+## M02 — Chapter and gallery accents (completed)
 
 Depends on M01. Introduce one small reusable DOM decoration controller in src/features/motion/decorations.ts; optional decoration markup in index.astro. Use a single IntersectionObserver, not an animation frame loop.
 
@@ -86,3 +86,5 @@ Use CSS for simple feedback, one scoped WAAPI/SVG controller for finite decorati
 Lower-cost runner choice: GPT-6 Luna/medium/normal for bounded markup/CSS and source-mapped tasks; GPT-6.1 Sol/high only for the required focused structural reviews or an escalated failure. The runner/picker selects models; this document does not switch the current model or reset usage. No fresh usage meter is available, and no automatic scheduled execution is configured.
 
 Do not mark these batches done until implemented and checked. Full release still requires authentic contribution/asset credits, named physical desktop/phone calibration, screen-reader/Safari review and genuine enquiry operations.
+
+M01/M02 completion evidence: `docs/automation/M01-M02-MOTION.md`, applicationbc1f7e1 and `evidence/motion-expansion/render/`. Implemented gallery accents animate the small corner paths; project indices remain static. Next implementation:M03. M03–M06 remain planned, not delivered.

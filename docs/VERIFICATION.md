@@ -97,3 +97,7 @@ Confirmed and corrected paper/work focus-ring contrast2.73:1 using a contextual 
 ## P01 privacy preparation — 2026-10-09
 
 Source d639cd593697c0d1f38d0ab640d15d8725ff3531; Render dep-db4gjl3tqb8s73f6soig; live 2026-10-09T15:36:14.333632Z. Clean53-file check;12-page build. Local/public privacy route checks at1440/390/320, existing draft unchanged, no renderer request/form, keyboard skip/focus, scoped axe with no violations/incomplete targets, four-route footer bounds and no-JS navigation pass.12 public direct HTTP routes/authored404 pass. Source-checked actual data practices; no enquiry service or retention claim added. Captures/reports: evidence/privacy/render/. Physical-device/screen-reader/full conformance and A13 publication gates remain open. No geometry/motion runtime change; prior motion/cost evidence retains its recorded source SHA.
+
+## M01/M02 motion expansion — 2026-10-09
+
+Application bc1f7e1f9d517802c918ce7ca748ba02f12afc67; deploy dep-db4jhqt9fdbs73fhct4g; live 2026-10-09T18:57:10.881121Z. Local33 units/clean56-file check/12-page build, decoration11/feedback6/core13/privacy4 pass. Public decoration11/feedback6/core13 and12 direct-route/404 checks pass. Source/capture settings and limitations: docs/automation/M01-M02-MOTION.md and evidence/motion-expansion/render/. Cold bodies:Full241,073bytes; Light/reduced107,894bytes. Actual animations/cancellation validated; no physical-performance, actual BFCache, screen-reader or full-publication certification.

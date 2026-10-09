@@ -9,16 +9,22 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "M02 cut accents in progress",
+  "currentTask": "M01/M02 completed; next eligible M03 all-project image continuity",
   "lastCheckpoint": {
-    "stage": "M01_M02_local_verified",
+    "stage": "M01_M02_live_verified",
+    "sourceCommit": "bc1f7e1f9d517802c918ce7ca748ba02f12afc67",
     "checks": [
       "33 units;clean56-file check;12-page build",
-      "11 decoration profiles pass; mid-animation and actual stroke checks",
-      "Stronger sequential structural review: no source blocker; missing lifecycle probes added",
-      "M01 feedback6 profiles,13 core and privacy4 pass"
+      "Local11 decoration/6 feedback/13 core/4 privacy pass",
+      "Public11 decoration/6 feedback/13 core and12 HTTP pass",
+      "Stronger sequential structural review no source blocker; suggested lifecycle probes added"
     ],
-    "nextAction": "Push combined motion application and deploy manual Render preview; public suites/HTTP and actual recordings"
+    "nextAction": "Implement M03 all-project native image continuity as a separate bounded navigation batch; preserve ordinary links and brief-entry opt-out; focused stronger structural review",
+    "limitations": [
+      "Headless Chrome, emulated phone/touch and software GPU",
+      "Observed Back reconstructed; hidden/pagehide probes synthetic; no actual BFCache certification",
+      "Content credit/contact, physical calibration and enquiry operations gates remain open"
+    ]
   },
   "tasks": [
     {
@@ -298,6 +304,33 @@
         "evidence/privacy/render/"
       ],
       "blockers": []
+    },
+    {
+      "id": "M01",
+      "status": "done",
+      "title": "Bounded CSS interaction feedback",
+      "commit": "a7cdb59",
+      "evidence": [
+        "docs/automation/M01-M02-MOTION.md",
+        "evidence/motion-expansion/render/feedback/"
+      ],
+      "blockers": []
+    },
+    {
+      "id": "M02",
+      "status": "done",
+      "title": "Finite SVG chapter/gallery/closing accents",
+      "commit": "bc1f7e1f9d517802c918ce7ca748ba02f12afc67",
+      "evidence": [
+        "docs/automation/M01-M02-MOTION.md",
+        "evidence/motion-expansion/render/decorations/"
+      ],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "No confirmed source blocker; meaningful in-flight lifecycle probes added and pass"
+      },
+      "blockers": []
     }
   ],
   "authoritySource": "User answered choose the best option; main agent selected branch pushes + draft PR for recoverable autonomous progress.",
@@ -305,7 +338,7 @@
     "status": "published",
     "pullRequest": "https://github.com/SaamVR/SamPortfolio/pull/1",
     "draft": true,
-    "sourceCheckpoint": "d639cd593697c0d1f38d0ab640d15d8725ff3531"
+    "sourceCheckpoint": "bc1f7e1f9d517802c918ce7ca748ba02f12afc67"
   },
   "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply.",
   "deployment": {
@@ -330,15 +363,15 @@
     ],
     "workspace": "My Workspace; sole accessible workspace selected under renewed user delegation to make autonomous decisions",
     "localChecks": [
-      "Clean53-file check;12-page build",
-      "Privacy1440/390/320;noJS;unchanged draft;keyboard/audit and four-route footer pass"
+      "33 units;clean56-file check;12-page build",
+      "Decoration11/feedback6/core13/privacy4 pass"
     ],
     "workspaceId": "tea-d1ihdsbipnbc73bpc8f0",
     "serviceId": "srv-db45hirl550s73akul50",
-    "deployId": "dep-db4gjl3tqb8s73f6soig",
+    "deployId": "dep-db4jhqt9fdbs73fhct4g",
     "url": "https://the-opening-preview.onrender.com",
-    "deployedCommit": "d639cd593697c0d1f38d0ab640d15d8725ff3531",
-    "finishedAt": "2026-10-09T15:36:14.333632Z",
+    "deployedCommit": "bc1f7e1f9d517802c918ce7ca748ba02f12afc67",
+    "finishedAt": "2026-10-09T18:57:10.881121Z",
     "evidence": [
       "evidence/portfolio/render/deployment.json",
       "evidence/portfolio/render/deployment-http.json",
@@ -359,7 +392,13 @@
       "evidence/motion/render/measurement-summary.json",
       "evidence/privacy/render/deployment.json",
       "evidence/privacy/render/deployment-http.json",
-      "evidence/privacy/render/privacy/results.json"
+      "evidence/privacy/render/privacy/results.json",
+      "evidence/motion-expansion/render/deployment.json",
+      "evidence/motion-expansion/render/deployment-http.json",
+      "evidence/motion-expansion/render/browser-results.json",
+      "evidence/motion-expansion/render/decorations/results.json",
+      "evidence/motion-expansion/render/feedback/results.json",
+      "evidence/motion-expansion/render/measurement-summary.json"
     ]
   },
   "contentAuthority": "User selected SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other works from SaamVR GitHub on2026-10-09. Curated public project presentation authorized; exact roles, collaborators, asset-origin rights and identity/contact remain unspecified. User supplied public name Shusmoy; no contact address or exact project credits supplied.",
@@ -370,7 +409,7 @@
   },
   "motionRoadmap": {
     "document": "docs/automation/MOTION-ROADMAP.md",
-    "status": "M01_in_progress",
+    "status": "M01_M02_done_M03_next",
     "sourceCheckpoint": "62e3a508bd199f5e2d3bce34aa1dc295cc56f3ce",
     "order": [
       "M01 link/card/control feedback",
@@ -380,7 +419,7 @@
       "M05 brief diagram/export feedback",
       "M06 optional pointer study"
     ],
-    "nextAction": "Implement M01 as the first bounded motion batch when execution resumes",
+    "nextAction": "M03 all-project native image continuity; preserve /start/ opt-out and ordinary navigation",
     "gates": [
       "Original geometry/proof/native scroll/zero pins preserved",
       "No changes to brief-entry transition opt-out",

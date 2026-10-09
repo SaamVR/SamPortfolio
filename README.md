@@ -73,3 +73,5 @@ node --input-type=module -e 'import {runPreviewBrowser} from "./scripts/preview-
 Results retain automated violations and incomplete checks requiring manual review. This is not screen-reader, actual zoom, physical-device/Safari or full WCAG certification. See docs/automation/A09-AUDIT.md.
 
 Privacy-route and shared-footer verification after building: `node scripts/preview-browser.mjs tests/privacy-browser.mjs`. Reports and desktop/phone captures: `evidence/privacy/`.
+
+Interaction feedback and finite chapter/gallery Cut accents: CSS plus one scoped SVG controller, no new library. After building, run `node scripts/preview-browser.mjs tests/feedback-browser.mjs` and `node scripts/preview-browser.mjs tests/decorations-browser.mjs`. Actual source-versioned recordings/captures: `evidence/feedback/`, `evidence/decorations/`, and deployed `evidence/motion-expansion/render/`. See `docs/automation/M01-M02-MOTION.md` for lifecycle probes and limitations.
