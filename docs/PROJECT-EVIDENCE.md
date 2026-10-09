@@ -1,6 +1,6 @@
 # Selected repository work — 2026-10-09
 
-The user explicitly directed use of SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other work from SaamVR GitHub. This authorizes curated portfolio presentation of those projects; it does not supply exact contributor roles, collaborator or third-party asset-origin credits, client delivery status or outcome metrics. Public name/contact is still unspecified.
+The user explicitly directed use of SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other work from SaamVR GitHub. This authorizes curated portfolio presentation of those projects; it does not supply exact contributor roles, collaborator or third-party asset-origin credits, client delivery status or outcome metrics. Public name is Shusmoy (owner supplied); contact is still unspecified.
 
 ## Evidence workflow
 
@@ -26,7 +26,7 @@ Repository projects have owner_selected/repository_project catalog metadata. The
 
 ## Remaining publication facts
 
-Exact personal role and collaborators per project, original asset attribution (especially NOVA model), approved public identity/contact, physical-device/cross-browser release evidence and real enquiry operations remain open. Curated cases describe repository-observed design and implementation, not deployed business outcomes. No project metrics, enquiries or certifications are fabricated.
+Exact personal role and collaborators per project, original asset attribution (especially NOVA model), approved public contact, physical-device/cross-browser release evidence and real enquiry operations remain open. Curated cases describe repository-observed design and implementation, not deployed business outcomes. No project metrics, enquiries or certifications are fabricated.
 
 ## Deployed validation defect and fix
 

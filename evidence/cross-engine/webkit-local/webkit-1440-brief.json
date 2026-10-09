@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "draftId": "01234851-2965-4641-92aa-30f81427f9a0",
+  "revision": 7,
+  "feel": "cinematic",
+  "serviceIds": [],
+  "projectReferenceIds": [
+    "staypilot"
+  ],
+  "goal": "Cross-engine synthetic portfolio brief",
+  "audience": "",
+  "desiredAction": "",
+  "constraints": "",
+  "referenceURLs": [],
+  "updatedAt": "2026-10-09T06:33:48.295Z",
+  "referenceAvailability": {
+    "services": [],
+    "projects": [
+      {
+        "id": "staypilot",
+        "label": "StayPilot",
+        "approval": "owner_selected",
+        "kind": "repository_project",
+        "note": "Hotel operations prototype · seeded demo data",
+        "href": "/work/staypilot/"
+      }
+    ],
+    "notice": "Unavailable references are omitted. Offers remain pending owner approval. Repository projects are owner-selected; contribution credits remain pending. The form study is a development placeholder."
+  }
+}

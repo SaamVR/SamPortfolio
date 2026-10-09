@@ -2,7 +2,7 @@
 
 My Creative Portfolio Presentation — **THE OPENING**.
 
-A production-bound Scenes 1–3 portfolio slice, built from the attached final decision register. The slice was initially authored locally, then integrated into SaamVR/SamPortfolio on branch feat/opening-scenes-1-3. The owner selected real GitHub projects for curated presentation. **Portfolio preview; identity/contact, exact project credits and physical release validation remain open.**
+A production-bound Scenes 1–3 portfolio slice, built from the attached final decision register. The slice was initially authored locally, then integrated into SaamVR/SamPortfolio on branch feat/opening-scenes-1-3. The owner selected real GitHub projects for curated presentation. **Portfolio preview; contact, exact project credits and physical release validation remain open.**
 
 Live development preview: https://the-opening-preview.onrender.com. Public-host checks and captures: [Render deployment report](docs/deployment/RENDER.md).
 
@@ -34,7 +34,7 @@ Static HTML and native links carry the hero, proof and case content. Brief editi
 
 Read [execution and architecture](docs/EXECUTION.md), [verification report](docs/VERIFICATION.md), [handoff](docs/HANDOFF.md), and the [authority](docs/AUTHORITY.md). Captures and raw browser measurements are under `evidence/`; the authored geometry manifest is `public/art/manifest.json`.
 
-The owner authorized use of their GitHub work. Read [project evidence and credits](docs/PROJECT-EVIDENCE.md) and [snapshot/media provenance](public/work/evidence.json). Four real runtime captures and three source-based diagrams document the selected projects. Demo values are not client results; private repository source is not republished. Exact personal roles/collaborators, external asset credits, public identity/contact and enquiry delivery remain open. The Opening frame study stays explicitly developmental.
+The owner authorized use of their GitHub work. Read [project evidence and credits](docs/PROJECT-EVIDENCE.md) and [snapshot/media provenance](public/work/evidence.json). Four real runtime captures and three source-based diagrams document the selected projects. Demo values are not client results; private repository source is not republished. Exact personal roles/collaborators, external asset credits, public contact and enquiry delivery remain open. The Opening frame study stays explicitly developmental.
 
 ## Autonomous continuation
 

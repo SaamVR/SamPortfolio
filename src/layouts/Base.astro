@@ -1,9 +1,9 @@
 ---
 import '../styles/global.css';
-const { title = 'THE OPENING — Design & creative development', paper = false } = Astro.props;
+const { title = 'Shusmoy — THE OPENING', paper = false } = Astro.props;
 ---
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="THE OPENING. An interactive design and creative development portfolio, in development."/><meta name="color-scheme" content="dark light"/><title>{title}</title><link rel="icon" href="/art/mark.svg" type="image/svg+xml"/>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="THE OPENING. Shusmoy’s interactive design and creative development portfolio."/><meta name="color-scheme" content="dark light"/><title>{title}</title><link rel="icon" href="/art/mark.svg" type="image/svg+xml"/>
 <script is:inline>
 try { const m=localStorage.getItem('opening-mode'); if(m==='light')document.documentElement.dataset.mode='light'; } catch {}
 if(matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.dataset.reduced='true';
@@ -19,6 +19,6 @@ addEventListener('pagereveal',event=>{
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><a class="brand" href="/" aria-label="The Opening home"><span class="brand-mark" aria-hidden="true"></span> THE OPENING<span class="brand-period">.</span></a><nav aria-label="Main"><a href="/#work">Work <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a><a href="/start/">Contact <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a></nav><span class="header-note">INDEPENDENT BY DESIGN</span></header>
 <slot/>
-<footer class="site-footer"><a class="brand" href="/">THE OPENING.</a><span>Design in motion. Work in progress.</span><a href="/start/">Let’s make an opening <svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></a><small>Portfolio preview · selected repository work · identity & contact pending</small></footer>
+<footer class="site-footer"><a class="brand" href="/">THE OPENING.</a><span>Design in motion. Work in progress.</span><a href="/start/">Let’s make an opening <svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></a><small>Portfolio preview · Shusmoy · selected repository work · contact pending</small></footer>
 <script>import '../features/motion/navigation';</script>
 </body></html>

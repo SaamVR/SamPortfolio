@@ -9,7 +9,7 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": null,
+  "currentTask": "A07 approved public name + A09 cross-engine profiles verified locally; deploy pending",
   "lastCheckpoint": {
     "stage": "A08_repository_collection_live_verified",
     "lastKnownHead": "b3e4b0a48bec6f51b47733f24c4247da5c248562",
@@ -20,9 +20,12 @@
       "13 core scene/native navigation/fallback scenarios",
       "Two-width JSON/HTML/print fallback export journeys",
       "29 units, clean Astro/TypeScript,11-page build",
-      "Final focused structural review no confirmed blockers"
+      "Final focused structural review no confirmed blockers",
+      "Public name Shusmoy integrated; clean check;11-page build",
+      "Firefox157 four local profiles pass",
+      "WebKit27.2 four local profiles pass via isolated library wrapper"
     ],
-    "nextAction": "Complete identity/contact and exact project/asset credits; perform named physical/cross-browser calibration; establish real enquiry provider contract. No eligible unblocked queue task remains.",
+    "nextAction": "Build approved name, run bounded Firefox/WebKit browser profiles if runtime available, record limitations and deploy verified source.",
     "changedFiles": [
       "src/content/projects.ts",
       "src/pages/work/[slug].astro",
@@ -178,7 +181,7 @@
       "commit": null,
       "evidence": [],
       "blockers": [
-        "Owner selected real repository projects. Public identity/contact, exact personal contribution/collaborators and external asset-origin credits remain unspecified."
+        "Public name Shusmoy supplied. Contact address, exact personal roles/collaborators and external asset credits remain unspecified."
       ]
     },
     {
@@ -220,10 +223,12 @@
       "commit": null,
       "evidence": [
         "docs/automation/A09-PRE-RESULT.md",
-        "evidence/accessibility/render/results.json"
+        "evidence/accessibility/render/results.json",
+        "docs/automation/A09-CROSS-ENGINE.md",
+        "evidence/cross-engine/"
       ],
       "blockers": [
-        "Named physical desktop/phone and cross-browser access required; A03 physical calibration unresolved."
+        "Named physical desktop/phone and Safari access required; A03 physical calibration unresolved. Linux Firefox/WebKit functional preparation passes, not a physical release."
       ]
     },
     {
@@ -337,5 +342,10 @@
       "evidence/portfolio/render/measurement-summary.json"
     ]
   },
-  "contentAuthority": "User selected SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other works from SaamVR GitHub on2026-10-09. Curated public project presentation authorized; exact roles, collaborators, asset-origin rights and identity/contact remain unspecified."
+  "contentAuthority": "User selected SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other works from SaamVR GitHub on2026-10-09. Curated public project presentation authorized; exact roles, collaborators, asset-origin rights and identity/contact remain unspecified. User supplied public name Shusmoy; no contact address or exact project credits supplied.",
+  "publicIdentity": {
+    "name": "Shusmoy",
+    "contact": "not_supplied",
+    "source": "User reply in current session"
+  }
 }
