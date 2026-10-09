@@ -1,0 +1,40 @@
+✔ three unequal solid leaves are siblings with +Y/+Y/+X hinges (8.234713ms)
+✔ 25 samples of every pose pair protect media and remain in the stage envelope (54.210634ms)
+✔ neutral opening and every entry retarget protect proof within the stage envelope (26.625578ms)
+✔ rapid input retains rendered pose and resolves the latest selection without a queue (2.016207ms)
+✔ repeated selection does not restart choreography (0.168277ms)
+✔ offscreen reentry settles latest selected target with no time debt (0.128178ms)
+✔ all interrupted paths stay within the endpoint angle envelope (5.213927ms)
+✖ first Full presentation opens from neutral without changing selected state (1.392448ms)
+✔ entry can be retargeted from the rendered angles and settles the latest choice (0.246465ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 8
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 848.724799
+
+✖ failing tests:
+
+test at tests/pose.test.ts:26:1
+✖ first Full presentation opens from neutral without changing selected state (1.392448ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (/workspace/SamPortfolio/tests/pose.test.ts:28:44)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

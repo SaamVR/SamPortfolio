@@ -9,33 +9,19 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": null,
+  "currentTask": "F01 visible Full entry and motion explanation",
   "lastCheckpoint": {
-    "stage": "A09_automated_audit_live_verified",
-    "lastKnownHead": "8cc9eed1758558af64f8fc18613445f550ca02da",
+    "stage": "F01_local_verified",
     "checks": [
-      "RED initial28 audit:404 small-note contrast1.85 fails1440/390",
-      "GREEN scoped paper-note color5.3255:1;29 units, clean check,11-page build",
-      "84 local audits pass",
-      "11 direct-route HTTP checks and authored404",
-      "84 live audit profiles:42 Chromium plus21 Firefox and21 WebKit",
-      "Zero reported automated violations; sampled keyboard skip/focus passes",
-      "Incomplete contrast checks retained with explicit manual targets"
+      "33 units; clean check;11-page build",
+      "8 motion profiles;13 core scenarios;quality and lifecycle pass",
+      "Focused structural review: no remaining blockers"
     ],
-    "nextAction": "Finish manual contrast targets, actual zoom/screen-reader and named physical/Safari calibration. Await verified public email and exact project/asset credits; establish real enquiry provider contract. Do not repeat successful automated audits without a relevant change.",
-    "changedFiles": [
-      "src/styles/global.css",
-      "tests/audit-browser.mjs",
-      "package.json",
-      "package-lock.json",
-      "docs/automation/A09-AUDIT.md",
-      "evidence/audit/"
-    ],
+    "nextAction": "Push verified implementation, deploy Render manually and verify public motion recording",
     "limitations": [
-      "Home decorative title dot and image-backed frame-coordinate contrast remain incomplete manual targets",
-      "Audit covers reduced pages; previous Full animation evidence is unchanged and source-specific, not replaced by static-only tests"
-    ],
-    "ruling": "Complete independent automated accessibility preparation while physical/manual/enquiry facts remain blocked; no complete A09 or full WCAG claim."
+      "Chrome user mode/device unknown",
+      "Software rendering and phone emulation; physical release gates remain open"
+    ]
   },
   "tasks": [
     {
