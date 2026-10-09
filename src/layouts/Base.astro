@@ -14,6 +14,7 @@ addEventListener('pagereveal',event=>{
  window.__openingReveal.ready=event.viewTransition?.ready.then(()=>{},()=>{});
 },{once:true});
 </script>
+{Astro.url.pathname!=='/start/'&&<style is:inline>@view-transition{navigation:auto}</style>}
 </head><body class:list={[paper && 'paper-page']}>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><a class="brand" href="/" aria-label="The Opening home"><span class="brand-mark" aria-hidden="true"></span> THE OPENING<span class="brand-period">.</span></a><nav aria-label="Main"><a href="/#work">Work <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a><a href="/start/">Contact <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a></nav><span class="header-note">INDEPENDENT BY DESIGN</span></header>

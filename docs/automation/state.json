@@ -9,9 +9,9 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "A08 early readiness fix verified; deploy pending",
+  "currentTask": "A08 final brief transition policy locally verified; Render replacement pending",
   "lastCheckpoint": {
-    "stage": "A08_transition_order_escalation",
+    "stage": "A08_final_native_policy",
     "lastKnownHead": "bd7ba641dad29fd915dcfdc5334f64013bda209c",
     "checks": [
       "29 units pass; clean type checks;11-page build",
@@ -22,9 +22,10 @@
       "Native readiness handling fixed; deterministic both-event and actual project local suite pass; clean check/build",
       "Focused cancellation review found no confirmed blocker",
       "Coordinated early marker fixes late registration;1.5s JS-delay removal/reload, native-ready cancellation and actual project profiles pass",
-      "Final focused ordering review no confirmed blockers; independent reviewer runtime unavailable after owned preview stopped"
+      "Final focused ordering review no confirmed blockers; independent reviewer runtime unavailable after owned preview stopped",
+      "Final rebuilt policy: seven-project suite and13 core browser scenarios pass; focused review no confirmed blockers"
     ],
-    "nextAction": "Publish early readiness fix; deploy Render; run public project+13 core suites and11 HTTP checks.",
+    "nextAction": "Deploy final source/destination brief policy and verify public project, core, export and HTTP suites.",
     "changedFiles": [
       "src/styles/global.css",
       "tests/accessibility-browser.mjs",
@@ -34,7 +35,8 @@
     ],
     "failedRepairApproaches": [
       "Ready catch on late module events still failed public20363f3",
-      "Deferred reveal listener missed event under late JS; local390 timeout/unhandled ready; focused reviewer reproduced1.5s JS delay"
+      "Deferred reveal listener missed event under late JS; local390 timeout/unhandled ready; focused reviewer reproduced1.5s JS delay",
+      "Readiness and URL-cleanup changes alone failed live6aa0cca; history-disabled controls disproved cleanup as cancellation cause"
     ],
     "escalation": "Focused Sol/high review requested of coordinated early head reveal marker + readiness-based URL consumption; no unrelated redesign. Current patch verification in progress."
   },
