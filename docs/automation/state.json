@@ -9,21 +9,14 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "Motion expansion roadmap prepared; next implementation M01",
+  "currentTask": "M01 interaction feedback in progress",
   "lastCheckpoint": {
-    "stage": "P01_live_verified",
-    "sourceCommit": "d639cd593697c0d1f38d0ab640d15d8725ff3531",
+    "stage": "M01_local_verified",
     "checks": [
-      "Clean53-file check;12-page build",
-      "Local/public privacy1440/390/320, unchanged draft, noJS, keyboard, scoped axe and four-route footer pass",
-      "12 public HTTP route/authored404 checks pass"
+      "Clean54-file check;12-page build",
+      "Full feedback1440/390/320, keyboard/fixed bounds/repeat, static Light/reduced and touch pass"
     ],
-    "nextAction": "Complete owner contact/contribution/asset credits or establish real enquiry-provider/retrieval/retention contract; physical Chrome desktop/phone quality review remains required",
-    "ruling": "Extract factual privacy page from A13 as independent preparation; does not close release gates. Copy must change when actual operations change.",
-    "limitations": [
-      "Viewport emulation and headless Chrome; no physical/screen-reader/full conformance pass",
-      "No verified enquiry provider/destination/retention contract; no fabricated delivery"
-    ]
+    "nextAction": "Implement M02 chapter/gallery/closing cut accents with lifecycle cancellation; combined review and deployment"
   },
   "tasks": [
     {
@@ -375,7 +368,7 @@
   },
   "motionRoadmap": {
     "document": "docs/automation/MOTION-ROADMAP.md",
-    "status": "planned_not_implemented",
+    "status": "M01_in_progress",
     "sourceCheckpoint": "62e3a508bd199f5e2d3bce34aa1dc295cc56f3ce",
     "order": [
       "M01 link/card/control feedback",

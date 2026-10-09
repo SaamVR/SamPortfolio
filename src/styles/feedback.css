@@ -1,0 +1,44 @@
+/* Cut / Fold / Reveal feedback: inner decoration moves, hit targets stay put. */
+:where(.button,.text-link,.feel-controls button) .icon-arrow,
+.work-tile h3 a>span {
+  transition:transform 180ms cubic-bezier(.2,.7,.2,1);
+}
+.text-link,.work-tile h3 a,.feel-controls button {position:relative}
+.text-link::after,.work-tile h3 a::after {
+  content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;
+  background:currentColor;transform:scaleX(0);transform-origin:left;
+  transition:transform 160ms cubic-bezier(.2,.7,.2,1);pointer-events:none;
+}
+.work-tile h3 a::after {bottom:-7px}
+.work-thumb::after {
+  content:"";position:absolute;right:12px;top:12px;width:24px;height:24px;
+  border-top:2px solid var(--ink);border-right:2px solid var(--ink);
+  clip-path:polygon(0 0,72% 0,100% 28%,100% 100%,0 100%);
+  opacity:0;transition:opacity 180ms ease;pointer-events:none;
+}
+.feel-controls button::after {
+  content:"";position:absolute;left:13px;right:13px;bottom:5px;height:1px;
+  background:currentColor;transform:scaleX(0);transform-origin:left;
+  transition:transform 180ms cubic-bezier(.2,.7,.2,1);pointer-events:none;
+}
+.feel-controls button[aria-pressed=true]::after {transform:scaleX(1)}
+:where(.button,.text-link,.feel-controls button):focus-visible .icon-arrow,
+.work-tile h3 a:focus-visible>span {transform:translateX(4px)}
+.text-link:focus-visible::after,.work-tile h3 a:focus-visible::after {transform:scaleX(1)}
+.work-tile:focus-within .work-thumb::after {opacity:1}
+@media(hover:hover) and (pointer:fine) {
+  :where(.button,.text-link,.feel-controls button):hover .icon-arrow,
+  .work-tile h3 a:hover>span {transform:translateX(4px)}
+  .text-link:hover::after,.work-tile h3 a:hover::after {transform:scaleX(1)}
+  .work-tile:hover .work-thumb::after {opacity:1}
+}
+:where(.button,.text-link,.feel-controls button):active .icon-arrow,
+.work-tile h3 a:active>span {transform:translateX(1px);transition-duration:120ms}
+html:is([data-mode=light],[data-reduced=true]) :where(.button,.text-link,.feel-controls button) .icon-arrow,
+html:is([data-mode=light],[data-reduced=true]) .work-tile h3 a>span {transform:none;transition:none}
+html:is([data-mode=light],[data-reduced=true]) :is(.text-link,.work-tile h3 a,.feel-controls button,.work-thumb)::after {transition:none}
+@media(prefers-reduced-motion:reduce) {
+  :where(.button,.text-link,.feel-controls button) .icon-arrow,
+  .work-tile h3 a>span {transform:none!important;transition:none!important}
+  :is(.text-link,.work-tile h3 a,.feel-controls button,.work-thumb)::after {transition:none!important}
+}
