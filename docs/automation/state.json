@@ -9,29 +9,33 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "A09 automated audit fix locally verified; deploy pending",
+  "currentTask": null,
   "lastCheckpoint": {
-    "stage": "A09_audit_contrast_red_to_green",
-    "lastKnownHead": "01e3c441bbe0b5708f2fd50f19a97406372dabb4",
+    "stage": "A09_automated_audit_live_verified",
+    "lastKnownHead": "8cc9eed1758558af64f8fc18613445f550ca02da",
     "checks": [
-      "Initial28 Chromium audit profiles: color-contrast failed only404 note at1440/390; before-fix evidence retained",
-      "29 unit tests; clean check;11-page build",
-      "Local audit84 profiles pass (42 Chromium +21 Firefox +21 WebKit); zero automated violations; incomplete checks retained"
+      "RED initial28 audit:404 small-note contrast1.85 fails1440/390",
+      "GREEN scoped paper-note color5.3255:1;29 units, clean check,11-page build",
+      "84 local audits pass",
+      "11 direct-route HTTP checks and authored404",
+      "84 live audit profiles:42 Chromium plus21 Firefox and21 WebKit",
+      "Zero reported automated violations; sampled keyboard skip/focus passes",
+      "Incomplete contrast checks retained with explicit manual targets"
     ],
-    "nextAction": "Deploy reviewed scoped contrast fix; run public three-engine audit and HTTP checks, preserve incomplete/manual review targets.",
+    "nextAction": "Finish manual contrast targets, actual zoom/screen-reader and named physical/Safari calibration. Await verified public email and exact project/asset credits; establish real enquiry provider contract. Do not repeat successful automated audits without a relevant change.",
     "changedFiles": [
-      "src/layouts/Base.astro",
-      "src/pages/index.astro",
-      "tests/cross-engine-browser.mjs",
-      "docs/automation/A09-CROSS-ENGINE.md",
-      "evidence/cross-engine/"
+      "src/styles/global.css",
+      "tests/audit-browser.mjs",
+      "package.json",
+      "package-lock.json",
+      "docs/automation/A09-AUDIT.md",
+      "evidence/audit/"
     ],
-    "failures": [
-      "Firefox first cached304 rejected by test harness; corrected to accept200/304 with decoded content check",
-      "WebKit stock startup lacked Linux libraries; temporary extracted dependencies and wrapper starts actual engine",
-      "Live Firefox unknown issuer before app load; isolated NSS imports existing workspace CA, no disabled HTTPS validation"
+    "limitations": [
+      "Home decorative title dot and image-backed frame-coordinate contrast remain incomplete manual targets",
+      "Audit covers reduced pages; previous Full animation evidence is unchanged and source-specific, not replaced by static-only tests"
     ],
-    "ruling": "Run automated cross-engine portion while physical release dependencies remain blocked. WebKit is not Safari; native engine functionality does not certify physical GPU performance."
+    "ruling": "Complete independent automated accessibility preparation while physical/manual/enquiry facts remain blocked; no complete A09 or full WCAG claim."
   },
   "tasks": [
     {
@@ -216,10 +220,12 @@
         "docs/automation/A09-PRE-RESULT.md",
         "evidence/accessibility/render/results.json",
         "docs/automation/A09-CROSS-ENGINE.md",
-        "evidence/cross-engine/"
+        "evidence/cross-engine/",
+        "docs/automation/A09-AUDIT.md",
+        "evidence/audit/render/"
       ],
       "blockers": [
-        "Named physical desktop/phone and Safari access required; A03 physical calibration unresolved. Linux Firefox/WebKit functional preparation passes, not a physical release."
+        "Named physical desktop/phone and Safari access, actual zoom/screen reader and A03 calibration remain required. Automated functional/audit preparation passes; home decorative dot/image-backed frame-coordinate contrast still manual."
       ]
     },
     {
@@ -290,7 +296,7 @@
     "status": "published",
     "pullRequest": "https://github.com/SaamVR/SamPortfolio/pull/1",
     "draft": true,
-    "sourceCheckpoint": "01e3c441bbe0b5708f2fd50f19a97406372dabb4"
+    "sourceCheckpoint": "8cc9eed1758558af64f8fc18613445f550ca02da"
   },
   "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply.",
   "deployment": {
@@ -315,15 +321,15 @@
     ],
     "workspace": "My Workspace; sole accessible workspace selected under renewed user delegation to make autonomous decisions",
     "localChecks": [
-      "11-page build, clean Astro/TypeScript check",
-      "Eight local Firefox/WebKit functional profiles pass"
+      "29 units; clean check;11-page build",
+      "84 local accessibility audit/keyboard profiles pass"
     ],
     "workspaceId": "tea-d1ihdsbipnbc73bpc8f0",
     "serviceId": "srv-db45hirl550s73akul50",
-    "deployId": "dep-db48m4lg1s2s738kvdd0",
+    "deployId": "dep-db4e9du0tbcc73e3dh30",
     "url": "https://the-opening-preview.onrender.com",
-    "deployedCommit": "01e3c441bbe0b5708f2fd50f19a97406372dabb4",
-    "finishedAt": "2026-10-09T06:35:22.969401Z",
+    "deployedCommit": "8cc9eed1758558af64f8fc18613445f550ca02da",
+    "finishedAt": "2026-10-09T12:57:53.273172Z",
     "evidence": [
       "evidence/portfolio/render/deployment.json",
       "evidence/portfolio/render/deployment-http.json",
@@ -333,7 +339,10 @@
       "evidence/portfolio/render/measurement-summary.json",
       "evidence/cross-engine/render/deployment.json",
       "evidence/cross-engine/render/deployment-http.json",
-      "evidence/cross-engine/render/cross-engine/results.json"
+      "evidence/cross-engine/render/cross-engine/results.json",
+      "evidence/audit/render/deployment.json",
+      "evidence/audit/render/deployment-http.json",
+      "evidence/audit/render/summary.json"
     ]
   },
   "contentAuthority": "User selected SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other works from SaamVR GitHub on2026-10-09. Curated public project presentation authorized; exact roles, collaborators, asset-origin rights and identity/contact remain unspecified. User supplied public name Shusmoy; no contact address or exact project credits supplied.",
