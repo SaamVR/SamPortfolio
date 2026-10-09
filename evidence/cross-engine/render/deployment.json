@@ -1,0 +1,15 @@
+{
+  "provider": "Render",
+  "status": "live_verified",
+  "url": "https://the-opening-preview.onrender.com",
+  "serviceId": "srv-db45hirl550s73akul50",
+  "deployId": "dep-db48m4lg1s2s738kvdd0",
+  "sourceCommit": "01e3c441bbe0b5708f2fd50f19a97406372dabb4",
+  "finishedAt": "2026-10-09T06:35:22.969401Z",
+  "checks": [
+    "11 direct-route HTTP checks including authored404",
+    "Eight live Firefox157/WebKit27.2 profiles, zero unexpected page errors",
+    "Shusmoy public attribution, seven cases at1440/390, ordinary URLs/Back, brief reference removal/reload, JSON download, Light/reduced no renderer request"
+  ],
+  "limits": "Linux headless engines; phone viewport emulation; local dependency/CA wrappers documented in environment.json. No physical devices, Safari, screen reader, actual zoom or GPU performance certification."
+}

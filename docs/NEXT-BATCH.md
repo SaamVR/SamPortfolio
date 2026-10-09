@@ -7,7 +7,7 @@ Repository: SaamVR/SamPortfolio. Upstream main inspected at cebab7f: README only
 A01/A02 and A04–A06 engineering are delivered on the draft PR. A03 quality-policy engineering is delivered but physical calibration remains review_needed. Current queue is authoritative; completed schema/editor/export work must not be repeated.
 
 1. Repository-backed work collection is implemented from owner-selected GitHub projects. Finish approved identity/capability/contact and project credits: exact role, collaborators, rights/provenance, actual media/deliverable links and limitations. A07 remains input-blocked and A08 review_needed until credits are complete; source-observed cases and demo limitations remain explicit.
-2. Run named physical desktop/phone profiles and Safari/Firefox continuity review. A03/A09 stay calibration/release-blocked; software desktop p95 misses its target and lower-level evidence is insufficient.
+2. Eight Linux Firefox/WebKit functional profiles now pass locally and live. Run named physical desktop/phone profiles and actual Safari, zoom and screen-reader review. A03/A09 stay calibration/release-blocked; software desktop p95 misses its target and lower-level evidence is insufficient.
 3. Render static preview is live; establish the real enquiry provider contract, verified owner destination, retrieval/auth and retention. Then A10–A12 can implement durable idempotent acceptance/outbox and real receipt choreography. No invented enquiry or animated success.
 4. A13 publication checks require approved work, physical profiles and real enquiry operations. Render preview authority is supplied; merge/genuine publication/spend authority remains pending.
 

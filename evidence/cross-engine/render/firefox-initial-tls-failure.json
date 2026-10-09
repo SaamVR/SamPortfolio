@@ -1,0 +1,15 @@
+{
+  "enginesRequested": [
+    "firefox",
+    "webkit"
+  ],
+  "runAt": "2026-10-09T06:35:48.094Z",
+  "baseUrl": "https://the-opening-preview.onrender.com",
+  "environment": "Linux headless Playwright engines; unthrottled; viewport emulation only",
+  "results": [],
+  "limits": "WebKit is not Safari or a physical iPhone. No physical GPU, screen reader, actual zoom, performance budget or full accessibility certification.",
+  "failure": {
+    "message": "page.goto: SEC_ERROR_UNKNOWN_ISSUER\nCall log:\n\u001b[2m  - navigating to \"https://the-opening-preview.onrender.com/\", waiting until \"load\"\u001b[22m\n",
+    "stack": "page.goto: SEC_ERROR_UNKNOWN_ISSUER\nCall log:\n\u001b[2m  - navigating to \"https://the-opening-preview.onrender.com/\", waiting until \"load\"\u001b[22m\n\n    at /workspace/SamPortfolio/tests/cross-engine-browser.mjs:21:16"
+  }
+}

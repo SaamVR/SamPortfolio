@@ -10,7 +10,8 @@ assert.ok(engineNames.length>0&&engineNames.every(name=>['firefox','webkit'].inc
 const report={enginesRequested:engineNames,runAt:new Date().toISOString(),baseUrl,environment:'Linux headless Playwright engines; unthrottled; viewport emulation only',results:[],limits:'WebKit is not Safari or a physical iPhone. No physical GPU, screen reader, actual zoom, performance budget or full accessibility certification.'};
 try {
  for(const engine of [firefox,webkit].filter(engine=>engineNames.includes(engine.name()))){
-  const browser=await engine.launch(engine===webkit&&process.env.OPENING_WEBKIT_EXECUTABLE?{executablePath:process.env.OPENING_WEBKIT_EXECUTABLE}:{});
+  const executablePath=process.env[`OPENING_${engine.name().toUpperCase()}_EXECUTABLE`];
+  const browser=await engine.launch(executablePath?{executablePath}:{});
   try {
    for(const width of [1440,390]){
     const context=await browser.newContext({viewport:{width,height:900}});

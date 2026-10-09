@@ -14,8 +14,10 @@ npm run build
 node --input-type=module -e 'import {runPreviewBrowser} from "./scripts/preview-browser.mjs";const r=await runPreviewBrowser({suiteCommand:["node","tests/cross-engine-browser.mjs"]});process.exitCode=r.exitCode;'
 ```
 
-OPENING_BROWSER_ENGINES may select firefox or webkit alone. OPENING_CROSS_ENGINE_EVIDENCE chooses output. OPENING_WEBKIT_EXECUTABLE supports a separately verified runtime wrapper where needed. The suite uses no Chromium executable/flags for other engines. Native pagereveal support is recorded, not assumed.
+OPENING_BROWSER_ENGINES may select firefox or webkit alone. OPENING_CROSS_ENGINE_EVIDENCE chooses output. OPENING_WEBKIT_EXECUTABLE and OPENING_FIREFOX_EXECUTABLE support separately verified runtime wrappers where needed. The suite uses no Chromium executable/flags for other engines. Native pagereveal support is recorded, not assumed.
 
 Ruling: execute the automated cross-engine portion while physical dependencies stay blocked; this reduces compatibility uncertainty without substituting emulation for physical release evidence. Cost if wrong: compatibility defects may still appear on actual Safari/devices, which remain mandatory gates.
 
-Live replacement check pending at this source checkpoint. Existing Chromium cinematic-motion evidence remains valid for unchanged runtime code, not transplanted as a Firefox/WebKit GPU pass.
+Live source01e3c44 is verified on Render (dep-db48m4lg1s2s738kvdd0, live06:35:22.969401Z). All eight cross-engine profiles and11 direct-route HTTP checks passed. Results/captures: evidence/cross-engine/render/. Live WebKit390px brief capture was visually inspected. Existing Chromium cinematic-motion evidence remains valid for unchanged runtime code, not transplanted as a Firefox/WebKit GPU pass.
+
+Live Firefox initially failed before loading the application with SEC_ERROR_UNKNOWN_ISSUER. Existing enterprise-root preference did not resolve the isolated profile. A temporary wrapper imports the workspace-provided CODEX_PROXY_CERT into only that temporary NSS profile; independent live navigation returned200 with HTTPS verification enabled. No ignoreHTTPSErrors or global certificate override is used. Failure evidence is retained separately from successful results.

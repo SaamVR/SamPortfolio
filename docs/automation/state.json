@@ -9,38 +9,31 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "A07 approved public name + A09 cross-engine profiles verified locally; deploy pending",
+  "currentTask": null,
   "lastCheckpoint": {
-    "stage": "A08_repository_collection_live_verified",
-    "lastKnownHead": "b3e4b0a48bec6f51b47733f24c4247da5c248562",
+    "stage": "A07_name_A09_cross_engine_live_verified",
+    "lastKnownHead": "01e3c441bbe0b5708f2fd50f19a97406372dabb4",
     "checks": [
-      "11 direct HTTP checks including authored404",
-      "Seven cases at1440/390/320 with zero unexpected page errors",
-      "Delayed module, removed-reference reload, corrupt recovery, no-JS proof",
-      "13 core scene/native navigation/fallback scenarios",
-      "Two-width JSON/HTML/print fallback export journeys",
-      "29 units, clean Astro/TypeScript,11-page build",
-      "Final focused structural review no confirmed blockers",
-      "Public name Shusmoy integrated; clean check;11-page build",
-      "Firefox157 four local profiles pass",
-      "WebKit27.2 four local profiles pass via isolated library wrapper"
+      "11-page build; clean Astro/TypeScript check",
+      "Eight local cross-engine profiles pass",
+      "11 direct-route HTTP checks including authored404",
+      "Eight live Firefox157/WebKit27.2 profiles, zero unexpected page errors",
+      "Shusmoy public attribution, seven cases at1440/390, ordinary URLs/Back, brief reference removal/reload, JSON download, Light/reduced no renderer request"
     ],
-    "nextAction": "Build approved name, run bounded Firefox/WebKit browser profiles if runtime available, record limitations and deploy verified source.",
+    "nextAction": "Provide verified public contact and exact project/asset credits; run named physical/Safari/screen-reader profiles; establish enquiry provider/retrieval/retention contract. No eligible unblocked implementation remains.",
     "changedFiles": [
-      "src/content/projects.ts",
-      "src/pages/work/[slug].astro",
-      "src/features/motion/navigation.ts",
       "src/layouts/Base.astro",
-      "src/styles/global.css",
-      "public/work/",
-      "evidence/portfolio/"
+      "src/pages/index.astro",
+      "tests/cross-engine-browser.mjs",
+      "docs/automation/A09-CROSS-ENGINE.md",
+      "evidence/cross-engine/"
     ],
-    "failedRepairApproaches": [
-      "Scoped readiness catch alone failed live20363f3",
-      "Early reveal tracking fixed delayed module but cancellation persisted6aa0cca",
-      "History-disabled controls disproved URL cleanup as cancellation cause; destination-only opt-out failed"
+    "failures": [
+      "Firefox first cached304 rejected by test harness; corrected to accept200/304 with decoded content check",
+      "WebKit stock startup lacked Linux libraries; temporary extracted dependencies and wrapper starts actual engine",
+      "Live Firefox unknown issuer before app load; isolated NSS imports existing workspace CA, no disabled HTTPS validation"
     ],
-    "escalation": "Sequential focused stronger review and controlled both-document opt-out; final rebuilt and live suites pass."
+    "ruling": "Run automated cross-engine portion while physical release dependencies remain blocked. WebKit is not Safari; native engine functionality does not certify physical GPU performance."
   },
   "tasks": [
     {
@@ -299,7 +292,7 @@
     "status": "published",
     "pullRequest": "https://github.com/SaamVR/SamPortfolio/pull/1",
     "draft": true,
-    "sourceCheckpoint": "b3e4b0a48bec6f51b47733f24c4247da5c248562"
+    "sourceCheckpoint": "01e3c441bbe0b5708f2fd50f19a97406372dabb4"
   },
   "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply.",
   "deployment": {
@@ -324,22 +317,25 @@
     ],
     "workspace": "My Workspace; sole accessible workspace selected under renewed user delegation to make autonomous decisions",
     "localChecks": [
-      "29 units, clean check,11-page build",
-      "Seven-project and13 core local browser suites pass"
+      "11-page build, clean Astro/TypeScript check",
+      "Eight local Firefox/WebKit functional profiles pass"
     ],
     "workspaceId": "tea-d1ihdsbipnbc73bpc8f0",
     "serviceId": "srv-db45hirl550s73akul50",
-    "deployId": "dep-db47fru0tbcc73ddmneg",
+    "deployId": "dep-db48m4lg1s2s738kvdd0",
     "url": "https://the-opening-preview.onrender.com",
-    "deployedCommit": "b3e4b0a48bec6f51b47733f24c4247da5c248562",
-    "finishedAt": "2026-10-09T05:13:45.189883Z",
+    "deployedCommit": "01e3c441bbe0b5708f2fd50f19a97406372dabb4",
+    "finishedAt": "2026-10-09T06:35:22.969401Z",
     "evidence": [
       "evidence/portfolio/render/deployment.json",
       "evidence/portfolio/render/deployment-http.json",
       "evidence/portfolio/render/portfolio/results.json",
       "evidence/portfolio/render/browser-results.json",
       "evidence/portfolio/render/brief-export-browser.json",
-      "evidence/portfolio/render/measurement-summary.json"
+      "evidence/portfolio/render/measurement-summary.json",
+      "evidence/cross-engine/render/deployment.json",
+      "evidence/cross-engine/render/deployment-http.json",
+      "evidence/cross-engine/render/cross-engine/results.json"
     ]
   },
   "contentAuthority": "User selected SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other works from SaamVR GitHub on2026-10-09. Curated public project presentation authorized; exact roles, collaborators, asset-origin rights and identity/contact remain unspecified. User supplied public name Shusmoy; no contact address or exact project credits supplied.",

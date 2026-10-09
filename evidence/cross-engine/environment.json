@@ -46,7 +46,10 @@
   "launchWrapper": "#!/bin/sh\nOPENING_WEBKIT_BUNDLE=/home/agent/.cache/ms-playwright/webkit-2370/minibrowser-wpe\nexport WEBKIT_EXEC_PATH=\"$OPENING_WEBKIT_BUNDLE/bin\"\nexport WEBKIT_INJECTED_BUNDLE_PATH=\"$OPENING_WEBKIT_BUNDLE/lib\"\nexport WEBKIT_INSPECTOR_RESOURCES_PATH=\"$OPENING_WEBKIT_BUNDLE/share\"\nexport LD_LIBRARY_PATH=\"$OPENING_WEBKIT_BUNDLE/lib:$OPENING_WEBKIT_BUNDLE/sys/lib:/tmp/opening-webkit-libs/runtime/usr/lib/x86_64-linux-gnu\"\nexec \"$OPENING_WEBKIT_BUNDLE/bin/MiniBrowser\" \"$@\"\n",
   "failures": [
     "Initial Firefox cached response304 rejected by test-only200 assertion; accept200/304 after actual cached content decode.",
-    "Stock WebKit startup failed missing Linux dependencies; temporary local library wrapper starts actual27.2 engine."
+    "Stock WebKit startup failed missing Linux dependencies; temporary local library wrapper starts actual27.2 engine.",
+    "Initial live Firefox SEC_ERROR_UNKNOWN_ISSUER before any app page; temporary NSS profile imports existing workspace proxy CA, no ignoreHTTPSErrors."
   ],
-  "limits": "No Safari, physical device, GPU budget, screen reader or full accessibility certification."
+  "limits": "No Safari, physical device, GPU budget, screen reader or full accessibility certification.",
+  "firefoxLiveTrust": "The default isolated Firefox profile rejected the workspace proxy issuer; security.enterprise_roots.enabled did not resolve it. A temporary executable wrapper imports CODEX_PROXY_CERT into only the ephemeral NSS profile before launching the unmodified Firefox engine. HTTPS verification remains enabled; independent navigation returned200.",
+  "firefoxWrapper": "#!/bin/sh\nopening_profile=''\nopening_previous=''\nfor opening_arg in \"$@\"; do\n if [ \"$opening_previous\" = '-profile' ]; then opening_profile=\"$opening_arg\"; fi\n opening_previous=\"$opening_arg\"\ndone\nif [ -n \"$opening_profile\" ] && [ -n \"$CODEX_PROXY_CERT\" ]; then\n if [ ! -e \"$opening_profile/cert9.db\" ]; then certutil -N -d \"sql:$opening_profile\" --empty-password || exit 1; fi\n certutil -A -d \"sql:$opening_profile\" -n opening-workspace-proxy -t 'C,,' -i \"$CODEX_PROXY_CERT\" || exit 1\nfi\nexec /home/agent/.cache/ms-playwright/firefox-1555/firefox/firefox \"$@\"\n"
 }
