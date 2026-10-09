@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-10-09T04:45:38.328Z",
+  "runAt": "2026-10-09T04:51:57.017Z",
   "baseUrl": "http://127.0.0.1:4330",
   "browser": "151.0.7922.173",
   "results": [
@@ -44,6 +44,12 @@
         "truthful review and downloadable reference"
       ],
       "errors": []
+    },
+    {
+      "name": "native-cancellation",
+      "checks": [
+        "both native transition readiness rejections handled"
+      ]
     },
     {
       "name": "corrupt-recovery",

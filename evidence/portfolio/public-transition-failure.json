@@ -1,0 +1,13 @@
+{
+  "observedAt": "2026-10-09",
+  "baseUrl": "https://the-opening-preview.onrender.com",
+  "sourceCommit": "6ab454a39c926a5d9790ae513a47b79cbab21805",
+  "profileWidth": 1440,
+  "error": "Transition was skipped",
+  "stack": "",
+  "url": "/start/?project=staypilot",
+  "reproducedRuns": 2,
+  "functionalResult": "Direct cases/HTTP passed; project browser profile failed zero-error assertion during case-to-brief navigation.",
+  "fix": "Observe the native ViewTransition.ready rejection on both pageswap and pagereveal; no global page-error suppression or route interception.",
+  "status": "local verification in progress"
+}

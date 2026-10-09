@@ -9,7 +9,7 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "A08 collection verified; Render deployment pending",
+  "currentTask": "A08 native cancellation fix verified; replacement deploy pending",
   "lastCheckpoint": {
     "stage": "A08_collection_local_verified",
     "lastKnownHead": "bd7ba641dad29fd915dcfdc5334f64013bda209c",
@@ -17,9 +17,12 @@
       "29 units pass; clean type checks;11-page build",
       "Seven case routes, three widths, reference continuity/removal/recovery/noJS proof pass",
       "13 core scene/navigation/fallback scenarios and brief/export journeys pass",
-      "16 sampled keyboard-focus/reflow profiles pass after awaiting native fragment URL"
+      "16 sampled keyboard-focus/reflow profiles pass after awaiting native fragment URL",
+      "Public11 HTTP route/status checks passed at6ab454a; browser found native-ready cancellation error twice",
+      "Native readiness handling fixed; deterministic both-event and actual project local suite pass; clean check/build",
+      "Focused cancellation review found no confirmed blocker"
     ],
-    "nextAction": "Publish reviewed collection and deploy Render, then public project/native/HTTP validation. Credits/identity/contact/physical and enquiry gates remain open.",
+    "nextAction": "Deploy native cancellation fix; repeat public project suite and13 native/scene scenarios; record exact deployed source and costs.",
     "changedFiles": [
       "src/styles/global.css",
       "tests/accessibility-browser.mjs",

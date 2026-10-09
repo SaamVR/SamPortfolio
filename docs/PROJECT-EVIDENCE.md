@@ -27,3 +27,7 @@ Repository projects have owner_selected/repository_project catalog metadata. The
 ## Remaining publication facts
 
 Exact personal role and collaborators per project, original asset attribution (especially NOVA model), approved public identity/contact, physical-device/cross-browser release evidence and real enquiry operations remain open. Curated cases describe repository-observed design and implementation, not deployed business outcomes. No project metrics, enquiries or certifications are fabricated.
+
+## Deployed validation defect and fix
+
+The first public collection deployment6ab454a passed direct-route HTTP checks but failed the project browser profile twice with an unhandled `Transition was skipped` error while landing at /start/?project=staypilot. Native ViewTransition.ready can reject when its decorative transition is cancelled. Both pageswap and pagereveal now observe only that promise; unrelated page errors remain asserted. A deterministic browser regression rejects both event readiness promises, and the real project/reference/recovery/noJS suite passes locally. Clean check and11-page build passed. Focused Sol/high cancellation review found no confirmed blocker. Replacement deployment/public retest pending.
