@@ -150,3 +150,7 @@ The user explicitly requested continuous autonomous execution: checkpoint every 
 ### F01 — Visible Full opening (completed)
 
 User-directed follow-up to the motion complaint. First Full entry now has a matched-poster, one-time1.1s fold/hold/open entrance; original pivots/protected bounds and feel scores remain. Retarget/repeat/Back/scroll reentry and authored alternatives preserve existing contracts. This deliberately extends D07 fixed-pose startup.33 units, clean check,11-page build; local8 motion profiles/13 core/quality/lifecycle and public8 motion/13 core/11 HTTP checks pass. Focused stronger structural review completed. Actual deployed source772e299 and recordings/costs: `docs/automation/F01-MOTION.md`, `evidence/motion/render/`.
+
+### P01 — Preview privacy route (completed; independent A13 preparation)
+
+Ruling: truthful local data practices do not depend on missing owner credits or an unconfigured enquiry provider. Added /privacy/ and shared footer using existing layout. This leaves A13 gated; update copy when actual operations change. Clean53-file check/12-page build; local/public narrow desktop/phone, keyboard, no-JS, stored-draft preservation and scoped axe checks pass;12 direct HTTP checks pass. See `docs/automation/P01-PRIVACY.md`.

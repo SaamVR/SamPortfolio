@@ -50,3 +50,7 @@ Current app source8cc9eed1758558af64f8fc18613445f550ca02da, deploydep-db4e9du0tb
 ## F01 visible motion checkpoint
 
 Current application 772e2991517b2a5336cd97cc7d88330bb4df67e1; deploy dep-db4es3bncjis73cp61d0; live 2026-10-09T13:37:42.540987Z. Public8 motion profiles at1440/390,13 core scenarios and11 HTTP checks passed. One-time matched-poster fold/open entrance deliberately extends D07 startup; original geometry/protected proof bounds and repeat/retarget/reentry policy remain. Actual unedited recordings, captures, reports and cost observations: evidence/motion/render/. No physical performance or full publication claim; contact/credits/device/enquiry gates remain open.
+
+## P01 privacy preparation — 2026-10-09
+
+Source d639cd593697c0d1f38d0ab640d15d8725ff3531; Render dep-db4gjl3tqb8s73f6soig; live 2026-10-09T15:36:14.333632Z. Clean53-file check;12-page build. Local/public privacy route checks at1440/390/320, existing draft unchanged, no renderer request/form, keyboard skip/focus, scoped axe with no violations/incomplete targets, four-route footer bounds and no-JS navigation pass.12 public direct HTTP routes/authored404 pass. Source-checked actual data practices; no enquiry service or retention claim added. Captures/reports: evidence/privacy/render/. Physical-device/screen-reader/full conformance and A13 publication gates remain open. No geometry/motion runtime change; prior motion/cost evidence retains its recorded source SHA.

@@ -93,3 +93,7 @@ Live https://the-opening-preview.onrender.com at source488c0fb; fresh npm ci/fou
 ## Keyboard focus preparation — 2026-10-09
 
 Confirmed and corrected paper/work focus-ring contrast2.73:1 using a contextual token. Build and clean type checks; local and deployed16 route/width sampled focus/native skip/brief keyboard/reflow profiles passed at1440/720/390/320px. Public direct-route200/authored404 passed. Source8d71c0a deployed. Evidence and initial stale-response failure: automation/A09-PRE-RESULT.md, evidence/accessibility/. No real zoom, physical device, screen-reader, Safari/Firefox or full WCAG pass claimed.
+
+## P01 privacy preparation — 2026-10-09
+
+Source d639cd593697c0d1f38d0ab640d15d8725ff3531; Render dep-db4gjl3tqb8s73f6soig; live 2026-10-09T15:36:14.333632Z. Clean53-file check;12-page build. Local/public privacy route checks at1440/390/320, existing draft unchanged, no renderer request/form, keyboard skip/focus, scoped axe with no violations/incomplete targets, four-route footer bounds and no-JS navigation pass.12 public direct HTTP routes/authored404 pass. Source-checked actual data practices; no enquiry service or retention claim added. Captures/reports: evidence/privacy/render/. Physical-device/screen-reader/full conformance and A13 publication gates remain open. No geometry/motion runtime change; prior motion/cost evidence retains its recorded source SHA.

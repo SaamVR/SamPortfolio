@@ -26,6 +26,7 @@ npm run verify:browser
 - `/`: readable hero, DOM proof, three immediate direction controls, bounded 3D choreography, local native-scroll handoff, work and contact navigation.
 - `/work/staypilot/`, `/work/sm-manager/`, `/work/ecomcms/`, `/work/tingtune/`, `/work/nova/`, `/work/servicedesk/`, `/work/ezcomo/`: repository-backed project cases with captured prototype screens or labeled architecture diagrams. StayPilot is the featured HTML proof.
 - `/work/opening-study/`: explicitly labeled original development study; native image continuity in browsers supporting cross-document View Transitions.
+- `/privacy/`: readable local draft/preferences/export data handling, browser removal instructions and current enquiry limitations; works without JavaScript.
 - `/start/`: four-step anonymous brief (Goal / Direction / Scope / Review), device persistence with legacy migration, revision-consistent JSON/standalone print HTML and print-window fallback. Contact configuration honestly unavailable; no send/receipt fiction.
 
 Static HTML and native links carry the hero, proof and case content. Brief editing/persistence/export use JavaScript, with an explicit no-JavaScript notice. Only the scene imports Three.js. Light and reduced motion avoid that import. No pins, idle animation, fonts, external imagery, project-video downloads or client-side router. No scene request blocks a route. Unsupported continuity uses normal navigation. Renderer failure is terminal for the tab visit; zero restoration attempts is within the maximum-one policy. Back may restore BFCache and native scroll, with fresh GPU resources.
@@ -70,3 +71,5 @@ node --input-type=module -e 'import {runPreviewBrowser} from "./scripts/preview-
 ```
 
 Results retain automated violations and incomplete checks requiring manual review. This is not screen-reader, actual zoom, physical-device/Safari or full WCAG certification. See docs/automation/A09-AUDIT.md.
+
+Privacy-route and shared-footer verification after building: `node scripts/preview-browser.mjs tests/privacy-browser.mjs`. Reports and desktop/phone captures: `evidence/privacy/`.
