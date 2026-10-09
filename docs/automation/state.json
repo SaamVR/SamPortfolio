@@ -9,7 +9,7 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "P01 completed; owner/provider/device inputs required for remaining tasks",
+  "currentTask": "Motion expansion roadmap prepared; next implementation M01",
   "lastCheckpoint": {
     "stage": "P01_live_verified",
     "sourceCommit": "d639cd593697c0d1f38d0ab640d15d8725ff3531",
@@ -372,5 +372,25 @@
     "name": "Shusmoy",
     "contact": "not_supplied",
     "source": "User reply in current session"
+  },
+  "motionRoadmap": {
+    "document": "docs/automation/MOTION-ROADMAP.md",
+    "status": "planned_not_implemented",
+    "sourceCheckpoint": "62e3a508bd199f5e2d3bce34aa1dc295cc56f3ce",
+    "order": [
+      "M01 link/card/control feedback",
+      "M02 chapter/gallery accents",
+      "M03 all-project native image continuity",
+      "M04 case-reading accents",
+      "M05 brief diagram/export feedback",
+      "M06 optional pointer study"
+    ],
+    "nextAction": "Implement M01 as the first bounded motion batch when execution resumes",
+    "gates": [
+      "Original geometry/proof/native scroll/zero pins preserved",
+      "No changes to brief-entry transition opt-out",
+      "M06 protected bounds and stronger review",
+      "Accepted receipt remains blocked on real A11 operations"
+    ]
   }
 }
