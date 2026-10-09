@@ -4,6 +4,8 @@ My Creative Portfolio Presentation — **THE OPENING**.
 
 A production-bound Scenes 1–3 portfolio slice, built from the attached final decision register. The slice was initially authored locally, then integrated into SaamVR/SamPortfolio on branch feat/opening-scenes-1-3. No approved project pack was supplied. **Development preview, not publication-ready.**
 
+Live development preview: https://the-opening-preview.onrender.com. Public-host checks and captures: [Render deployment report](docs/deployment/RENDER.md).
+
 ## Run
 
 Node 22+; dependencies pinned in package-lock.json.
@@ -31,11 +33,11 @@ Static HTML and native links carry the hero, proof and case content. Brief editi
 
 Read [execution and architecture](docs/EXECUTION.md), [verification report](docs/VERIFICATION.md), [handoff](docs/HANDOFF.md), and the [authority](docs/AUTHORITY.md). Captures and raw browser measurements are under `evidence/`; the authored geometry manifest is `public/art/manifest.json`.
 
-No approved owner identity, authentic flagship rights/content pack, verified contact destination or hosting/provider configuration was supplied. All study imagery is original procedural/vector development material authored with AI assistance in this session. No client, outcome, enquiry or certification is claimed. The site cannot substitute this study for approved portfolio proof.
+No approved owner identity, authentic flagship rights/content pack, verified contact destination or enquiry-provider configuration was supplied. All study imagery is original procedural/vector development material authored with AI assistance in this session. No client, outcome, enquiry or certification is claimed. The site cannot substitute this study for approved portfolio proof.
 
 ## Autonomous continuation
 
-The slice and next-task queue are on `feat/opening-scenes-1-3`: [draft PR #1](https://github.com/SaamVR/SamPortfolio/pull/1). Read [the runbook](docs/automation/RUNBOOK.md), [task queue](docs/automation/state.json) and [implementation plan](docs/superpowers/plans/2026-10-08-autonomous-portfolio.md). One main agent, bounded tasks, checked checkpoints and feature-branch pushes. No scheduler, merge, paid service or production deployment is implied by these files. Runner configuration remains a separate verified setup.
+The slice and next-task queue are on `feat/opening-scenes-1-3`: [draft PR #1](https://github.com/SaamVR/SamPortfolio/pull/1). Read [the runbook](docs/automation/RUNBOOK.md), [task queue](docs/automation/state.json) and [implementation plan](docs/superpowers/plans/2026-10-08-autonomous-portfolio.md). One main agent, bounded tasks, checked checkpoints and feature-branch pushes. Render static preview deployment is authorized and completed; no scheduler, merge, paid service or genuine production publication is implied. Runner configuration remains a separate verified setup.
 
 Renderer tooling: ordinary visits use a non-retained framebuffer and minimal lifecycle diagnostics. `/?openingCapture=1` enables the synchronous PNG adapter used by `tests/capture-posters.mjs`; `/?openingDiagnostics=1` enables heavier bounds/frame traces without capture retention. These are explicit tooling configurations, not performance representative defaults.
 

@@ -11,19 +11,21 @@
   },
   "currentTask": null,
   "lastCheckpoint": {
-    "stage": "Render_deployment_prepared",
-    "lastKnownHead": "cf110c1d5cd7fe0cbfb0ae1d5f881add7b53bc5e",
+    "stage": "Render_live_public_verification",
+    "lastKnownHead": "488c0fbccf9b5fa36a3824a3ac1127f445b5431b",
     "checks": [
-      "Astro output static; 3 routes; Git branch published; prior 28 unit tests/check/build/browser suites passed",
-      "Repo is public, feature branch current and published",
-      "Local authored HTTP404/direct-route check passed; 4-page build"
+      "Render deploy live, fresh npm ci and four-page build",
+      "Public HTTP200 all three direct routes; authored unknown-route404",
+      "13 public browser scenarios; four brief profiles; two export widths passed",
+      "Desktop and 390px stage captures visually inspected"
     ],
-    "nextAction": "Authored static404 and reproducible deployed HTTP checks are prepared; validate build, confirm Render workspace, create site and run public checks/browser suites.",
+    "nextAction": "Approved identity/flagship/contact pack and named physical devices; enquiry destination/retrieval/retention contract still missing. No independent ready task in queue.",
     "changedFiles": [
-      "AGENTS.md",
       "docs/deployment/RENDER.md",
-      "src/pages/404.astro",
-      "tests/deployment-http.mjs"
+      "docs/HANDOFF.md",
+      "docs/automation/state.json",
+      "evidence/render/",
+      "tests/browser.mjs"
     ]
   },
   "tasks": [
@@ -211,7 +213,7 @@
       "commit": null,
       "evidence": [],
       "blockers": [
-        "Real hosting/enquiry/provider, verified owner retrieval/notification and retention contract unavailable; A06 dependency now complete."
+        "Render static hosting supplied and preview deployed; real enquiry provider, verified owner retrieval/auth/notification and retention contract remain unavailable."
       ]
     },
     {
@@ -267,12 +269,12 @@
     "status": "published",
     "pullRequest": "https://github.com/SaamVR/SamPortfolio/pull/1",
     "draft": true,
-    "sourceCheckpoint": "5a52ada342b39f93441daa603c9732889b041e5d"
+    "sourceCheckpoint": "488c0fbccf9b5fa36a3824a3ac1127f445b5431b"
   },
   "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply.",
   "deployment": {
     "provider": "Render",
-    "status": "prepared_workspace_confirmation_required",
+    "status": "live_verified",
     "serviceType": "static_site",
     "name": "the-opening-preview",
     "repo": "https://github.com/SaamVR/SamPortfolio",
@@ -290,10 +292,23 @@
         "value": "true"
       }
     ],
-    "workspace": "My Workspace (only accessible workspace; Render connector requires user confirmation before operations)",
+    "workspace": "My Workspace; sole accessible workspace selected under renewed user delegation to make autonomous decisions",
     "localChecks": [
       "4-page production build passed; renderer chunk warning retained",
       "HTTP200 direct routes /, /work/opening-study/, /start/; authored unknown-route HTTP404 passed"
+    ],
+    "workspaceId": "tea-d1ihdsbipnbc73bpc8f0",
+    "serviceId": "srv-db45hirl550s73akul50",
+    "deployId": "dep-db45hjbl550s73akulp0",
+    "url": "https://the-opening-preview.onrender.com",
+    "deployedCommit": "488c0fbccf9b5fa36a3824a3ac1127f445b5431b",
+    "finishedAt": "2026-10-09T03:01:15.686643Z",
+    "evidence": [
+      "evidence/render/deployment.json",
+      "evidence/render/deployment-http.json",
+      "evidence/render/browser-results.json",
+      "evidence/render/brief-browser.json",
+      "evidence/render/brief-export-browser.json"
     ]
   }
 }

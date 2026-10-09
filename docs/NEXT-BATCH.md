@@ -8,8 +8,8 @@ A01/A02 and A04–A06 engineering are delivered on the draft PR. A03 quality-pol
 
 1. Supply approved identity/capability/contact and one genuine flagship pack: exact role, collaborators, rights/provenance, actual media/deliverable links and limitations. A07/A08 stay blocked until this exists; explicit placeholders remain.
 2. Run named physical desktop/phone profiles and Safari/Firefox continuity review. A03/A09 stay calibration/release-blocked; software desktop p95 misses its target and lower-level evidence is insufficient.
-3. Establish the real hosting/enquiry provider contract, verified owner destination, retrieval/auth and retention. Then A10–A12 can implement durable idempotent acceptance/outbox and real receipt choreography. No invented enquiry or animated success.
-4. A13 publication checks require approved work, physical profiles and real enquiry operations. Merge/deployment/spend authority is unchanged and pending.
+3. Render static preview is live; establish the real enquiry provider contract, verified owner destination, retrieval/auth and retention. Then A10–A12 can implement durable idempotent acceptance/outbox and real receipt choreography. No invented enquiry or animated success.
+4. A13 publication checks require approved work, physical profiles and real enquiry operations. Render preview authority is supplied; merge/genuine publication/spend authority remains pending.
 
 User explicitly requested continuous autonomous execution: checkpoint each eligible task and continue without another go-ahead. Actual usage limits and required missing facts still apply. No scheduled runner is active.
 
@@ -37,4 +37,4 @@ Escalate when the task affects state ownership or durable enquiries, when the ch
 
 ## Autonomous execution update
 
-Use `docs/automation/state.json`, `WORKER-PROMPT.md`, `RUNBOOK.md` and `docs/superpowers/plans/2026-10-08-autonomous-portfolio.md` as the task-by-task queue. Earlier ordering was a broad roadmap; eligible brief/export work may proceed while genuine content/device inputs remain blocked. User delegated the publication-scope choice: feature-branch pushes + a draft PR selected; no merge, paid services or production deployment. Reset metadata is private and scheduler activation awaits project-runner confirmation.
+Use `docs/automation/state.json`, `WORKER-PROMPT.md`, `RUNBOOK.md` and `docs/superpowers/plans/2026-10-08-autonomous-portfolio.md` as the task-by-task queue. Earlier ordering was a broad roadmap; eligible brief/export work may proceed while genuine content/device inputs remain blocked. User delegated the publication-scope choice: feature-branch pushes + a draft PR selected; Render static preview deployed under explicit instruction; no merge, paid services or genuine production publication. Reset metadata is private and scheduler activation awaits project-runner confirmation.

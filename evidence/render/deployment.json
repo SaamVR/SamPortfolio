@@ -1,0 +1,26 @@
+{
+  "provider": "Render",
+  "serviceId": "srv-db45hirl550s73akul50",
+  "deployId": "dep-db45hjbl550s73akulp0",
+  "status": "live",
+  "url": "https://the-opening-preview.onrender.com",
+  "deployedCommit": "488c0fbccf9b5fa36a3824a3ac1127f445b5431b",
+  "startedAt": "2026-10-09T03:00:29.197321Z",
+  "finishedAt": "2026-10-09T03:01:15.686643Z",
+  "buildSeconds": 46.489322,
+  "build": "npm ci --include=dev && npm run build; Node 22.23.3; four generated pages",
+  "evidenceOrigin": "All reports/captures in this directory were produced against the public HTTPS origin; export fixtures are synthetic anonymous development inputs.",
+  "networkLimitation": "Initial Node fetch without proxy failed ECONNREFUSED; same HTTP suite passed with NODE_USE_ENV_PROXY=1. Chromium suites passed.",
+  "costs": {
+    "unit": "encoded response body bytes, cold home plus native scroll, no throttling",
+    "full": 154275,
+    "light": 21301,
+    "reduced": 21301
+  },
+  "limits": [
+    "Phone viewport/touch emulation, not physical hardware",
+    "SwiftShader Linux Chromium, not physical GPU or cross-browser certification",
+    "OS print invocation instrumented, no actual dialog certification",
+    "Renderer chunk warning remains; no field performance or enquiry delivery pass"
+  ]
+}

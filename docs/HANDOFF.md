@@ -1,6 +1,6 @@
 # THE OPENING — current durable handoff
 
-Repository `/workspace/SamPortfolio`, branch `feat/opening-scenes-1-3`, draft PR https://github.com/SaamVR/SamPortfolio/pull/1. Main-agent integration with bounded read-only focused reviews; no merge or deployment. User explicitly requested continuous autonomous work: checkpoint each bounded task, then continue eligible tasks without another go-ahead. A real quota/tool limit or unavailable required facts still apply. No live usage meter or scheduled coding runner is available; do not promise automatic resumption after this chat.
+Repository `/workspace/SamPortfolio`, branch `feat/opening-scenes-1-3`, draft PR https://github.com/SaamVR/SamPortfolio/pull/1. Main-agent integration with bounded read-only focused reviews; no merge; Render preview deployed. User explicitly requested continuous autonomous work: checkpoint each bounded task, then continue eligible tasks without another go-ahead. A real quota/tool limit or unavailable required facts still apply. No live usage meter or scheduled coding runner is available; do not promise automatic resumption after this chat.
 
 ## Delivered
 
@@ -12,17 +12,19 @@ Production renderer has non-retained buffer, demand RAF, no idle loop, minimal d
 
 ## Verification and costs
 
-Final 28 unit tests passed, type checks clean, three routes built,13 existing browser scenarios passed. Four brief browser profiles passed at 1440/390 reduced/320 unavailable-storage/required-goal. Export journeys at 1440/390 passed downloads/revisions/escaping/privacy/print-window instrumented invocation/blocked popup/offline print reflow. Raw captures/results under evidence/. Latest encoded home+scroll bodies: Full 217.151 KB, Light/reduced 86.281 KB. Renderer 510.90 KB uncompressed/130.87 KB gzip retains Vite chunk warning.
+Final 28 unit tests passed, type checks clean, four routes built,13 existing browser scenarios passed. Four brief browser profiles passed at 1440/390 reduced/320 unavailable-storage/required-goal. Export journeys at 1440/390 passed downloads/revisions/escaping/privacy/print-window instrumented invocation/blocked popup/offline print reflow. Raw captures/results under evidence/. Latest encoded home+scroll bodies: Full 217.151 KB, Light/reduced 86.281 KB. Renderer 510.90 KB uncompressed/130.87 KB gzip retains Vite chunk warning.
 
 Last actual A03 desktop software p95 was 83.3 ms (misses 25 ms), with only five lower-phase samples; phone emulation 16.8 ms is not physical certification. Physical/cross-browser/OS print-dialog/a11y conformance validation remains open. Focused Sol/high reviews found and regression-fixed corrupt recovery honesty, restored-page synchronization and idle-Light trace contamination; export review found no confirmed issues. Results: docs/automation/A01-RESULT.md through A06-RESULT.md. Do not repeat completed tasks or infer physical passes from captures.
 
-## Next actions — all require new facts
+## Live preview and next actions
+
+Live preview: https://the-opening-preview.onrender.com, source488c0fb. Public HTTP/direct404,13 scene browser scenarios, four brief profiles and two export widths passed. Captures/results: evidence/render/. Full154.275KB, Light/reduced21.301KB encoded cold home+scroll; these CDN/headless values are not physical certification. See docs/deployment/RENDER.md. Manual deployment avoids rebuilding on documentation-only commits.
 
 Queue: docs/automation/state.json; binding final register: docs/AUTHORITY.md; task plan: docs/superpowers/plans/2026-10-08-autonomous-portfolio.md.
 
 - A03/A09: named physical desktop/phone and Safari/Firefox profiles to calibrate thresholds/lower resolution, first-frame/continuity and release evidence. Software repeats cannot replace hardware.
 - A07/A08: approved public identity/capability/contact and one authentic flagship with exact role, collaborators, media rights, genuine links and limitations. Keep development proof explicit until supplied.
-- A10–A12: real hosting/enquiry/provider, owner retrieval/auth, notification destination and retention contract. Then build durable immutable attempts/idempotent acceptance/outbox before truthful receipt choreography. No fake accepted state.
-- A13: genuine evidence/device/enquiry release gates and explicit merge/deployment/spend authority.
+- A10–A12: real enquiry/provider, owner retrieval/auth, notification destination and retention contract. Then build durable immutable attempts/idempotent acceptance/outbox before truthful receipt choreography. No fake accepted state.
+- A13: genuine evidence/device/enquiry release gates and explicit merge/genuine publication/spend authority.
 
 Missing-information questions were presented while independent work continued. No eligible independent ready task remains at this checkpoint. Resume when facts arrive; inspect real Git HEAD/status before trusting stored checkpoint hashes.

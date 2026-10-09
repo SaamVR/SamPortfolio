@@ -4,7 +4,7 @@
 
 One persisted feature branch, a dependency-aware task queue, an execution prompt, explicit evidence gates and restart instructions. Task code is not implemented merely by writing this queue. Scheduler activation is a separate operation and must be confirmed by the actual runner.
 
-User delegated scope choice: use feature-branch pushes + one draft PR as the best option for recoverable work. Keep merging, production deployment, paid provider signup and credits/resets pending explicit authority. Do not request implementation permission again for tasks already inside the approved brief.
+User delegated scope choice: use feature-branch pushes + one draft PR as the best option for recoverable work. Render static preview deployment was explicitly authorized and is live. Keep merging, genuine production publication, paid provider signup and credits/resets pending explicit authority. Do not request implementation permission again for tasks already inside the approved brief.
 
 ## Usage facts versus project policy
 
