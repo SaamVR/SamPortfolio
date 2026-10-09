@@ -9,17 +9,17 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": null,
+  "currentTask": "A08 collection verified; Render deployment pending",
   "lastCheckpoint": {
-    "stage": "A09_PRE_deployed_verified",
-    "lastKnownHead": "8d71c0ae328effa312bbee037e0670ee64e92a52",
+    "stage": "A08_collection_local_verified",
+    "lastKnownHead": "bd7ba641dad29fd915dcfdc5334f64013bda209c",
     "checks": [
-      "Before: public work link focus contrast2.73:1 failed",
-      "After:16 route/width keyboard focus and reflow profiles pass",
-      "Four-page build and clean type check passed; existing renderer chunk warning retained",
-      "Render deployment live at8d71c0a; public16 focus/reflow profiles and direct HTTP200/authored404 passed"
+      "29 units pass; clean type checks;11-page build",
+      "Seven case routes, three widths, reference continuity/removal/recovery/noJS proof pass",
+      "13 core scene/navigation/fallback scenarios and brief/export journeys pass",
+      "16 sampled keyboard-focus/reflow profiles pass after awaiting native fragment URL"
     ],
-    "nextAction": "Approved real project/contact pack, physical profiles and real enquiry operations remain required. Keyboard/reflow preparation done; physical A09 remains blocked.",
+    "nextAction": "Publish reviewed collection and deploy Render, then public project/native/HTTP validation. Credits/identity/contact/physical and enquiry gates remain open.",
     "changedFiles": [
       "src/styles/global.css",
       "tests/accessibility-browser.mjs",
@@ -167,24 +167,34 @@
       "commit": null,
       "evidence": [],
       "blockers": [
-        "Approved identity/offer/contact and authentic flagship role/rights/media/links unavailable."
+        "Owner selected real repository projects. Public identity/contact, exact personal contribution/collaborators and external asset-origin credits remain unspecified."
       ]
     },
     {
       "id": "A08",
-      "status": "blocked",
+      "status": "review_needed",
       "dependencies": [
         "A07",
         "A01"
       ],
       "title": "Authentic flagship route and proof replacement",
       "modelClass": "routine",
-      "attempts": 0,
+      "attempts": 1,
       "commit": null,
-      "evidence": [],
+      "evidence": [
+        "docs/PROJECT-EVIDENCE.md",
+        "public/work/evidence.json",
+        "evidence/portfolio/results.json"
+      ],
       "blockers": [
-        "A07 approved flagship pack required."
-      ]
+        "Repository-backed collection implemented and reviewed; exact contribution/collaborator/asset-origin credits remain pending before authentic flagship release gate can close."
+      ],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "scope": "project query, draft recovery/export privacy and private source links",
+        "result": "Query replay and corrupt recovery overwrite fixed and browser-regression verified; rereview no confirmed blockers."
+      }
     },
     {
       "id": "A09",
@@ -316,5 +326,6 @@
       "evidence/accessibility/render-http.json",
       "evidence/accessibility/render/results.json"
     ]
-  }
+  },
+  "contentAuthority": "User selected SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other works from SaamVR GitHub on2026-10-09. Curated public project presentation authorized; exact roles, collaborators, asset-origin rights and identity/contact remain unspecified."
 }

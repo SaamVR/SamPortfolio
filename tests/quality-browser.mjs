@@ -23,7 +23,7 @@ try{
  assert.match(await page.locator('#mode-state').textContent(),/performance fallback/);
  await page.locator('button[data-feel=precise]').click();assert.equal(await page.locator('button[data-feel=precise]').getAttribute('aria-pressed'),'true');
  assert.equal(await page.locator('#poster-image').evaluate(i=>getComputedStyle(i).visibility),'visible');await page.screenshot({path:'evidence/quality-light.png'});
- await page.locator('.stage-proof').click();await page.waitForURL('**/work/opening-study/');await page.goBack();await page.waitForSelector('#stage[data-quality=light]');assert.equal(await page.locator('canvas').count(),0);
+ await page.locator('.stage-proof').click();await page.waitForURL('**/work/staypilot/');await page.goBack();await page.waitForSelector('#stage[data-quality=light]');assert.equal(await page.locator('canvas').count(),0);
  await page.reload();await page.waitForSelector('#stage[data-quality=light]');assert.equal(await page.locator('canvas').count(),0);
  const resources=await page.evaluate(()=>performance.getEntriesByType('resource').map(r=>new URL(r.name).pathname));assert.equal(resources.some(r=>r.includes('renderer.')),false);
  checks.push('terminal Light retains immediate feel, native case/Back and reload without renderer revival; only subsequent navigation avoids renderer request');

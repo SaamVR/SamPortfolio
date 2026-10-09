@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "draftId": "f17872d5-65a8-4b59-a125-ea6364988bd2",
+  "draftId": "1d29968a-3a4c-4a6f-8b00-7bd6ce9f49ec",
   "revision": 3,
   "feel": "precise",
   "serviceIds": [
@@ -14,7 +14,7 @@
   "desiredAction": "",
   "constraints": "",
   "referenceURLs": [],
-  "updatedAt": "2026-10-08T17:37:16.509Z",
+  "updatedAt": "2026-10-09T04:46:12.994Z",
   "referenceAvailability": {
     "services": [
       {
@@ -32,6 +32,6 @@
         "kind": "development_placeholder"
       }
     ],
-    "notice": "Unavailable references are omitted. Listed offers and development references are pending owner approval."
+    "notice": "Unavailable references are omitted. Offers remain pending owner approval. Repository projects are owner-selected; contribution credits remain pending. The form study is a development placeholder."
   }
 }

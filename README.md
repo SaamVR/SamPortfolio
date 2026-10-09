@@ -2,7 +2,7 @@
 
 My Creative Portfolio Presentation — **THE OPENING**.
 
-A production-bound Scenes 1–3 portfolio slice, built from the attached final decision register. The slice was initially authored locally, then integrated into SaamVR/SamPortfolio on branch feat/opening-scenes-1-3. No approved project pack was supplied. **Development preview, not publication-ready.**
+A production-bound Scenes 1–3 portfolio slice, built from the attached final decision register. The slice was initially authored locally, then integrated into SaamVR/SamPortfolio on branch feat/opening-scenes-1-3. The owner selected real GitHub projects for curated presentation. **Portfolio preview; identity/contact, exact project credits and physical release validation remain open.**
 
 Live development preview: https://the-opening-preview.onrender.com. Public-host checks and captures: [Render deployment report](docs/deployment/RENDER.md).
 
@@ -24,6 +24,7 @@ npm run verify:browser
 ## Routes
 
 - `/`: readable hero, DOM proof, three immediate direction controls, bounded 3D choreography, local native-scroll handoff, work and contact navigation.
+- `/work/staypilot/`, `/work/sm-manager/`, `/work/ecomcms/`, `/work/tingtune/`, `/work/nova/`, `/work/servicedesk/`, `/work/ezcomo/`: repository-backed project cases with captured prototype screens or labeled architecture diagrams. StayPilot is the featured HTML proof.
 - `/work/opening-study/`: explicitly labeled original development study; native image continuity in browsers supporting cross-document View Transitions.
 - `/start/`: four-step anonymous brief (Goal / Direction / Scope / Review), device persistence with legacy migration, revision-consistent JSON/standalone print HTML and print-window fallback. Contact configuration honestly unavailable; no send/receipt fiction.
 
@@ -33,7 +34,7 @@ Static HTML and native links carry the hero, proof and case content. Brief editi
 
 Read [execution and architecture](docs/EXECUTION.md), [verification report](docs/VERIFICATION.md), [handoff](docs/HANDOFF.md), and the [authority](docs/AUTHORITY.md). Captures and raw browser measurements are under `evidence/`; the authored geometry manifest is `public/art/manifest.json`.
 
-No approved owner identity, authentic flagship rights/content pack, verified contact destination or enquiry-provider configuration was supplied. All study imagery is original procedural/vector development material authored with AI assistance in this session. No client, outcome, enquiry or certification is claimed. The site cannot substitute this study for approved portfolio proof.
+The owner authorized use of their GitHub work. Read [project evidence and credits](docs/PROJECT-EVIDENCE.md) and [snapshot/media provenance](public/work/evidence.json). Four real runtime captures and three source-based diagrams document the selected projects. Demo values are not client results; private repository source is not republished. Exact personal roles/collaborators, external asset credits, public identity/contact and enquiry delivery remain open. The Opening frame study stays explicitly developmental.
 
 ## Autonomous continuation
 

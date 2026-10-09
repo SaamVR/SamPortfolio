@@ -21,8 +21,8 @@ import {services,projects} from '../features/brief/catalog';
 <fieldset id="step-direction" data-brief-step="direction"><legend tabindex="-1">02 / Give it a feel.</legend><p>Current direction: <strong id="saved-direction">Precise</strong></p>
 <div class="brief-feels">{['precise','playful','cinematic'].map(feel=><button type="button" data-brief-feel={feel} aria-pressed={feel==='precise'}>{feel[0].toUpperCase()+feel.slice(1)}</button>)}</div>
 <p class="brief-help">This shares your direction with the opening. Change it whenever you need.</p>
-<h2>Work to discuss</h2><p class="brief-help">Development references, not approved client evidence.</p>
-{projects.map(project=><label class="brief-choice"><input type="checkbox" data-id-field="projectReferenceIds" value={project.id}/><span>{project.label}<small>Development placeholder · pending owner approval</small></span></label>)}
+<h2>Work to discuss</h2><p class="brief-help">Owner-selected projects and the original frame study. Prototype and demo data are labeled.</p>
+{projects.map(project=><label class="brief-choice"><input type="checkbox" data-id-field="projectReferenceIds" value={project.id}/><span>{project.label}<small>{project.kind==='repository_project'?project.note+' · contribution credits pending':'Development placeholder · pending owner approval'}</small></span></label>)}
 </fieldset>
 <fieldset id="step-scope" data-brief-step="scope"><legend tabindex="-1">03 / Find the edges.</legend>
 <h2>Areas to explore</h2><p class="brief-help">Offer preview · capabilities pending owner approval.</p>
@@ -33,7 +33,7 @@ import {services,projects} from '../features/brief/catalog';
 </fieldset>
 <fieldset id="step-review" data-brief-step="review"><legend tabindex="-1">04 / A starting point to keep.</legend>
 <p class="brief-help">Review your anonymous brief. Use the steps above to edit it.</p><div id="brief-review"></div>
-<p class="brief-help">Capabilities and project references are pending owner approval. The form study is a development placeholder.</p>
+<p class="brief-help">Capabilities remain pending owner approval. Repository projects are owner-selected; exact contribution credits remain pending. The form study is a development placeholder.</p>
 <div class="brief-exports"><button type="button" class="button primary" id="export-draft">Export brief JSON ↓</button><button type="button" class="button brief-secondary" id="export-printable">Download print HTML ↓</button><button type="button" class="button brief-secondary" id="print-brief">Print brief ↗</button></div>
 <p class="brief-help">An export is a copy of your brief, not a submitted enquiry.</p>
 </fieldset>
