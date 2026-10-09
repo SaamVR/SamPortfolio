@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-10-09T04:51:57.017Z",
+  "runAt": "2026-10-09T04:58:04.172Z",
   "baseUrl": "http://127.0.0.1:4330",
   "browser": "151.0.7922.173",
   "results": [
@@ -44,6 +44,13 @@
         "truthful review and downloadable reference"
       ],
       "errors": []
+    },
+    {
+      "name": "slow-module-reveal",
+      "checks": [
+        "early reveal recorded before 1.5second deferred-module delay",
+        "query consumed and removal survives reload"
+      ]
     },
     {
       "name": "native-cancellation",

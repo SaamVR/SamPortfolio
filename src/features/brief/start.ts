@@ -7,7 +7,15 @@ if(requestedProject&&projects.some(p=>p.id===requestedProject)&&!draft.projectRe
  try{draft=reduceDraft(draft,{type:'ids',field:'projectReferenceIds',value:[...draft.projectReferenceIds,requestedProject]});saved=restored.storageStatus==='saved'?persistDraft(draft):false;projectNotice='Project added to your editable brief references.';}catch{projectNotice='Could not add the project reference. Export your current brief before starting a new one.';}
 }
 // Consume a known reference hint once so edits remain authoritative on reload/Back.
-if(requestedProject&&projects.some(p=>p.id===requestedProject)){const clean=new URL(location.href);clean.searchParams.delete('project');history.replaceState(history.state,'',clean);}
+if(requestedProject&&projects.some(p=>p.id===requestedProject)){
+ const consume=()=>{const clean=new URL(location.href);clean.searchParams.delete('project');history.replaceState(history.state,'',clean);};
+ // Changing the incoming URL before native readiness can abort its transition.
+ // Apply the reference now; consume its hint after readiness (also when skipped).
+ const revealed=(window as Window & {__openingReveal?:{revealed:boolean;ready?:Promise<void>}}).__openingReveal;
+ if(revealed?.revealed){if(revealed.ready)void revealed.ready.then(consume);else consume();}
+ else if('onpagereveal' in window)addEventListener('pagereveal',((event:Event & {viewTransition?:{ready:Promise<unknown>}})=>{if(event.viewTransition)void event.viewTransition.ready.then(consume,consume);else consume();}) as EventListener,{once:true});
+ else consume();
+}
 const steps=['goal','direction','scope','review'] as const;type Step=typeof steps[number];let step:Step='goal';
 const form=document.querySelector<HTMLFormElement>('#brief-form')!,status=document.querySelector<HTMLElement>('#draft-status')!,summary=document.querySelector<HTMLElement>('#brief-errors')!;
 const errors=new Map<string,string>();const fields=[...form.querySelectorAll<HTMLInputElement|HTMLTextAreaElement>('[data-brief-field]')];const urls=form.querySelector<HTMLTextAreaElement>('#referenceURLs')!;

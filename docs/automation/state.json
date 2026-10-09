@@ -9,9 +9,9 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "A08 native cancellation fix verified; replacement deploy pending",
+  "currentTask": "A08 early readiness fix verified; deploy pending",
   "lastCheckpoint": {
-    "stage": "A08_collection_local_verified",
+    "stage": "A08_transition_order_escalation",
     "lastKnownHead": "bd7ba641dad29fd915dcfdc5334f64013bda209c",
     "checks": [
       "29 units pass; clean type checks;11-page build",
@@ -20,16 +20,23 @@
       "16 sampled keyboard-focus/reflow profiles pass after awaiting native fragment URL",
       "Public11 HTTP route/status checks passed at6ab454a; browser found native-ready cancellation error twice",
       "Native readiness handling fixed; deterministic both-event and actual project local suite pass; clean check/build",
-      "Focused cancellation review found no confirmed blocker"
+      "Focused cancellation review found no confirmed blocker",
+      "Coordinated early marker fixes late registration;1.5s JS-delay removal/reload, native-ready cancellation and actual project profiles pass",
+      "Final focused ordering review no confirmed blockers; independent reviewer runtime unavailable after owned preview stopped"
     ],
-    "nextAction": "Deploy native cancellation fix; repeat public project suite and13 native/scene scenarios; record exact deployed source and costs.",
+    "nextAction": "Publish early readiness fix; deploy Render; run public project+13 core suites and11 HTTP checks.",
     "changedFiles": [
       "src/styles/global.css",
       "tests/accessibility-browser.mjs",
       "evidence/accessibility/",
       "docs/automation/state.json",
       "docs/automation/A09-PRE-RESULT.md"
-    ]
+    ],
+    "failedRepairApproaches": [
+      "Ready catch on late module events still failed public20363f3",
+      "Deferred reveal listener missed event under late JS; local390 timeout/unhandled ready; focused reviewer reproduced1.5s JS delay"
+    ],
+    "escalation": "Focused Sol/high review requested of coordinated early head reveal marker + readiness-based URL consumption; no unrelated redesign. Current patch verification in progress."
   },
   "tasks": [
     {

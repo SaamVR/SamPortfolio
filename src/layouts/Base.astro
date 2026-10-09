@@ -7,6 +7,12 @@ const { title = 'THE OPENING — Design & creative development', paper = false }
 <script is:inline>
 try { const m=localStorage.getItem('opening-mode'); if(m==='light')document.documentElement.dataset.mode='light'; } catch {}
 if(matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.dataset.reduced='true';
+// Record reveal readiness before deferred modules can miss the lifecycle event.
+window.__openingReveal={revealed:false};
+addEventListener('pagereveal',event=>{
+ window.__openingReveal.revealed=true;
+ window.__openingReveal.ready=event.viewTransition?.ready.then(()=>{},()=>{});
+},{once:true});
 </script>
 </head><body class:list={[paper && 'paper-page']}>
 <a class="skip" href="#main">Skip to content</a>
