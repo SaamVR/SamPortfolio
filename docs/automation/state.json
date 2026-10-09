@@ -9,23 +9,22 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": null,
+  "currentTask": "A09-PRE: verified keyboard contrast patch; deploy pending",
   "lastCheckpoint": {
-    "stage": "Render_live_public_verification",
-    "lastKnownHead": "488c0fbccf9b5fa36a3824a3ac1127f445b5431b",
+    "stage": "A09_PRE_local_verified",
+    "lastKnownHead": "f735264febdbb4c32d4e2bc4a5a435cb02ca2e4b",
     "checks": [
-      "Render deploy live, fresh npm ci and four-page build",
-      "Public HTTP200 all three direct routes; authored unknown-route404",
-      "13 public browser scenarios; four brief profiles; two export widths passed",
-      "Desktop and 390px stage captures visually inspected"
+      "Before: public work link focus contrast2.73:1 failed",
+      "After:16 route/width keyboard focus and reflow profiles pass",
+      "Four-page build and clean type check passed; existing renderer chunk warning retained"
     ],
-    "nextAction": "Approved identity/flagship/contact pack and named physical devices; enquiry destination/retrieval/retention contract still missing. No independent ready task in queue.",
+    "nextAction": "Push verified CSS fix and trigger manual Render deployment; run public focused suite. Physical A09 remains blocked.",
     "changedFiles": [
-      "docs/deployment/RENDER.md",
-      "docs/HANDOFF.md",
+      "src/styles/global.css",
+      "tests/accessibility-browser.mjs",
+      "evidence/accessibility/",
       "docs/automation/state.json",
-      "evidence/render/",
-      "tests/browser.mjs"
+      "docs/automation/A09-PRE-RESULT.md"
     ]
   },
   "tasks": [
