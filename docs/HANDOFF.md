@@ -18,7 +18,7 @@ Last actual A03 desktop software p95 was 83.3 ms (misses 25 ms), with only five 
 
 ## Live preview and next actions
 
-Live preview: https://the-opening-preview.onrender.com, source488c0fb. Public HTTP/direct404,13 scene browser scenarios, four brief profiles and two export widths passed. Captures/results: evidence/render/. Full154.275KB, Light/reduced21.301KB encoded cold home+scroll; these CDN/headless values are not physical certification. See docs/deployment/RENDER.md. Manual deployment avoids rebuilding on documentation-only commits.
+Live preview: https://the-opening-preview.onrender.com, source8d71c0a. Public HTTP/direct404,13 scene browser scenarios, four brief profiles and two export widths passed. Captures/results: evidence/render/. Full154.275KB, Light/reduced21.301KB encoded cold home+scroll; these CDN/headless values are not physical certification. See docs/deployment/RENDER.md. Manual deployment avoids rebuilding on documentation-only commits.
 
 Queue: docs/automation/state.json; binding final register: docs/AUTHORITY.md; task plan: docs/superpowers/plans/2026-10-08-autonomous-portfolio.md.
 
@@ -28,3 +28,5 @@ Queue: docs/automation/state.json; binding final register: docs/AUTHORITY.md; ta
 - A13: genuine evidence/device/enquiry release gates and explicit merge/genuine publication/spend authority.
 
 Missing-information questions were presented while independent work continued. No eligible independent ready task remains at this checkpoint. Resume when facts arrive; inspect real Git HEAD/status before trusting stored checkpoint hashes.
+
+Keyboard accessibility preparation: paper/work surfaces use ink focus rings, dark surfaces keep coral. Local and public16 route/width sampled keyboard-focus/reflow checks passed; build/check passed. Native destination-heading focus was preserved. Evidence: evidence/accessibility/; A09-PRE-RESULT.md records the stale post-deploy response and successful unchanged retry. A09 physical/screen-reader/cross-browser release gate remains blocked.

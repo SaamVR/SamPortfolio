@@ -28,3 +28,7 @@ Live labeled development preview: https://the-opening-preview.onrender.com
 Reproduce public checks from an isolated directory with an evidence subdirectory, using OPENING_BASE_URL=https://the-opening-preview.onrender.com and the browser scripts' absolute paths. This workspace requires NODE_USE_ENV_PROXY=1 for Node fetch; the initial unproxied HTTP attempt failed ECONNREFUSED, then the proxied suite passed. No app repair was needed.
 
 Results and synthetic anonymous fixtures: evidence/render/deployment.json, deployment-http.json, browser-results.json, brief-browser.json and brief-export-browser.json. Phone captures are emulation; real GPU, Safari/Firefox, physical devices, OS print dialogs and accessibility conformance are not certified. Authentic portfolio proof/contact approval and enquiry operations remain blockers. This static preview does not accept enquiries.
+
+## Keyboard contrast update — 2026-10-09
+
+Current deployed source8d71c0ae328effa312bbee037e0670ee64e92a52, deploydep-db46d6nlot8c73fvhk00, live03:59:45.883446Z. Contextual focus colors correct coral-on-paper2.73:1. Local/public16 keyboard-focus/reflow profiles passed; public direct HTTP200/authored404 passed. Sampled contrast5.68–15.50:1. First browser request after deploy saw stale focus CSS; inspected current hashed CSS and repeated the unmodified suite successfully. This is limited keyboard/layout preparation, not physical/cross-browser or full accessibility certification. New evidence: evidence/accessibility/render/ and render-deployment.json.

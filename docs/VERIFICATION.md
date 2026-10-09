@@ -85,3 +85,7 @@ Latest cold response-body home+scroll Full 217.151 KB / Light or reduced 86.281 
 ## Render public-host checkpoint — 2026-10-09
 
 Live https://the-opening-preview.onrender.com at source488c0fb; fresh npm ci/four-page build succeeded. Public direct-route200/authored404,13 browser scenarios, four brief profiles and two export widths passed. Evidence/captures under evidence/render/; details and initial proxy failure in deployment/RENDER.md. Cold encoded home+scroll bodies:154.275KB Full /21.301KB Light or reduced (CDN compression, unthrottled headless). No physical/field/cross-browser/enquiry performance pass.
+
+## Keyboard focus preparation — 2026-10-09
+
+Confirmed and corrected paper/work focus-ring contrast2.73:1 using a contextual token. Build and clean type checks; local and deployed16 route/width sampled focus/native skip/brief keyboard/reflow profiles passed at1440/720/390/320px. Public direct-route200/authored404 passed. Source8d71c0a deployed. Evidence and initial stale-response failure: automation/A09-PRE-RESULT.md, evidence/accessibility/. No real zoom, physical device, screen-reader, Safari/Firefox or full WCAG pass claimed.

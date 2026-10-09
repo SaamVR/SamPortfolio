@@ -9,16 +9,17 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "A09-PRE: verified keyboard contrast patch; deploy pending",
+  "currentTask": null,
   "lastCheckpoint": {
-    "stage": "A09_PRE_local_verified",
-    "lastKnownHead": "f735264febdbb4c32d4e2bc4a5a435cb02ca2e4b",
+    "stage": "A09_PRE_deployed_verified",
+    "lastKnownHead": "8d71c0ae328effa312bbee037e0670ee64e92a52",
     "checks": [
       "Before: public work link focus contrast2.73:1 failed",
       "After:16 route/width keyboard focus and reflow profiles pass",
-      "Four-page build and clean type check passed; existing renderer chunk warning retained"
+      "Four-page build and clean type check passed; existing renderer chunk warning retained",
+      "Render deployment live at8d71c0a; public16 focus/reflow profiles and direct HTTP200/authored404 passed"
     ],
-    "nextAction": "Push verified CSS fix and trigger manual Render deployment; run public focused suite. Physical A09 remains blocked.",
+    "nextAction": "Approved real project/contact pack, physical profiles and real enquiry operations remain required. Keyboard/reflow preparation done; physical A09 remains blocked.",
     "changedFiles": [
       "src/styles/global.css",
       "tests/accessibility-browser.mjs",
@@ -195,7 +196,10 @@
       "modelClass": "device_access",
       "attempts": 0,
       "commit": null,
-      "evidence": [],
+      "evidence": [
+        "docs/automation/A09-PRE-RESULT.md",
+        "evidence/accessibility/render/results.json"
+      ],
       "blockers": [
         "Named physical desktop/phone and cross-browser access required; A03 physical calibration unresolved."
       ]
@@ -298,16 +302,19 @@
     ],
     "workspaceId": "tea-d1ihdsbipnbc73bpc8f0",
     "serviceId": "srv-db45hirl550s73akul50",
-    "deployId": "dep-db45hjbl550s73akulp0",
+    "deployId": "dep-db46d6nlot8c73fvhk00",
     "url": "https://the-opening-preview.onrender.com",
-    "deployedCommit": "488c0fbccf9b5fa36a3824a3ac1127f445b5431b",
-    "finishedAt": "2026-10-09T03:01:15.686643Z",
+    "deployedCommit": "8d71c0ae328effa312bbee037e0670ee64e92a52",
+    "finishedAt": "2026-10-09T03:59:45.883446Z",
     "evidence": [
       "evidence/render/deployment.json",
       "evidence/render/deployment-http.json",
       "evidence/render/browser-results.json",
       "evidence/render/brief-browser.json",
-      "evidence/render/brief-export-browser.json"
+      "evidence/render/brief-export-browser.json",
+      "evidence/accessibility/render-deployment.json",
+      "evidence/accessibility/render-http.json",
+      "evidence/accessibility/render/results.json"
     ]
   }
 }

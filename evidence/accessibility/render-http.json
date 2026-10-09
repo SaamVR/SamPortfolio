@@ -1,0 +1,38 @@
+{
+  "runAt": "2026-10-09T03:59:57.327Z",
+  "baseUrl": "https://the-opening-preview.onrender.com",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/work/opening-study/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/start/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    },
+    {
+      "path": "/this-page-does-not-exist/",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "contentEncoding": "br",
+      "cacheControl": "public, max-age=0, s-maxage=300",
+      "authoredContent": true
+    }
+  ]
+}
