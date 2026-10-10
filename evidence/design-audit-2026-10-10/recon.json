@@ -1,0 +1,36 @@
+[
+  {
+    "width": 1440,
+    "mode": "Full experience",
+    "renderer": {
+      "angles": "[-18,22,8]",
+      "active": "false",
+      "choreographies": "0",
+      "frameCount": "20",
+      "quality": "full",
+      "ready": "true"
+    },
+    "errors": [],
+    "cinematic": {
+      "angles": "[-38,42,18]",
+      "active": "false",
+      "choreographies": "1",
+      "frameCount": "39",
+      "quality": "full",
+      "ready": "true"
+    }
+  },
+  {
+    "width": 390,
+    "mode": "Full experience",
+    "renderer": {
+      "angles": "[-18,22,8]",
+      "active": "false",
+      "choreographies": "0",
+      "frameCount": "5",
+      "quality": "full",
+      "ready": "true"
+    },
+    "errors": []
+  }
+]

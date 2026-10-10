@@ -460,5 +460,24 @@
       "M06 protected bounds and stronger review",
       "Accepted receipt remains blocked on real A11 operations"
     ]
+  },
+  "creativeAudit": {
+    "document": "docs/automation/CREATIVE-GAP-AUDIT.md",
+    "applicationSource": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9",
+    "skillsSource": "https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "skillsApplied": [
+      "frontend-design",
+      "webapp-testing"
+    ],
+    "evidence": "evidence/design-audit-2026-10-10/",
+    "result": "Fresh1440/390 public reconnaissance; desktop feel action observed; no errors sampled. Not physical/performance certification. Product unchanged.",
+    "recommendedOrder": [
+      "M07 original material/light study",
+      "distinct feel scores within existing bounds",
+      "mobile composition study",
+      "approved case media/contribution credits",
+      "M05 brief diagram",
+      "real contact/enquiry and release gates"
+    ]
   }
 }
