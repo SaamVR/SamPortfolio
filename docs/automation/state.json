@@ -11,13 +11,14 @@
   },
   "currentTask": "M03 all-project image continuity; user motion-ambition correction",
   "lastCheckpoint": {
-    "stage": "M03_local_verified",
+    "stage": "M03_public_media_guard_fixed_pending_redeploy",
     "checks": [
       "33 units;clean57-file check;12-page build",
       "23 transition profiles with real forward/Back keyframes;13 core;4 privacy pass",
-      "Stronger review3 blockers reproduced RED\u2192GREEN; no unrelated image morph"
+      "Stronger review3 blockers reproduced RED\u2192GREEN; no unrelated image morph",
+      "Live probe: valid cached image naturalWidth1440 while completefalse; guard corrected; clean check/build and focused regressions pass"
     ],
-    "nextAction": "Push and manually deploy Render; verify public transition and native fallback suite with strengthened cleared Back records",
+    "nextAction": "Redeploy corrected native media guard; repeat public23 transition profiles/core/privacy/HTTP before claiming deployed pass",
     "limitations": [
       "Original frame remains graybox; micro accents are not finished spatial art direction",
       "Headless software Chrome/phone emulation; no physical performance pass"

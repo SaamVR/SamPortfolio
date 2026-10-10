@@ -88,3 +88,7 @@ Lower-cost runner choice: GPT-6 Luna/medium/normal for bounded markup/CSS and so
 Do not mark these batches done until implemented and checked. Full release still requires authentic contribution/asset credits, named physical desktop/phone calibration, screen-reader/Safari review and genuine enquiry operations.
 
 M01/M02 completion evidence: `docs/automation/M01-M02-MOTION.md`, applicationbc1f7e1 and `evidence/motion-expansion/render/`. Implemented gallery accents animate the small corner paths; project indices remain static. Next implementation:M03. M03–M06 remain planned, not delivered.
+
+## Creative correction — 2026-10-10
+
+Owner reports too little of the intended Lusion-inspired motion. The criticism is valid: M01/M02 are useful feedback, not the cinematic/art-direction finish. M03 now has actual seven-project forward/Back image correspondence (local validated, public pending). Prioritize an authored original-frame material/spatial-response study next, before further small case-reading accents. Preserve original sibling pivots, proof envelope, native scrolling/zero pins and useful touch behavior. M06’s bounded rest-only pointer response may support that study; it is not a substitute for material/mass/light staging. No unmeasured frame-budget pass or finished reference-level quality claim. M04/M05 remain planned. Exact asset/material choices require an original captured study against Full and poster alternatives, not borrowed Lusion assets.
