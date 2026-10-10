@@ -9,19 +9,20 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "M03 all-project image continuity; user motion-ambition correction",
+  "currentTask": "M03 checked/checkpointed; M07 original-frame material/spatial study next",
   "lastCheckpoint": {
-    "stage": "M03_public_media_guard_fixed_pending_redeploy",
+    "stage": "M03_public_verified_with_reliability_note",
+    "sourceCommit": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9",
     "checks": [
       "33 units;clean57-file check;12-page build",
-      "23 transition profiles with real forward/Back keyframes;13 core;4 privacy pass",
-      "Stronger review3 blockers reproduced RED\u2192GREEN; no unrelated image morph",
-      "Live probe: valid cached image naturalWidth1440 while completefalse; guard corrected; clean check/build and focused regressions pass"
+      "Public23 transition profiles;13 core;4 privacy;12 HTTP routes pass",
+      "All14 forward/Back pairs record420ms native paired keyframes; normal-speed1440/390 WebMs saved"
     ],
-    "nextAction": "Redeploy corrected native media guard; repeat public23 transition profiles/core/privacy/HTTP before claiming deployed pass",
+    "nextAction": "M07 original material/spatial study; if intermittent Back failure recurs capture native reveal/home source naming diagnostics before runtime changes",
     "limitations": [
-      "Original frame remains graybox; micro accents are not finished spatial art direction",
-      "Headless software Chrome/phone emulation; no physical performance pass"
+      "One first public Back assertion failed; unchanged complete reruns passed; cause unconfirmed",
+      "Original frame graybox; material/spatial art-direction unfinished",
+      "Headless software Chrome/phone emulation; no physical calibration"
     ]
   },
   "tasks": [
@@ -329,6 +330,37 @@
         "result": "No confirmed source blocker; meaningful in-flight lifecycle probes added and pass"
       },
       "blockers": []
+    },
+    {
+      "id": "M03",
+      "status": "done",
+      "title": "All-project native image continuity",
+      "commit": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9",
+      "evidence": [
+        "docs/automation/M03-PROJECT-TRANSITIONS.md",
+        "evidence/project-transitions/render/"
+      ],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "Delayed focus, failed destination and older history source fixed RED\u2192GREEN. Follow-up source review found no confirmed cause of intermittent Back assertion; deferred naming risk retained."
+      },
+      "blockers": [],
+      "limitations": [
+        "Initial intermittent Back assertion unresolved; further diagnostics if reproduced"
+      ]
+    },
+    {
+      "id": "M07",
+      "status": "ready",
+      "dependencies": [
+        "M03"
+      ],
+      "title": "Original-frame material/spatial study",
+      "evidence": [
+        "docs/automation/M07-SPATIAL-STUDY.md"
+      ],
+      "blockers": []
     }
   ],
   "authoritySource": "User answered choose the best option; main agent selected branch pushes + draft PR for recoverable autonomous progress.",
@@ -336,7 +368,7 @@
     "status": "published",
     "pullRequest": "https://github.com/SaamVR/SamPortfolio/pull/1",
     "draft": true,
-    "sourceCheckpoint": "bc1f7e1f9d517802c918ce7ca748ba02f12afc67"
+    "sourceCheckpoint": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9"
   },
   "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply.",
   "deployment": {
@@ -361,15 +393,15 @@
     ],
     "workspace": "My Workspace; sole accessible workspace selected under renewed user delegation to make autonomous decisions",
     "localChecks": [
-      "33 units;clean56-file check;12-page build",
-      "Decoration11/feedback6/core13/privacy4 pass"
+      "33 units;clean57-file check;12-page build",
+      "23 transition profiles;13 core;4 privacy pass"
     ],
     "workspaceId": "tea-d1ihdsbipnbc73bpc8f0",
     "serviceId": "srv-db45hirl550s73akul50",
-    "deployId": "dep-db4jhqt9fdbs73fhct4g",
+    "deployId": "dep-db4qohnlot8c73cm3gh0",
     "url": "https://the-opening-preview.onrender.com",
-    "deployedCommit": "bc1f7e1f9d517802c918ce7ca748ba02f12afc67",
-    "finishedAt": "2026-10-09T18:57:10.881121Z",
+    "deployedCommit": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9",
+    "finishedAt": "2026-10-10T03:09:18.537425Z",
     "evidence": [
       "evidence/portfolio/render/deployment.json",
       "evidence/portfolio/render/deployment-http.json",
@@ -396,7 +428,11 @@
       "evidence/motion-expansion/render/browser-results.json",
       "evidence/motion-expansion/render/decorations/results.json",
       "evidence/motion-expansion/render/feedback/results.json",
-      "evidence/motion-expansion/render/measurement-summary.json"
+      "evidence/motion-expansion/render/measurement-summary.json",
+      "evidence/project-transitions/render/deployment.json",
+      "evidence/project-transitions/render/project-transitions/results.json",
+      "evidence/project-transitions/render/measurement-summary.json",
+      "evidence/project-transitions/render/deployment-http.json"
     ]
   },
   "contentAuthority": "User selected SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other works from SaamVR GitHub on2026-10-09. Curated public project presentation authorized; exact roles, collaborators, asset-origin rights and identity/contact remain unspecified. User supplied public name Shusmoy; no contact address or exact project credits supplied.",
@@ -407,8 +443,8 @@
   },
   "motionRoadmap": {
     "document": "docs/automation/MOTION-ROADMAP.md",
-    "status": "M01_M02_done_M03_next",
-    "sourceCheckpoint": "62e3a508bd199f5e2d3bce34aa1dc295cc56f3ce",
+    "status": "M01_M02_M03_done_M07_next",
+    "sourceCheckpoint": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9",
     "order": [
       "M01 link/card/control feedback",
       "M02 chapter/gallery accents",
@@ -417,7 +453,7 @@
       "M05 brief diagram/export feedback",
       "M06 optional pointer study"
     ],
-    "nextAction": "M03 all-project native image continuity; preserve /start/ opt-out and ordinary navigation",
+    "nextAction": "M07 original-frame material/spatial study before further small case accents",
     "gates": [
       "Original geometry/proof/native scroll/zero pins preserved",
       "No changes to brief-entry transition opt-out",

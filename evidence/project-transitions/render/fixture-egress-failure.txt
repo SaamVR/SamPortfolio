@@ -1,0 +1,32 @@
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+route.fetch: connect ECONNREFUSED 216.24.57.18:443
+connect ECONNREFUSED 216.24.57.16:443
+Call log:
+[2m  - → GET https://the-opening-preview.onrender.com/work/nova/[22m
+[2m    - user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36[22m
+[2m    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7[22m
+[2m    - accept-encoding: gzip,deflate,br[22m
+[2m    - upgrade-insecure-requests: 1[22m
+[2m    - sec-ch-ua: "Chromium";v="151", "Not=A?Brand";v="99"[22m
+[2m    - sec-ch-ua-mobile: ?0[22m
+[2m    - sec-ch-ua-platform: "Linux"[22m
+
+    at /workspace/SamPortfolio/tests/project-transitions.mjs:33:79 {
+  log: [
+    '  - → GET https://the-opening-preview.onrender.com/work/nova/',
+    '    - user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36',
+    '    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    '    - accept-encoding: gzip,deflate,br',
+    '    - upgrade-insecure-requests: 1',
+    '    - sec-ch-ua: "Chromium";v="151", "Not=A?Brand";v="99"',
+    '    - sec-ch-ua-mobile: ?0',
+    '    - sec-ch-ua-platform: "Linux"'
+  ],
+  name: 'AggregateError',
+  code: 'ECONNREFUSED'
+}
+
+Node.js v24.19.0

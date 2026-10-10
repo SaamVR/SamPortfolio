@@ -17,10 +17,10 @@ try{
    const expected=id==='staypilot'?'project-image':`opening-${id}`;
    assert.equal(await page.locator('.case-image').evaluate(e=>getComputedStyle(e).viewTransitionName),expected,'case must correspond to actual project');
    const groups=await page.evaluate(()=>JSON.parse(sessionStorage.getItem('transition-groups')||'[]'));
-   assert.ok(groups.some(g=>g.name.endsWith(expected)&&g.duration===420),'real native paired image transform must be recorded');
+   assert.ok(groups.some(g=>g.name.endsWith(expected)&&g.duration===420),`${width}/${id}: real native paired image transform must be recorded`);
    await page.evaluate(()=>sessionStorage.removeItem('transition-groups'));await page.goBack();await page.waitForTimeout(550);assert.ok(Math.abs((await page.evaluate(()=>scrollY))-y)<2,'Back restores source scroll');
    const backGroups=await page.evaluate(()=>JSON.parse(sessionStorage.getItem('transition-groups')||'[]'));
-   assert.ok(backGroups.some(g=>g.name.endsWith(expected)&&g.duration===420),'Back must record a real paired transform');
+   assert.ok(backGroups.some(g=>g.name.endsWith(expected)&&g.duration===420),`${width}/${id}: Back must record a real paired transform; groups=${JSON.stringify(backGroups)}`);
    assert.equal(await link.evaluate(e=>getComputedStyle(e).viewTransitionName),expected);
    assert.equal(await page.locator('.work-thumb').evaluateAll(nodes=>nodes.filter(e=>getComputedStyle(e).viewTransitionName!=='none').length),id==='staypilot'?0:1,'only selected gallery image is named');
    results.push({width,id,groups,backGroups,checks:['real420ms forward/Back paired native image animation','ordinary route and Back source/scroll','single selected gallery name']});
@@ -30,7 +30,7 @@ try{
  }
  // Native reveal can precede the deferred route module.
  const delayed=await browser.newContext();let navigationCode='';
- await delayed.route('**/work/nova/',async route=>{const response=await route.fetch();const body=(await response.text()).replace(/<script type="module">([\s\S]*?)<\/script>/g,(script,code)=>{if(!code.includes('opening-image-source'))return script;navigationCode=code;return '<script type="module" src="/__delayed_navigation.js"></script>';});assert.ok(navigationCode,'test must delay the actual inlined navigation module');await route.fulfill({response,body});});
+ await delayed.route('**/work/nova/',async route=>{const response=await fetch(route.request().url());const body=(await response.text()).replace(/<script type="module">([\s\S]*?)<\/script>/g,(script,code)=>{if(!code.includes('opening-image-source'))return script;navigationCode=code;return '<script type="module" src="/__delayed_navigation.js"></script>';});assert.ok(navigationCode,'test must delay the actual inlined navigation module');await route.fulfill({status:response.status,contentType:"text/html",body});});
  await delayed.route('**/__delayed_navigation.js',async route=>{await new Promise(r=>setTimeout(r,900));await route.fulfill({contentType:'text/javascript',body:navigationCode});});
  const dp=await delayed.newPage();await dp.goto(baseUrl+'/work/nova/');await dp.waitForLoadState('networkidle');
  assert.equal(await dp.evaluate(()=>document.activeElement.id),'route-heading','delayed route module must recover committed heading focus');
@@ -42,7 +42,7 @@ try{
  assert.equal(await hp.locator('.work-thumb[href="/work/sm-manager/"]').evaluate(e=>getComputedStyle(e).viewTransitionName),'opening-sm-manager','older home entry must recover its own source');results.push({name:'older-home-history',checks:['distinct home history entries retain their own image source']});await history.close();
  const missing=await browser.newContext();
  await missing.addInitScript(()=>{addEventListener('pagereveal',e=>{if(e.viewTransition)void e.viewTransition.ready.then(()=>sessionStorage.setItem('missing-groups',JSON.stringify(document.getAnimations().filter(a=>a.animationName?.endsWith('opening-sm-manager')).map(a=>a.animationName))),()=>{});});});
- await missing.route('**/work/sm-manager/',async route=>{const response=await route.fetch();const original=await response.text();const body=original.replace(/(<div class="case-image"[^>]*>\s*<img[^>]*src=")[^"]+("\s)/,'$1/__test_missing_media.png$2');assert.notEqual(body,original,'test must break destination media, not source');await route.fulfill({response,body});});
+ await missing.route('**/work/sm-manager/',async route=>{const response=await fetch(route.request().url());const original=await response.text();const body=original.replace(/(<div class="case-image"[^>]*>\s*<img[^>]*src=")[^"]+("\s)/,'$1/__test_missing_media.png$2');assert.notEqual(body,original,'test must break destination media, not source');await route.fulfill({status:response.status,contentType:"text/html",body});});
  const mp=await missing.newPage();await mp.goto(baseUrl);const source=mp.locator('.work-thumb[href="/work/sm-manager/"]');await source.scrollIntoViewIfNeeded();await source.locator('img').evaluate(img=>img.decode());await mp.evaluate(()=>sessionStorage.removeItem('missing-groups'));await source.click();await mp.waitForURL('**/work/sm-manager/');await mp.waitForTimeout(600);
  assert.equal(await mp.locator('.case-image img').evaluate(img=>img.naturalWidth),0);
  assert.deepEqual(await mp.evaluate(()=>JSON.parse(sessionStorage.getItem('missing-groups')||'[]')),[],'failed destination must use ordinary navigation');
