@@ -9,7 +9,7 @@ try{
     const context=await browser.newContext({viewport:{width,height:1000},recordVideo:{dir:out}});await context.addInitScript(()=>{window.__backPersisted=false;addEventListener('pageshow',e=>window.__backPersisted=e.persisted);});const page=await context.newPage(),errors=[],trace=[];
     page.on('pageerror',e=>errors.push(e.message));await page.goto(baseUrl);
     const accents=page.locator('[data-cut-accent]');assert.equal(await accents.count(),8,'chapter, six gallery and closing accents must exist');
-    const work=page.locator('#work'),chapter=page.locator('[data-cut-accent=chapter]');
+    const chapter=page.locator('[data-cut-accent=chapter]');
     await page.evaluate(()=>{window.__cutTrace=[];const observer=new MutationObserver(records=>{for(const r of records)if(r.attributeName==='data-cut-state')window.__cutTrace.push({id:r.target.dataset.cutAccent,state:r.target.dataset.cutState});});observer.observe(document.body,{subtree:true,attributes:true});});
     await chapter.scrollIntoViewIfNeeded();await page.waitForTimeout(450);
     assert.equal(await chapter.getAttribute('data-cut-state'),'done');

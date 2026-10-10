@@ -8,7 +8,15 @@ const {project:p}=Astro.props;
 <main id="main" class="case-page portfolio-case">
 <a class="back-link" href="/#work">← All work</a>
 <div class="case-intro"><p class="eyebrow">{p.category} / {p.status} / {p.year}</p><h1 id="route-heading" tabindex="-1">{p.title}<br/><em>Behind the build.</em></h1><div><p class="case-lead">{p.summary}</p><p class="placeholder-label">{p.status} · repository-backed project</p></div></div>
-<figure class="case-figure"><div class="case-image" style={{viewTransitionName:p.id==='staypilot'?'project-image':'none'}}><img src={p.image} alt={`${p.title}: ${p.imageKind.toLowerCase()}`} width="1440" height="1000" fetchpriority="high"/></div><figcaption>{p.caption}</figcaption></figure>
+<figure class="case-figure"><div class="case-image" style={{viewTransitionName:p.id==='staypilot'?'project-image':`opening-${p.id}`}}><img src={p.image} alt={`${p.title}: ${p.imageKind.toLowerCase()}`} width="1440" height="1000" fetchpriority="high"/></div><figcaption>{p.caption}</figcaption></figure>
+<script is:inline>
+// Before native snapshots: incomplete/failed proof uses the ordinary route.
+// Never wait for image preparation or let a deferred module miss this event.
+addEventListener('pagereveal',event=>{
+  const image=document.querySelector('.case-image img');
+  if(!image?.complete||!image.naturalWidth)event.viewTransition?.skipTransition();
+},{once:true});
+</script>
 <div class="case-facts"><div><h2>Work</h2><p>{p.scope}</p><h2>Technology</h2><p>{p.stack}</p></div><div><h2>Contribution & credit</h2><p>{p.role}</p></div><div><h2>Inspectable evidence</h2><p>{p.imageKind}. Repository snapshot <code>{p.commit.slice(0,7)}</code>.</p>{p.public?<a class="text-link dark" href={`https://github.com/SaamVR/${p.repo}/tree/${p.commit}`}>Inspect source ↗</a>:<p>Source repository is private; no public source link is offered.</p>}{p.live&&<a class="text-link dark case-demo" href={p.live}>Open public demo ↗</a>}</div></div>
 <section class="decision"><span>01 / THE PROBLEM</span><div><h2>A useful reason<br/>to build.</h2><p>{p.premise}</p></div></section>
 {p.decisions.map(([title,body],i)=><section class="decision"><span>{String(i+2).padStart(2,'0')} / DESIGN & ENGINEERING</span><div><h2>{title}</h2><p>{body}</p></div></section>)}

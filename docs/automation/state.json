@@ -9,21 +9,18 @@
     "status": "not_configured",
     "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
   },
-  "currentTask": "M01/M02 completed; next eligible M03 all-project image continuity",
+  "currentTask": "M03 all-project image continuity; user motion-ambition correction",
   "lastCheckpoint": {
-    "stage": "M01_M02_live_verified",
-    "sourceCommit": "bc1f7e1f9d517802c918ce7ca748ba02f12afc67",
+    "stage": "M03_local_verified",
     "checks": [
-      "33 units;clean56-file check;12-page build",
-      "Local11 decoration/6 feedback/13 core/4 privacy pass",
-      "Public11 decoration/6 feedback/13 core and12 HTTP pass",
-      "Stronger sequential structural review no source blocker; suggested lifecycle probes added"
+      "33 units;clean57-file check;12-page build",
+      "23 transition profiles with real forward/Back keyframes;13 core;4 privacy pass",
+      "Stronger review3 blockers reproduced RED\u2192GREEN; no unrelated image morph"
     ],
-    "nextAction": "Implement M03 all-project native image continuity as a separate bounded navigation batch; preserve ordinary links and brief-entry opt-out; focused stronger structural review",
+    "nextAction": "Push and manually deploy Render; verify public transition and native fallback suite with strengthened cleared Back records",
     "limitations": [
-      "Headless Chrome, emulated phone/touch and software GPU",
-      "Observed Back reconstructed; hidden/pagehide probes synthetic; no actual BFCache certification",
-      "Content credit/contact, physical calibration and enquiry operations gates remain open"
+      "Original frame remains graybox; micro accents are not finished spatial art direction",
+      "Headless software Chrome/phone emulation; no physical performance pass"
     ]
   },
   "tasks": [
