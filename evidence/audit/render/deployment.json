@@ -1,0 +1,16 @@
+{
+  "provider": "Render",
+  "status": "live_verified",
+  "url": "https://the-opening-preview.onrender.com",
+  "serviceId": "srv-db45hirl550s73akul50",
+  "deployId": "dep-db4e9du0tbcc73e3dh30",
+  "sourceCommit": "8cc9eed1758558af64f8fc18613445f550ca02da",
+  "finishedAt": "2026-10-09T12:57:53.273172Z",
+  "checks": [
+    "11 direct-route HTTP checks and authored404",
+    "84 live audit profiles:42 Chromium plus21 Firefox and21 WebKit",
+    "Zero reported automated violations; sampled keyboard skip/focus passes",
+    "Incomplete contrast checks retained with explicit manual targets"
+  ],
+  "limits": "Linux headless and viewport reflow only; no physical device, actual Safari, actual zoom, screen-reader or full WCAG conformance claim."
+}

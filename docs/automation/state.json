@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/SaamVR/SamPortfolio",
+  "branch": "feat/opening-scenes-1-3",
+  "baselineCommit": "8120be8",
+  "executionMode": "single_main_agent",
+  "publicationAuthority": "feature_branch_push_and_draft_pr; user explicitly authorized Render deployment of current labeled preview; merge and paid resources remain unapproved",
+  "scheduler": {
+    "status": "not_configured",
+    "reason": "Reset information supplied privately; project-capable runner choice is pending. No scheduled coding job installed."
+  },
+  "currentTask": "M03 checked/checkpointed; M07 original-frame material/spatial study next",
+  "lastCheckpoint": {
+    "stage": "M03_public_verified_with_reliability_note",
+    "sourceCommit": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9",
+    "checks": [
+      "33 units;clean57-file check;12-page build",
+      "Public23 transition profiles;13 core;4 privacy;12 HTTP routes pass",
+      "All14 forward/Back pairs record420ms native paired keyframes; normal-speed1440/390 WebMs saved"
+    ],
+    "nextAction": "M07 original material/spatial study; if intermittent Back failure recurs capture native reveal/home source naming diagnostics before runtime changes",
+    "limitations": [
+      "One first public Back assertion failed; unchanged complete reruns passed; cause unconfirmed",
+      "Original frame graybox; material/spatial art-direction unfinished",
+      "Headless software Chrome/phone emulation; no physical calibration"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "A01",
+      "status": "done",
+      "dependencies": [],
+      "title": "Portable browser checks and reproducible preview",
+      "modelClass": "routine",
+      "attempts": 1,
+      "commit": "acc46b6d7ae8a61358a8423a5d1b050c736ac496",
+      "evidence": [
+        "docs/automation/A01-RESULT.md",
+        "evidence/browser-results.json"
+      ],
+      "blockers": []
+    },
+    {
+      "id": "A02",
+      "status": "done",
+      "dependencies": [
+        "A01"
+      ],
+      "title": "Capture-only WebGL buffer and bounded diagnostics",
+      "modelClass": "implementation_and_review",
+      "attempts": 1,
+      "commit": "d127ce510f95773bd10016bea0624393a31305b6",
+      "evidence": [
+        "docs/automation/A02-RESULT.md",
+        "evidence/renderer-lifecycle.json",
+        "evidence/visual-audit.json",
+        "evidence/browser-results.json"
+      ],
+      "blockers": [],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "scope": "bounded read-only A02 renderer ownership and diagnostics",
+        "result": "no confirmed findings or review blockers"
+      }
+    },
+    {
+      "id": "A03",
+      "status": "review_needed",
+      "dependencies": [
+        "A02"
+      ],
+      "title": "Evidence-backed renderer quality policy",
+      "modelClass": "implementation_and_review",
+      "attempts": 1,
+      "commit": "0ff1bf7bf0f521393554130bae77f2edfa996640",
+      "evidence": [
+        "docs/automation/A03-RESULT.md",
+        "evidence/quality-browser.json",
+        "evidence/visual-audit.json",
+        "evidence/browser-results.json"
+      ],
+      "blockers": [
+        "Named physical desktop/phone calibration unresolved; shared software trace inconclusive for lower-level effectiveness. Engineering and focused source review complete; no physical release pass."
+      ],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "One measurement defect fixed with RED\u2192GREEN terminal-disposal regression; final suites pass. No other confirmed findings; physical calibration pending."
+      }
+    },
+    {
+      "id": "A04",
+      "status": "done",
+      "dependencies": [
+        "A01"
+      ],
+      "title": "Full brief schema and direction-note migration",
+      "modelClass": "implementation_and_review",
+      "attempts": 1,
+      "commit": "315dda119e75e25783b9473c6c81460069ae4fca",
+      "evidence": [
+        "docs/automation/A04-RESULT.md",
+        "evidence/brief-migration.json"
+      ],
+      "blockers": [],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "Recovery-status defect fixed with RED\u2192GREEN regression; final 25 tests/check/build/browser migration pass. No other confirmed findings."
+      }
+    },
+    {
+      "id": "A05",
+      "status": "done",
+      "dependencies": [
+        "A04"
+      ],
+      "title": "Four-step accessible brief editor",
+      "modelClass": "routine_then_review",
+      "attempts": 1,
+      "commit": "5a52ada342b39f93441daa603c9732889b041e5d",
+      "evidence": [
+        "docs/automation/A05-RESULT.md",
+        "evidence/brief-browser.json"
+      ],
+      "blockers": [],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "Only known restored-page synchronization issue; fixed with RED\u2192GREEN browser regression. No additional confirmed findings."
+      }
+    },
+    {
+      "id": "A06",
+      "status": "done",
+      "dependencies": [
+        "A05"
+      ],
+      "title": "Revision-consistent printable and JSON exports",
+      "modelClass": "routine_then_review",
+      "attempts": 1,
+      "commit": "cf110c1d5cd7fe0cbfb0ae1d5f881add7b53bc5e",
+      "evidence": [
+        "docs/automation/A06-RESULT.md",
+        "evidence/brief-export-browser.json",
+        "evidence/brief-browser.json",
+        "evidence/browser-results.json"
+      ],
+      "blockers": [],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "No confirmed serialization/privacy issues. Successful-popup test added after review and passed with print instrumentation."
+      }
+    },
+    {
+      "id": "A07",
+      "status": "blocked",
+      "dependencies": [],
+      "title": "Approved identity and flagship content pack",
+      "modelClass": "owner_input",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "Public name Shusmoy supplied. Contact address, exact personal roles/collaborators and external asset credits remain unspecified."
+      ]
+    },
+    {
+      "id": "A08",
+      "status": "review_needed",
+      "dependencies": [
+        "A07",
+        "A01"
+      ],
+      "title": "Authentic flagship route and proof replacement",
+      "modelClass": "routine",
+      "attempts": 1,
+      "commit": "b3e4b0a48bec6f51b47733f24c4247da5c248562",
+      "evidence": [
+        "docs/PROJECT-EVIDENCE.md",
+        "public/work/evidence.json",
+        "evidence/portfolio/results.json",
+        "evidence/portfolio/render/"
+      ],
+      "blockers": [
+        "Repository-backed collection implemented and reviewed; exact contribution/collaborator/asset-origin credits remain pending before authentic flagship release gate can close."
+      ],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "scope": "project query, draft recovery/export privacy and private source links",
+        "result": "Query replay/corrupt recovery fixed; delayed-module readiness fixed; brief transition policy focused-reviewed. Final rebuilt and live suites pass. Content credits gate remains open."
+      }
+    },
+    {
+      "id": "A09",
+      "status": "blocked",
+      "dependencies": [
+        "A03"
+      ],
+      "title": "Named physical-device and cross-browser release review",
+      "modelClass": "device_access",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [
+        "docs/automation/A09-PRE-RESULT.md",
+        "evidence/accessibility/render/results.json",
+        "docs/automation/A09-CROSS-ENGINE.md",
+        "evidence/cross-engine/",
+        "docs/automation/A09-AUDIT.md",
+        "evidence/audit/render/"
+      ],
+      "blockers": [
+        "Named physical desktop/phone and Safari access, actual zoom/screen reader and A03 calibration remain required. Automated functional/audit preparation passes; home decorative dot/image-backed frame-coordinate contrast still manual."
+      ]
+    },
+    {
+      "id": "A10",
+      "status": "blocked",
+      "dependencies": [
+        "A06"
+      ],
+      "title": "Enquiry/provider/deployment contract",
+      "modelClass": "owner_input",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "Render static hosting supplied and preview deployed; real enquiry provider, verified owner retrieval/auth/notification and retention contract remain unavailable."
+      ]
+    },
+    {
+      "id": "A11",
+      "status": "blocked",
+      "dependencies": [
+        "A10"
+      ],
+      "title": "Durable enquiry transactions and reconciliation",
+      "modelClass": "strong",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "A10 operations contract required before durable enquiry implementation."
+      ]
+    },
+    {
+      "id": "A12",
+      "status": "blocked",
+      "dependencies": [
+        "A11"
+      ],
+      "title": "Real accepted receipt choreography",
+      "modelClass": "implementation_and_review",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "A11 genuinely persisted accepted enquiries required before receipt choreography."
+      ]
+    },
+    {
+      "id": "A13",
+      "status": "blocked",
+      "dependencies": [
+        "A08",
+        "A09",
+        "A12"
+      ],
+      "title": "Production publication checks",
+      "modelClass": "publication",
+      "attempts": 0,
+      "commit": null,
+      "evidence": [],
+      "blockers": [
+        "Approved work, physical release evidence, real enquiry operations and explicit publication authority required."
+      ]
+    },
+    {
+      "id": "F01",
+      "status": "done",
+      "title": "Visible first Full opening and explicit alternative hints",
+      "commit": "772e2991517b2a5336cd97cc7d88330bb4df67e1",
+      "evidence": [
+        "docs/automation/F01-MOTION.md",
+        "evidence/motion/render/"
+      ],
+      "review": {
+        "scope": "bounded stronger sequential structural motion review",
+        "result": "no remaining confirmed blocker"
+      },
+      "blockers": []
+    },
+    {
+      "id": "P01",
+      "status": "done",
+      "title": "Truthful readable privacy route and shared footer",
+      "commit": "d639cd593697c0d1f38d0ab640d15d8725ff3531",
+      "evidence": [
+        "docs/automation/P01-PRIVACY.md",
+        "evidence/privacy/render/"
+      ],
+      "blockers": []
+    },
+    {
+      "id": "M01",
+      "status": "done",
+      "title": "Bounded CSS interaction feedback",
+      "commit": "a7cdb59",
+      "evidence": [
+        "docs/automation/M01-M02-MOTION.md",
+        "evidence/motion-expansion/render/feedback/"
+      ],
+      "blockers": []
+    },
+    {
+      "id": "M02",
+      "status": "done",
+      "title": "Finite SVG chapter/gallery/closing accents",
+      "commit": "bc1f7e1f9d517802c918ce7ca748ba02f12afc67",
+      "evidence": [
+        "docs/automation/M01-M02-MOTION.md",
+        "evidence/motion-expansion/render/decorations/"
+      ],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "No confirmed source blocker; meaningful in-flight lifecycle probes added and pass"
+      },
+      "blockers": []
+    },
+    {
+      "id": "M03",
+      "status": "done",
+      "title": "All-project native image continuity",
+      "commit": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9",
+      "evidence": [
+        "docs/automation/M03-PROJECT-TRANSITIONS.md",
+        "evidence/project-transitions/render/"
+      ],
+      "review": {
+        "model": "gpt-6.1-sol",
+        "reasoningEffort": "high",
+        "result": "Delayed focus, failed destination and older history source fixed RED\u2192GREEN. Follow-up source review found no confirmed cause of intermittent Back assertion; deferred naming risk retained."
+      },
+      "blockers": [],
+      "limitations": [
+        "Initial intermittent Back assertion unresolved; further diagnostics if reproduced"
+      ]
+    },
+    {
+      "id": "M07",
+      "status": "ready",
+      "dependencies": [
+        "M03"
+      ],
+      "title": "Original-frame material/spatial study",
+      "evidence": [
+        "docs/automation/M07-SPATIAL-STUDY.md"
+      ],
+      "blockers": []
+    }
+  ],
+  "authoritySource": "User answered choose the best option; main agent selected branch pushes + draft PR for recoverable autonomous progress.",
+  "remoteCheckpoint": {
+    "status": "published",
+    "pullRequest": "https://github.com/SaamVR/SamPortfolio/pull/1",
+    "draft": true,
+    "sourceCheckpoint": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9"
+  },
+  "continuousExecutionAuthority": "User explicitly asked why work was not continuing autonomously; continue eligible tasks with checkpoints, without another go-ahead. Actual usage limits and unavailable inputs still apply.",
+  "deployment": {
+    "provider": "Render",
+    "status": "live_verified",
+    "serviceType": "static_site",
+    "name": "the-opening-preview",
+    "repo": "https://github.com/SaamVR/SamPortfolio",
+    "branch": "feat/opening-scenes-1-3",
+    "buildCommand": "npm ci --include=dev && npm run build",
+    "publishPath": "dist",
+    "autoDeploy": "no",
+    "envVars": [
+      {
+        "key": "NODE_VERSION",
+        "value": "22"
+      },
+      {
+        "key": "SKIP_INSTALL_DEPS",
+        "value": "true"
+      }
+    ],
+    "workspace": "My Workspace; sole accessible workspace selected under renewed user delegation to make autonomous decisions",
+    "localChecks": [
+      "33 units;clean57-file check;12-page build",
+      "23 transition profiles;13 core;4 privacy pass"
+    ],
+    "workspaceId": "tea-d1ihdsbipnbc73bpc8f0",
+    "serviceId": "srv-db45hirl550s73akul50",
+    "deployId": "dep-db4qohnlot8c73cm3gh0",
+    "url": "https://the-opening-preview.onrender.com",
+    "deployedCommit": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9",
+    "finishedAt": "2026-10-10T03:09:18.537425Z",
+    "evidence": [
+      "evidence/portfolio/render/deployment.json",
+      "evidence/portfolio/render/deployment-http.json",
+      "evidence/portfolio/render/portfolio/results.json",
+      "evidence/portfolio/render/browser-results.json",
+      "evidence/portfolio/render/brief-export-browser.json",
+      "evidence/portfolio/render/measurement-summary.json",
+      "evidence/cross-engine/render/deployment.json",
+      "evidence/cross-engine/render/deployment-http.json",
+      "evidence/cross-engine/render/cross-engine/results.json",
+      "evidence/audit/render/deployment.json",
+      "evidence/audit/render/deployment-http.json",
+      "evidence/audit/render/summary.json",
+      "evidence/motion/render/deployment.json",
+      "evidence/motion/render/deployment-http.json",
+      "evidence/motion/render/motion/results.json",
+      "evidence/motion/render/browser-results.json",
+      "evidence/motion/render/measurement-summary.json",
+      "evidence/privacy/render/deployment.json",
+      "evidence/privacy/render/deployment-http.json",
+      "evidence/privacy/render/privacy/results.json",
+      "evidence/motion-expansion/render/deployment.json",
+      "evidence/motion-expansion/render/deployment-http.json",
+      "evidence/motion-expansion/render/browser-results.json",
+      "evidence/motion-expansion/render/decorations/results.json",
+      "evidence/motion-expansion/render/feedback/results.json",
+      "evidence/motion-expansion/render/measurement-summary.json",
+      "evidence/project-transitions/render/deployment.json",
+      "evidence/project-transitions/render/project-transitions/results.json",
+      "evidence/project-transitions/render/measurement-summary.json",
+      "evidence/project-transitions/render/deployment-http.json"
+    ]
+  },
+  "contentAuthority": "User selected SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other works from SaamVR GitHub on2026-10-09. Curated public project presentation authorized; exact roles, collaborators, asset-origin rights and identity/contact remain unspecified. User supplied public name Shusmoy; no contact address or exact project credits supplied.",
+  "publicIdentity": {
+    "name": "Shusmoy",
+    "contact": "not_supplied",
+    "source": "User reply in current session"
+  },
+  "motionRoadmap": {
+    "document": "docs/automation/MOTION-ROADMAP.md",
+    "status": "M01_M02_M03_done_M07_next",
+    "sourceCheckpoint": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9",
+    "order": [
+      "M01 link/card/control feedback",
+      "M02 chapter/gallery accents",
+      "M03 all-project native image continuity",
+      "M04 case-reading accents",
+      "M05 brief diagram/export feedback",
+      "M06 optional pointer study"
+    ],
+    "nextAction": "M07 original-frame material/spatial study before further small case accents",
+    "gates": [
+      "Original geometry/proof/native scroll/zero pins preserved",
+      "No changes to brief-entry transition opt-out",
+      "M06 protected bounds and stronger review",
+      "Accepted receipt remains blocked on real A11 operations"
+    ]
+  }
+}

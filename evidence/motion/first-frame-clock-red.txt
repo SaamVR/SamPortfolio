@@ -1,0 +1,46 @@
+✔ rapid input retains rendered pose and resolves the latest selection without a queue (2.264831ms)
+✔ repeated selection does not restart choreography (0.224003ms)
+✔ offscreen reentry settles latest selected target with no time debt (0.333288ms)
+✔ all interrupted paths stay within the endpoint angle envelope (5.371737ms)
+✔ first Full presentation matches its poster then folds and opens without changing selected state (0.315377ms)
+✔ entry can be retargeted from the rendered angles and settles the latest choice (0.136323ms)
+✖ entry clock waits for the first visible frame instead of expiring during renderer startup (1.694821ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 6
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 238.846512
+
+✖ failing tests:
+
+test at tests/pose.test.ts:37:1
+✖ entry clock waits for the first visible frame instead of expiring during renderer startup (1.694821ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   NaN,
+  +   NaN,
+  +   NaN
+  -   -18,
+  -   22,
+  -   8
+    ]
+  
+      at TestContext.<anonymous> (/workspace/SamPortfolio/tests/pose.test.ts:39:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ NaN, NaN, NaN ],
+    expected: [ -18, 22, 8 ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

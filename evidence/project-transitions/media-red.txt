@@ -1,0 +1,27 @@
+
+ astro  v5.18.2 ready in 16 ms
+
+┃ Local    http://127.0.0.1:4330/
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: failed destination must use ordinary navigation
++ actual - expected
+
++ [
++   '-ua-view-transition-group-anim-opening-sm-manager'
++ ]
+- []
+
+    at file:///workspace/SamPortfolio/tests/project-transitions.mjs:45:9 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: [ '-ua-view-transition-group-anim-opening-sm-manager' ],
+  expected: [],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

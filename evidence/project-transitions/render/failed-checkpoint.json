@@ -1,0 +1,8 @@
+{
+  "sourceCommit": "3217e049c1d96dcf0f8f1deda62db7301c6548e7",
+  "result": "paired native transform assertion failed",
+  "profile": "original assertion did not record the failing project ID",
+  "followup": "Live StayPilot probe found intrinsic width1440 with completefalse; load completed33.1ms later",
+  "fix": "Accept intrinsic dimensions before load completion; unknown-size media still takes ordinary navigation",
+  "publicSuccess": false
+}

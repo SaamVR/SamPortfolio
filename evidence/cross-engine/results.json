@@ -1,0 +1,75 @@
+{
+  "enginesRequested": [
+    "firefox"
+  ],
+  "runAt": "2026-10-09T06:31:38.403Z",
+  "baseUrl": "http://127.0.0.1:4330",
+  "environment": "Linux headless Playwright engines; unthrottled; viewport emulation only",
+  "results": [
+    {
+      "engine": "firefox",
+      "version": "157.0",
+      "width": 1440,
+      "checks": [
+        "approved public name",
+        "immediate rapid/repeated selection",
+        "responsive home",
+        "ordinary case navigation and Back preserves direction",
+        "seven direct cases, decoded evidence and responsive bounds",
+        "known reference consumed; removal persists on reload",
+        "review and JSON download"
+      ],
+      "support": {
+        "pagereveal": false,
+        "viewTransition": true,
+        "renderer": "not_ready",
+        "fallback": null
+      },
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "157.0",
+      "width": 390,
+      "checks": [
+        "approved public name",
+        "immediate rapid/repeated selection",
+        "responsive home",
+        "ordinary case navigation and Back preserves direction",
+        "seven direct cases, decoded evidence and responsive bounds",
+        "known reference consumed; removal persists on reload",
+        "review and JSON download"
+      ],
+      "support": {
+        "pagereveal": false,
+        "viewTransition": true,
+        "renderer": "not_ready",
+        "fallback": null
+      },
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "157.0",
+      "mode": "light",
+      "width": 390,
+      "checks": [
+        "selected state and HTML proof",
+        "cold authored alternative omits renderer"
+      ],
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "157.0",
+      "mode": "reduced",
+      "width": 390,
+      "checks": [
+        "selected state and HTML proof",
+        "cold authored alternative omits renderer"
+      ],
+      "errors": []
+    }
+  ],
+  "limits": "WebKit is not Safari or a physical iPhone. No physical GPU, screen reader, actual zoom, performance budget or full accessibility certification."
+}

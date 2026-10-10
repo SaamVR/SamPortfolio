@@ -1,0 +1,23 @@
+
+ astro  v5.18.2 ready in 14 ms
+
+┃ Local    http://127.0.0.1:4330/
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: chapter, six gallery and closing accents must exist
+
+0 !== 8
+
+    at file:///workspace/SamPortfolio/tests/decorations-browser.mjs:11:60 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 0,
+  expected: 8,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+import {services,projects} from '../features/brief/catalog';
+---
+<Base title="Shape your brief — The Opening" paper>
+<main id="main" class="start-page">
+<a class="back-link" href="/">← The Opening</a>
+<p class="eyebrow">A STARTING POINT, NOT A COMMITMENT.</p>
+<h1 id="route-heading" tabindex="-1">Make room<br/><em>for an idea.</em></h1>
+<div class="brief-layout">
+<form id="brief-form" novalidate>
+<nav class="brief-steps" aria-label="Brief steps">{['goal','direction','scope','review'].map((step,i)=><button type="button" data-step={step}><span>0{i+1}</span>{step[0].toUpperCase()+step.slice(1)}</button>)}</nav>
+<p id="draft-status" role="status">Your anonymous brief can stay on this device.</p>
+<p id="draft-notices" class="brief-notices"></p>
+<div id="brief-errors" class="brief-errors" role="alert" tabindex="-1" hidden></div>
+<fieldset id="step-goal" data-brief-step="goal"><legend tabindex="-1">01 / What should this make possible?</legend>
+<label for="goal">What would you like to make? <span>Required for review</span></label><textarea id="goal" data-brief-field="goal" maxlength="2000" rows="4" placeholder="A website, an interaction, a new way to tell your story…" aria-required="true"></textarea>
+<label for="audience">Who is it for?</label><textarea id="audience" data-brief-field="audience" maxlength="1000" rows="2" placeholder="The people you need to reach"></textarea>
+<label for="desiredAction">What should they do or understand?</label><textarea id="desiredAction" data-brief-field="desiredAction" maxlength="1000" rows="2"></textarea>
+</fieldset>
+<fieldset id="step-direction" data-brief-step="direction"><legend tabindex="-1">02 / Give it a feel.</legend><p>Current direction: <strong id="saved-direction">Precise</strong></p>
+<div class="brief-feels">{['precise','playful','cinematic'].map(feel=><button type="button" data-brief-feel={feel} aria-pressed={feel==='precise'}>{feel[0].toUpperCase()+feel.slice(1)}</button>)}</div>
+<p class="brief-help">This shares your direction with the opening. Change it whenever you need.</p>
+<h2>Work to discuss</h2><p class="brief-help">Owner-selected projects and the original frame study. Prototype and demo data are labeled.</p>
+{projects.map(project=><label class="brief-choice"><input type="checkbox" data-id-field="projectReferenceIds" value={project.id}/><span>{project.label}<small>{project.kind==='repository_project'?project.note+' · contribution credits pending':'Development placeholder · pending owner approval'}</small></span></label>)}
+</fieldset>
+<fieldset id="step-scope" data-brief-step="scope"><legend tabindex="-1">03 / Find the edges.</legend>
+<h2>Areas to explore</h2><p class="brief-help">Offer preview · capabilities pending owner approval.</p>
+{services.map(service=><label class="brief-choice"><input type="checkbox" data-id-field="serviceIds" value={service.id}/><span>{service.label}<small>Pending owner approval</small></span></label>)}
+<label for="constraints">What do we need to work around?</label><textarea id="constraints" data-brief-field="constraints" maxlength="2000" rows="3" placeholder="Accessibility, existing systems, content, dependencies…"></textarea>
+<div class="brief-pair"><div><label for="budget">Budget context <span>Optional</span></label><input id="budget" data-brief-field="budget" maxlength="300"/></div><div><label for="timing">Timing <span>Optional</span></label><input id="timing" data-brief-field="timing" maxlength="300"/></div></div>
+<label for="referenceURLs">Reference links <span>Optional</span></label><textarea id="referenceURLs" rows="3" maxlength="16392" placeholder="One https:// or http:// link per line" aria-describedby="reference-help"></textarea><p id="reference-help" class="brief-help">Up to eight links, 2048 characters each. Links with embedded credentials are excluded.</p>
+</fieldset>
+<fieldset id="step-review" data-brief-step="review"><legend tabindex="-1">04 / A starting point to keep.</legend>
+<p class="brief-help">Review your anonymous brief. Use the steps above to edit it.</p><div id="brief-review"></div>
+<p class="brief-help">Capabilities remain pending owner approval. Repository projects are owner-selected; exact contribution credits remain pending. The form study is a development placeholder.</p>
+<div class="brief-exports"><button type="button" class="button primary" id="export-draft">Export brief JSON ↓</button><button type="button" class="button brief-secondary" id="export-printable">Download print HTML ↓</button><button type="button" class="button brief-secondary" id="print-brief">Print brief ↗</button></div>
+<p class="brief-help">An export is a copy of your brief, not a submitted enquiry.</p>
+</fieldset>
+<div class="brief-actions"><button type="button" id="brief-back" class="button brief-secondary">Previous</button><button type="submit" id="brief-next" class="button primary">Continue →</button></div>
+<noscript><p>This editor needs JavaScript to save and export a brief. The fields remain readable; this preview cannot send enquiries.</p></noscript>
+</form>
+<aside class="brief-aside"><p class="eyebrow">KEEP THE IDEA. LEAVE ROOM.</p><h2>Your brief,<br/><em>at your pace.</em></h2><p>No contact details or account required. Your anonymous draft stays on this device when storage is available.</p><h3>Contact configuration pending</h3><p>No verified email or enquiry service was supplied. This preview cannot send enquiries. Export your brief to keep it.</p><p>No name, email or message is collected. No project is booked or submitted here.</p><a class="text-link dark" href="/#work">Explore the work ↗</a></aside>
+</div></main><script>import '../features/brief/start';</script></Base>

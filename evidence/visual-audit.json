@@ -1,0 +1,102 @@
+{
+  "runAt": "2026-10-08T14:55:59.716Z",
+  "environment": "Headless Chromium + SwiftShader software rasterizer, sequential profile runs on shared Linux workspace; external observer RAF intervals while production choreography is active, not physical-device or GPU timestamp measurements.",
+  "profiles": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "emulatedDpr": 1.5,
+      "p95": 83.29999999999973,
+      "samples": 80,
+      "measurement": "External browser RAF observer; production defaults, buffer retention/diagnostics disabled",
+      "qualityChanges": [
+        {
+          "level": "full",
+          "at": 633.9,
+          "samples": 0
+        },
+        {
+          "level": "lower",
+          "at": 7500.4,
+          "samples": 75
+        }
+      ],
+      "phases": [
+        {
+          "level": "full",
+          "samples": 75,
+          "p95": 83.29999999999973
+        },
+        {
+          "level": "lower",
+          "samples": 5,
+          "p95": 83.39999999999964
+        }
+      ],
+      "framebuffer": {
+        "width": 735,
+        "height": 612
+      },
+      "stats": {
+        "angles": "[-38,42,18]",
+        "active": "false",
+        "choreographies": "5",
+        "frameCount": "94",
+        "quality": "lower",
+        "ready": "true"
+      }
+    },
+    {
+      "name": "phone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "emulatedDpr": 3,
+      "p95": 16.799999999999727,
+      "samples": 193,
+      "measurement": "External browser RAF observer; production defaults, buffer retention/diagnostics disabled",
+      "qualityChanges": [
+        {
+          "level": "full",
+          "at": 368.3,
+          "samples": 0
+        }
+      ],
+      "phases": [
+        {
+          "level": "full",
+          "samples": 193,
+          "p95": 16.799999999999727
+        },
+        {
+          "level": "lower",
+          "samples": 0,
+          "p95": null
+        }
+      ],
+      "framebuffer": {
+        "width": 343,
+        "height": 286
+      },
+      "stats": {
+        "angles": "[-38,42,18]",
+        "active": "false",
+        "choreographies": "5",
+        "frameCount": "206",
+        "quality": "full",
+        "ready": "true"
+      }
+    }
+  ],
+  "additionalChecks": [
+    "keyboard Enter selects and animates",
+    "focus capture",
+    "storage unavailable selection and note",
+    "matched poster/render screenshots",
+    "original pose sheet"
+  ]
+}

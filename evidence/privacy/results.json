@@ -1,0 +1,54 @@
+{
+  "runAt": "2026-10-10T02:58:12.691Z",
+  "baseUrl": "http://127.0.0.1:4330",
+  "browser": "151.0.7922.173",
+  "results": [
+    {
+      "width": 1440,
+      "checks": [
+        "direct privacy HTTP200",
+        "existing draft unchanged by privacy visit",
+        "no form or renderer request",
+        "privacy axe and skip-link keyboard access",
+        "four shared-footer routes within viewport"
+      ],
+      "axeVersion": "4.13.0",
+      "incomplete": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "checks": [
+        "direct privacy HTTP200",
+        "existing draft unchanged by privacy visit",
+        "no form or renderer request",
+        "privacy axe and skip-link keyboard access",
+        "four shared-footer routes within viewport"
+      ],
+      "axeVersion": "4.13.0",
+      "incomplete": [],
+      "errors": []
+    },
+    {
+      "width": 320,
+      "checks": [
+        "direct privacy HTTP200",
+        "existing draft unchanged by privacy visit",
+        "no form or renderer request",
+        "privacy axe and skip-link keyboard access",
+        "four shared-footer routes within viewport"
+      ],
+      "axeVersion": "4.13.0",
+      "incomplete": [],
+      "errors": []
+    },
+    {
+      "name": "no-javascript",
+      "checks": [
+        "privacy text readable",
+        "ordinary brief link works"
+      ]
+    }
+  ],
+  "limitations": "Headless Chrome and viewport emulation; scoped automated accessibility checks, not physical-device/screen-reader or full conformance certification."
+}

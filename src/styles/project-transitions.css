@@ -1,0 +1,10 @@
+/* Only the selected home source is named by navigation.ts. Case IDs never
+   morph unrelated project images into each other. Browser owns the route. */
+::view-transition-group(opening-sm-manager),
+::view-transition-group(opening-ecomcms),
+::view-transition-group(opening-tingtune),
+::view-transition-group(opening-nova),
+::view-transition-group(opening-servicedesk),
+::view-transition-group(opening-ezcomo){
+  animation-duration:420ms;animation-timing-function:cubic-bezier(.25,.1,.25,1);
+}

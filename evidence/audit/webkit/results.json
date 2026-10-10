@@ -1,0 +1,340 @@
+{
+  "runAt": "2026-10-09T12:56:03.295Z",
+  "baseUrl": "http://127.0.0.1:4330",
+  "engine": "webkit",
+  "version": "27.2",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "profiles": [
+    {
+      "path": "/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 26,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "Explore the work"
+        }
+      }
+    },
+    {
+      "path": "/work/staypilot/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/start/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← The Opening"
+        }
+      }
+    },
+    {
+      "path": "/start/",
+      "width": 1440,
+      "step": "direction",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/start/",
+      "width": 1440,
+      "step": "scope",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/start/",
+      "width": 1440,
+      "step": "review",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/unknown-audit-route/",
+      "width": 1440,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 15,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "Explore the work ↗"
+        }
+      }
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 26,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "Explore the work"
+        }
+      }
+    },
+    {
+      "path": "/work/staypilot/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/start/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← The Opening"
+        }
+      }
+    },
+    {
+      "path": "/start/",
+      "width": 390,
+      "step": "direction",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/start/",
+      "width": 390,
+      "step": "scope",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/start/",
+      "width": 390,
+      "step": "review",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/unknown-audit-route/",
+      "width": 390,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 15,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "Explore the work ↗"
+        }
+      }
+    },
+    {
+      "path": "/",
+      "width": 320,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 26,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "Explore the work"
+        }
+      }
+    },
+    {
+      "path": "/work/staypilot/",
+      "width": 320,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 18,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← All work"
+        }
+      }
+    },
+    {
+      "path": "/start/",
+      "width": 320,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "← The Opening"
+        }
+      }
+    },
+    {
+      "path": "/start/",
+      "width": 320,
+      "step": "direction",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/start/",
+      "width": 320,
+      "step": "scope",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/start/",
+      "width": 320,
+      "step": "review",
+      "axeVersion": "4.13.0",
+      "passes": 23,
+      "incomplete": [],
+      "violations": []
+    },
+    {
+      "path": "/unknown-audit-route/",
+      "width": 320,
+      "step": "page",
+      "axeVersion": "4.13.0",
+      "passes": 15,
+      "incomplete": [],
+      "violations": [],
+      "keyboard": {
+        "skipIntoMain": true,
+        "focus": {
+          "visible": true,
+          "width": 3,
+          "style": "solid",
+          "tag": "A",
+          "text": "Explore the work ↗"
+        }
+      }
+    }
+  ],
+  "limits": "Automated axe audit and sampled keyboard input on Linux headless engines. Narrow viewport is reflow, not actual browser zoom. No screen reader, physical device, Safari, full WCAG conformance or GPU/performance pass."
+}

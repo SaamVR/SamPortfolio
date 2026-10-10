@@ -1,0 +1,20 @@
+
+ astro  v5.18.2 ready in 14 ms
+
+┃ Local    http://127.0.0.1:4330/
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: chapter must draw once in Full
+    at file:///workspace/SamPortfolio/tests/decorations-browser.mjs:16:12 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

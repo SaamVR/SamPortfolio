@@ -1,0 +1,37 @@
+{
+  "runAt": "2026-10-09T04:46:13.744Z",
+  "browser": "151.0.7922.173",
+  "checks": [
+    {
+      "width": 1440,
+      "checks": [
+        "JSON/HTML match requested revision",
+        "script-like input is escaped",
+        "approval/provenance exported",
+        "earlier downloads unchanged after edit",
+        "unblocked popup contains requested revision and invokes instrumented print without opener",
+        "blocked print window downloads current immutable HTML",
+        "invalid reference buffer blocks export",
+        "offline print-media layout, no horizontal overflow"
+      ],
+      "originalRevision": 3,
+      "editedRevision": 4
+    },
+    {
+      "width": 390,
+      "checks": [
+        "JSON/HTML match requested revision",
+        "script-like input is escaped",
+        "approval/provenance exported",
+        "earlier downloads unchanged after edit",
+        "unblocked popup contains requested revision and invokes instrumented print without opener",
+        "blocked print window downloads current immutable HTML",
+        "invalid reference buffer blocks export",
+        "offline print-media layout, no horizontal overflow"
+      ],
+      "originalRevision": 3,
+      "editedRevision": 4
+    }
+  ],
+  "limits": "Offline HTML/print-media and blocked-popup fallback tested. Unblocked popup print was instrumented to avoid an OS dialog; real OS print dialogs, physical devices and accessibility conformance not certified."
+}

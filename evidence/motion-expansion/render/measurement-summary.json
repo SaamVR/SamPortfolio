@@ -1,0 +1,32 @@
+{
+  "sourceCommit": "bc1f7e1f9d517802c918ce7ca748ba02f12afc67",
+  "runAt": "2026-10-09T18:59:04.333Z",
+  "journey": "Cold home plus native scroll to bottom; does not fetch every middle-page media asset",
+  "costs": [
+    {
+      "name": "cold-full",
+      "encodedBodiesBytes": 241073,
+      "lcpMs": 500,
+      "activeP95Ms": null
+    },
+    {
+      "name": "cold-light",
+      "encodedBodiesBytes": 107894,
+      "lcpMs": 492,
+      "activeP95Ms": null
+    },
+    {
+      "name": "cold-reduced",
+      "encodedBodiesBytes": 107894,
+      "lcpMs": 508,
+      "activeP95Ms": null
+    }
+  ],
+  "build": {
+    "homeEntryMinifiedKB": 9.93,
+    "homeEntryGzipKB": 4.1,
+    "rendererMinifiedKB": 511.51,
+    "rendererGzipKB": 131.09
+  },
+  "limits": "Unthrottled headless Chrome/software GPU, not physical calibration. Production activeP95 absent; do not infer a pass. SVG effects settle without RAF/retained fill."
+}

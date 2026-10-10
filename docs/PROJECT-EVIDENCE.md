@@ -1,0 +1,45 @@
+# Selected repository work — 2026-10-09
+
+The user explicitly directed use of SM Manager, EcomCMS, TingTune, NOVA, StayPilot and other work from SaamVR GitHub. This authorizes curated portfolio presentation of those projects; it does not supply exact contributor roles, collaborator or third-party asset-origin credits, client delivery status or outcome metrics. Public name is Shusmoy (owner supplied); contact is still unspecified.
+
+## Evidence workflow
+
+Read-only clones were inspected outside this public repository. Main was not treated as the latest implementation where it contained an older baseline. TingTune uses the P006 integration branch; ServiceDesk uses a V2 gate branch. Snapshot SHAs and inspected paths are captured in src/content/projects.ts and public/work/evidence.json. No raw private application source, customer records, keys or internal operational logs are republished.
+
+StayPilot is the featured proof because its public demo and source show a stateful workflow with human approval boundaries. Actual project proof now appears in ordinary HTML before WebGL and leads to /work/staypilot/. The original /work/opening-study/ route remains available as a labeled frame study. Geometry and motion are preserved.
+
+Seven projects: StayPilot, SM Manager, EcomCMS, TingTune, NOVA, ServiceDesk AI and EZComo. Test/probe repositories and duplicate older variants were excluded from the curated selection.
+
+## Images
+
+Four actual browser captures: StayPilot public Owner demo, TingTune public Phase-000 learner, NOVA local repository runtime after FBX load, EZComo local root homepage. JPEG screenshots were captured directly at1440×1000, quality68. No generated mockup is described as an app screenshot. StayPilot/EZComo numbers and names are seeded demo data, not client outcomes. TingTune’s deployed lesson differs from inspected P006 source. NOVA’s fictional product metrics are excluded from case claims; model creator/licensing attribution remains unconfirmed.
+
+SM Manager, EcomCMS and ServiceDesk use newly authored source-based SVG architecture diagrams, explicitly labeled as diagrams rather than screenshots. Private source links are omitted. EcomCMS stock/demo product-photo assets were not copied because their external rights were not established.
+
+## Brief continuity
+
+Repository projects have owner_selected/repository_project catalog metadata. The legacy opening-study ID stays pending/development_placeholder so existing drafts still restore. Review and JSON/print exports label each reference truthfully. Case links may add a known project reference once; the query hint is consumed without adding history entries, removal persists on reload, and temporary/corrupt recovery is not automatically saved over original data. Contact and enquiry delivery remain unavailable.
+
+## Current checks
+
+29 unit tests passed; type checks clean;11 static pages built with the existing renderer chunk warning. Seven direct cases at1440/390/320, case-to-brief selection/removal/recovery and no-JS proof passed.13 scene/navigation/fallback scenarios and brief/export journeys passed. Final16 sampled accessibility route/width profiles passed after waiting for native fragment URL completion rather than asserting synchronously. Local cold home+bottom-scroll bodies: Full317.361KB, Light/reduced186.491KB; real project media adds cost. This journey does not load every mid-page image. Focused Sol/high review identified query replay and corrupt recovery overwrite; both were fixed, with final review finding no confirmed blockers. New browser regressions cover both.
+
+## Remaining publication facts
+
+Exact personal role and collaborators per project, original asset attribution (especially NOVA model), approved public contact, physical-device/cross-browser release evidence and real enquiry operations remain open. Curated cases describe repository-observed design and implementation, not deployed business outcomes. No project metrics, enquiries or certifications are fabricated.
+
+## Deployed validation defect and fix
+
+Public collection deployments exposed an unhandled `Transition was skipped` error on case-to-brief navigation. Scoped native readiness handlers remain in place, but catches alone did not resolve that public failure. Controls with URL replacement disabled disproved URL cleanup as the cause. Both source and destination must opt out of the brief's decorative transition in this Chromium profile. Ordinary unmodified brief links now set that source policy before native navigation; the brief destination does not opt in. Back restores the source policy. Hero-to-case image continuity stays enabled. No link interception or global error suppression is used.
+
+A separate slow-module defect was confirmed: pagereveal can fire before the brief module loads. A parser-time marker records reveal/readiness; known project hints are consumed after readiness for both early and late registration. The 1.5s module-delay regression verifies removal persists across reload.
+
+The final rebuilt local project suite (seven cases, three widths, reference selection/removal, corrupt recovery and no-JS proof) and 13 core scene/navigation/fallback scenarios pass. Focused structural review found no confirmed blockers. Final Render deployment b3e4b0a (dep-db47fru0tbcc73ddmneg) is live and verified. Public seven-case/three-width profiles,13 core scenarios, two-width export journeys and11 HTTP checks passed. Captures/results: evidence/portfolio/render/. Earlier failed deployments remain documented as failures.
+
+## Final public measurements
+
+Render reported live at2026-10-09T05:13:45.189883Z. Cold home+bottom-scroll encoded bodies: Full239,365 bytes, Light106,391 and reduced106,391. Individual lab LCP entries416/428/432ms respectively. This unthrottled software browser journey does not fetch every middle gallery image; all project media assets total346,071 bytes. These are observations, not field or physical-device passes. Live desktop home and390px case captures were visually inspected. Deferred renderer size warning remains. The draft PR is not merged; documentation-only commits after b3e4b0a are not automatically deployed.
+
+## F01 visible motion checkpoint
+
+Current application 772e2991517b2a5336cd97cc7d88330bb4df67e1; deploy dep-db4es3bncjis73cp61d0; live 2026-10-09T13:37:42.540987Z. Public8 motion profiles at1440/390,13 core scenarios and11 HTTP checks passed. One-time matched-poster fold/open entrance deliberately extends D07 startup; original geometry/protected proof bounds and repeat/retarget/reentry policy remain. Actual unedited recordings, captures, reports and cost observations: evidence/motion/render/. No physical performance or full publication claim; contact/credits/device/enquiry gates remain open.

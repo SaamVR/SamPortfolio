@@ -1,2 +1,77 @@
 # SamPortfolio
-My Creative Portfolio Presentation 
+
+My Creative Portfolio Presentation — **THE OPENING**.
+
+A production-bound Scenes 1–3 portfolio slice, built from the attached final decision register. The slice was initially authored locally, then integrated into SaamVR/SamPortfolio on branch feat/opening-scenes-1-3. The owner selected real GitHub projects for curated presentation. **Portfolio preview; contact, exact project credits and physical release validation remain open.**
+
+Live development preview: https://the-opening-preview.onrender.com. Public-host checks and captures: [Render deployment report](docs/deployment/RENDER.md).
+
+## Run
+
+Node 22+; dependencies pinned in package-lock.json.
+
+```sh
+npm ci
+npm run dev
+npm run check
+npm test
+npm run build
+npm run verify:browser
+```
+
+`npm run verify:browser` launches its own loopback production preview on port 4330 and cleans it up after success, failure or interruption. Set `OPENING_PREVIEW_PORT` to choose another free port. For an existing preview, run `OPENING_BASE_URL=http://127.0.0.1:4322 npm run test:browser`. All browser/capture/visual tools share that URL configuration and accept `OPENING_BROWSER_PATH` for a browser executable. They prefer system Chromium when available, otherwise Playwright’s installed Chromium; install it once with `npx playwright install chromium` if needed. These checks use software WebGL. `tests/capture-posters.mjs` regenerates the three exact renderer posters; `npx tsx tests/manifest.ts` regenerates the pivot/projection manifest. Rebuild after regenerating assets.
+
+## Routes
+
+- `/`: readable hero, DOM proof, three immediate direction controls, bounded 3D choreography, local native-scroll handoff, work and contact navigation.
+- `/work/staypilot/`, `/work/sm-manager/`, `/work/ecomcms/`, `/work/tingtune/`, `/work/nova/`, `/work/servicedesk/`, `/work/ezcomo/`: repository-backed project cases with captured prototype screens or labeled architecture diagrams. StayPilot is the featured HTML proof.
+- `/work/opening-study/`: explicitly labeled original development study; native image continuity in browsers supporting cross-document View Transitions.
+- `/privacy/`: readable local draft/preferences/export data handling, browser removal instructions and current enquiry limitations; works without JavaScript.
+- `/start/`: four-step anonymous brief (Goal / Direction / Scope / Review), device persistence with legacy migration, revision-consistent JSON/standalone print HTML and print-window fallback. Contact configuration honestly unavailable; no send/receipt fiction.
+
+Static HTML and native links carry the hero, proof and case content. Brief editing/persistence/export use JavaScript, with an explicit no-JavaScript notice. Only the scene imports Three.js. Light and reduced motion avoid that import. No pins, idle animation, fonts, external imagery, project-video downloads or client-side router. No scene request blocks a route. Unsupported continuity uses normal navigation. Renderer failure is terminal for the tab visit; zero restoration attempts is within the maximum-one policy. Back may restore BFCache and native scroll, with fresh GPU resources.
+
+## Evidence & handoff
+
+Read [execution and architecture](docs/EXECUTION.md), [verification report](docs/VERIFICATION.md), [handoff](docs/HANDOFF.md), and the [authority](docs/AUTHORITY.md). Captures and raw browser measurements are under `evidence/`; the authored geometry manifest is `public/art/manifest.json`.
+
+The owner authorized use of their GitHub work. Read [project evidence and credits](docs/PROJECT-EVIDENCE.md) and [snapshot/media provenance](public/work/evidence.json). Four real runtime captures and three source-based diagrams document the selected projects. Demo values are not client results; private repository source is not republished. Exact personal roles/collaborators, external asset credits, public contact and enquiry delivery remain open. The Opening frame study stays explicitly developmental.
+
+## Autonomous continuation
+
+The slice and next-task queue are on `feat/opening-scenes-1-3`: [draft PR #1](https://github.com/SaamVR/SamPortfolio/pull/1). Read [the runbook](docs/automation/RUNBOOK.md), [task queue](docs/automation/state.json) and [implementation plan](docs/superpowers/plans/2026-10-08-autonomous-portfolio.md). One main agent, bounded tasks, checked checkpoints and feature-branch pushes. Render static preview deployment is authorized and completed; no scheduler, merge, paid service or genuine production publication is implied. Runner configuration remains a separate verified setup.
+
+Renderer tooling: ordinary visits use a non-retained framebuffer and minimal lifecycle diagnostics. `/?openingCapture=1` enables the synchronous PNG adapter used by `tests/capture-posters.mjs`; `/?openingDiagnostics=1` enables heavier bounds/frame traces without capture retention. These are explicit tooling configurations, not performance representative defaults.
+
+To check renderer separation and run normal-mode visual traces against owned previews after building:
+```sh
+node scripts/preview-browser.mjs tests/renderer-lifecycle.mjs
+node scripts/preview-browser.mjs tests/visual-audit.mjs
+```
+
+Adaptive rendering uses two consecutive bad 40-sample active-frame windows per step: Full → lower resolution → authored Light. The p95 trigger is 15% above the proposed 25 ms desktop / 40 ms narrow-layout target; reports still assess the original targets. Lower resolution keeps animation and composition; terminal Light keeps direction and native routes. Quality never automatically increases within a tab visit, including Back/reload when session storage is available. Without session storage it is retained in the current document/BFCache only. Physical-device calibration is pending.
+
+`node scripts/preview-browser.mjs tests/quality-browser.mjs` verifies transitions using explicitly synthetic samples through the opt-in `openingDiagnostics=1&openingQualityTest=1` adapter. Synthetic checks are separate from normal-mode performance measurements and cannot establish a performance pass. Capture mode does not adapt, so authored poster extraction is stable.
+
+Brief checks after building:
+```sh
+node scripts/preview-browser.mjs tests/brief-migration-browser.mjs
+node scripts/preview-browser.mjs tests/brief-browser.mjs
+node scripts/preview-browser.mjs tests/brief-export-browser.mjs
+```
+
+Anonymous storage uses `opening-brief-v1`; a valid legacy direction note migrates once with its identity/goal/feel preserved. JSON and printable HTML freeze the selected revision and exclude contact/unknown fields. Offline HTML includes print styles and provenance labels; successful print-window invocation is tested with instrumentation, not a certified OS print dialog.
+
+## Automated accessibility preparation
+
+`tests/audit-browser.mjs` uses development-only axe4.13 and sampled keyboard input. Chromium covers all cases and four brief states at1440/390/320; Firefox/WebKit cover shared representative routes and brief states. Set OPENING_AUDIT_ENGINE and OPENING_AUDIT_EVIDENCE to select engine/output. Run against an existing OPENING_BASE_URL, or use the owned preview runner:
+
+```sh
+node --input-type=module -e 'import {runPreviewBrowser} from "./scripts/preview-browser.mjs";const r=await runPreviewBrowser({suiteCommand:["node","tests/audit-browser.mjs"]});process.exitCode=r.exitCode;'
+```
+
+Results retain automated violations and incomplete checks requiring manual review. This is not screen-reader, actual zoom, physical-device/Safari or full WCAG certification. See docs/automation/A09-AUDIT.md.
+
+Privacy-route and shared-footer verification after building: `node scripts/preview-browser.mjs tests/privacy-browser.mjs`. Reports and desktop/phone captures: `evidence/privacy/`.
+
+Interaction feedback and finite chapter/gallery Cut accents: CSS plus one scoped SVG controller, no new library. After building, run `node scripts/preview-browser.mjs tests/feedback-browser.mjs` and `node scripts/preview-browser.mjs tests/decorations-browser.mjs`. Actual source-versioned recordings/captures: `evidence/feedback/`, `evidence/decorations/`, and deployed `evidence/motion-expansion/render/`. See `docs/automation/M01-M02-MOTION.md` for lifecycle probes and limitations.

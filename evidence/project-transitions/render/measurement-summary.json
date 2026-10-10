@@ -1,0 +1,26 @@
+{
+  "sourceCommit": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9",
+  "runAt": "2026-10-10T03:12:45.416Z",
+  "environment": "Linux Chromium headless, SwiftShader software WebGL; configured origin, no throttling. Phone is viewport/touch emulation, not hardware.",
+  "coldHomeAndBottomScroll": [
+    {
+      "mode": "cold-full",
+      "encodedBodyBytes": 241558,
+      "lcpMs": 392,
+      "activeP95": null
+    },
+    {
+      "mode": "cold-light",
+      "encodedBodyBytes": 108379,
+      "lcpMs": 468,
+      "activeP95": null
+    },
+    {
+      "mode": "cold-reduced",
+      "encodedBodyBytes": 108379,
+      "lcpMs": 404,
+      "activeP95": null
+    }
+  ],
+  "limitation": "Unthrottled headless Chromium/software WebGL, phone emulation. Partial scroll journey does not fetch every gallery image; not physical/field performance certification."
+}

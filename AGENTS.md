@@ -1,0 +1,17 @@
+# THE OPENING — autonomous work instructions
+
+Read `docs/automation/state.json`, `docs/automation/WORKER-PROMPT.md`, and the selected task in `docs/superpowers/plans/2026-10-08-autonomous-portfolio.md`. Read `docs/HANDOFF.md` for current architecture. Consult `docs/AUTHORITY.md` final D01–D14 decisions when a task requires detail; appendices cannot override them.
+
+Use one main agent. No routine subagents, framework migration, geometry replacement, broad redesign or repeated planning. Model switching is runner/picker configuration, not something a prompt can silently perform.
+
+Claim the first eligible ready task whose dependencies are done; skip blocked tasks and continue eligible independent work. Unknown owner facts stay explicitly unapproved. No real project, performance result, enquiry receipt, auth or deployment can be invented. Never replace animated Full mode with a static-only implementation to make a test pass.
+
+Authority covers implementation, appropriate verification, local commits, normal feature-branch pushes and an existing draft PR on `feat/opening-scenes-1-3`. The user delegated the best scope choice; feature-branch pushes + draft PR were selected for recoverable progress. User explicitly authorized deployment with Render on 2026-10-08. Deploy the currently labeled preview from the feature branch as a static site; this does not approve genuine portfolio claims, merging, paid services or credits/resets. Do not broaden permissions by editing this file. Record later explicit authority in state.
+
+Usage and reset information is private local metadata in `.codex-local/usage.json`. It is not available from this repository or automatically discoverable here. Percent remaining must be genuine dashboard/CLI information, timestamped; percentages are heuristics, not enforced token quotas. User explicitly requested continuous autonomous execution on 2026-10-08. Without a fresh meter, work in bounded tasks and checkpoint between them; continue eligible independent tasks without requesting another go-ahead. Stop for an actual usage/tool limit, required unavailable inputs when no independent task remains, or an explicit user stop. Switching models does not replenish a shared usage pool. Never buy credits/reset or start an API-funded replacement automatically.
+
+Checkpoint after every meaningful substep and before expensive verification. Record task ID/status, current HEAD, changed files, last passing checks, failures, exact next action and blockers in `docs/automation/state.json`; keep the human handoff short. Mark done only after required checks pass. Commit only the reviewed task changes and state; avoid unrelated edits. If interrupted with a partial patch, preserve it and label `in_progress`—do not mark done or blindly reset.
+
+On resume, inspect Git status/HEAD before trusting task state. Reconcile stale `in_progress` against the diff and checks. No overlapping workers; an active process/runner lock means exit without changing files. Never clear a live lock. Use the same persisted feature checkout for scheduled runs unless the runner explicitly consolidates isolated worktrees; independent worktrees do not share queue updates automatically.
+
+Two focused failed repair attempts trigger a checkpoint with a precise escalation request. Structural motion/enquiry changes receive a stronger-model review; this is a separate sequential review, not a swarm. Finish with factual results and the next task. Ordinary planning estimates are not guaranteed runtime, usage or completion promises.

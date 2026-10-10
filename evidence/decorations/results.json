@@ -1,0 +1,230 @@
+{
+  "runAt": "2026-10-09T18:54:03.219Z",
+  "baseUrl": "http://127.0.0.1:4330",
+  "browser": "151.0.7922.173",
+  "results": [
+    {
+      "width": 1440,
+      "trace": [
+        {
+          "id": "chapter",
+          "state": "running"
+        },
+        {
+          "id": "chapter",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "closing",
+          "state": "running"
+        },
+        {
+          "id": "closing",
+          "state": "done"
+        }
+      ],
+      "errors": [],
+      "backPersisted": false,
+      "checks": [
+        "visible first cut; settled scheduler",
+        "fast scroll/reverse/reentry no replay",
+        "Back preserves complete decoration",
+        "no overflow/pageerrors"
+      ]
+    },
+    {
+      "width": 390,
+      "trace": [
+        {
+          "id": "chapter",
+          "state": "running"
+        },
+        {
+          "id": "chapter",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "closing",
+          "state": "running"
+        },
+        {
+          "id": "closing",
+          "state": "done"
+        }
+      ],
+      "errors": [],
+      "backPersisted": false,
+      "checks": [
+        "visible first cut; settled scheduler",
+        "fast scroll/reverse/reentry no replay",
+        "Back preserves complete decoration",
+        "no overflow/pageerrors"
+      ]
+    },
+    {
+      "width": 320,
+      "trace": [
+        {
+          "id": "chapter",
+          "state": "running"
+        },
+        {
+          "id": "chapter",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "gallery",
+          "state": "done"
+        },
+        {
+          "id": "closing",
+          "state": "running"
+        },
+        {
+          "id": "closing",
+          "state": "done"
+        }
+      ],
+      "errors": [],
+      "backPersisted": false,
+      "checks": [
+        "visible first cut; settled scheduler",
+        "fast scroll/reverse/reentry no replay",
+        "Back preserves complete decoration",
+        "no overflow/pageerrors"
+      ]
+    },
+    {
+      "mode": "light",
+      "checks": [
+        "complete static cut, useful proof"
+      ]
+    },
+    {
+      "mode": "reduced",
+      "checks": [
+        "complete static cut, useful proof"
+      ]
+    },
+    {
+      "mode": "no-js",
+      "checks": [
+        "complete static cut, useful proof"
+      ]
+    },
+    {
+      "event": "reduced",
+      "inFlight": 0.210279,
+      "checks": [
+        "interruption began during real stroke draw",
+        "final stroke does not revive"
+      ],
+      "simulation": null
+    },
+    {
+      "event": "light",
+      "inFlight": 0.410182,
+      "checks": [
+        "interruption began during real stroke draw",
+        "final stroke does not revive"
+      ],
+      "simulation": null
+    },
+    {
+      "event": "hidden",
+      "inFlight": 0.411034,
+      "checks": [
+        "interruption began during real stroke draw",
+        "final stroke does not revive"
+      ],
+      "simulation": "Synthetic lifecycle event; not proof of physical tab/BFCache behavior"
+    },
+    {
+      "event": "pagehide",
+      "inFlight": 0.291182,
+      "checks": [
+        "interruption began during real stroke draw",
+        "final stroke does not revive"
+      ],
+      "simulation": "Synthetic lifecycle event; not proof of physical tab/BFCache behavior"
+    },
+    {
+      "event": "resize-offscreen",
+      "inFlight": 0.40962,
+      "checks": [
+        "interruption began during real stroke draw",
+        "final stroke does not revive"
+      ],
+      "simulation": null
+    }
+  ],
+  "limitations": "Actual Chrome/software rendering video, phone emulation; no named physical-device/performance certification."
+}

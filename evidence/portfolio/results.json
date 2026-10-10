@@ -1,0 +1,77 @@
+{
+  "runAt": "2026-10-09T05:10:46.394Z",
+  "baseUrl": "http://127.0.0.1:4330",
+  "browser": "151.0.7922.173",
+  "results": [
+    {
+      "width": 1440,
+      "checks": [
+        "seven direct case URLs",
+        "six additional work tiles",
+        "actual image loaded",
+        "no overflow",
+        "private repo links omitted",
+        "case-to-brief preselection",
+        "consumed query and manual removal survives reload",
+        "truthful review and downloadable reference"
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "checks": [
+        "seven direct case URLs",
+        "six additional work tiles",
+        "actual image loaded",
+        "no overflow",
+        "private repo links omitted",
+        "case-to-brief preselection",
+        "consumed query and manual removal survives reload",
+        "truthful review and downloadable reference"
+      ],
+      "errors": []
+    },
+    {
+      "width": 320,
+      "checks": [
+        "seven direct case URLs",
+        "six additional work tiles",
+        "actual image loaded",
+        "no overflow",
+        "private repo links omitted",
+        "case-to-brief preselection",
+        "consumed query and manual removal survives reload",
+        "truthful review and downloadable reference"
+      ],
+      "errors": []
+    },
+    {
+      "name": "slow-module-reveal",
+      "checks": [
+        "early reveal recorded before 1.5second deferred-module delay",
+        "query consumed and removal survives reload"
+      ]
+    },
+    {
+      "name": "native-cancellation",
+      "checks": [
+        "both native transition readiness rejections handled"
+      ]
+    },
+    {
+      "name": "corrupt-recovery",
+      "checks": [
+        "reference hint remains temporary",
+        "raw corrupt storage preserved until explicit edit"
+      ]
+    },
+    {
+      "name": "no-javascript",
+      "checks": [
+        "real HTML proof before renderer",
+        "ordinary featured case navigation"
+      ]
+    }
+  ],
+  "limits": "Linux headless Chromium, SwiftShader; phone layouts are emulated. No actual project delivery, business results or physical release certification."
+}

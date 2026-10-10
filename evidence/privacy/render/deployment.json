@@ -1,0 +1,16 @@
+{
+  "commit": {
+    "createdAt": "2026-10-09T15:35:35Z",
+    "id": "d639cd593697c0d1f38d0ab640d15d8725ff3531",
+    "message": "feat: explain local brief privacy and export boundaries"
+  },
+  "createdAt": "2026-10-09T15:35:48.491766Z",
+  "finishedAt": "2026-10-09T15:36:14.333632Z",
+  "id": "dep-db4gjl3tqb8s73f6soig",
+  "startedAt": "2026-10-09T15:35:48.489579Z",
+  "status": "live",
+  "trigger": "api",
+  "updatedAt": "2026-10-09T15:36:14.333802Z",
+  "url": "https://the-opening-preview.onrender.com",
+  "serviceId": "srv-db45hirl550s73akul50"
+}

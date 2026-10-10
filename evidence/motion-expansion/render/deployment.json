@@ -1,0 +1,11 @@
+{
+  "url": "https://the-opening-preview.onrender.com",
+  "sourceCommit": "bc1f7e1f9d517802c918ce7ca748ba02f12afc67",
+  "serviceId": "srv-db45hirl550s73akul50",
+  "deployId": "dep-db4jhqt9fdbs73fhct4g",
+  "startedAt": "2026-10-09T18:56:43.978072Z",
+  "finishedAt": "2026-10-09T18:57:10.881121Z",
+  "status": "live",
+  "provider": "Render",
+  "autoDeploy": "no"
+}

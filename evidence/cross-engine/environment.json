@@ -1,0 +1,55 @@
+{
+  "environment": "Debian13 Linux x86_64; Playwright Firefox157 and WebKit27.2; headless unthrottled viewport emulation",
+  "webkitSetup": "System installation denied root authentication. Debian trixie packages extracted outside repository. A temporary wrapper preserves bundled and local library paths; stock wrapper overwrites LD_LIBRARY_PATH. Host validation checks system ldconfig only, so validation was skipped after actual engine startup was independently demonstrated. No system files or browser bundle edited.",
+  "packages": [
+    {
+      "file": "liblzo2-2.deb",
+      "sha256": "f3032201fe2928a87e13f05ce256ff3ac2a7860c7e594dc51ae6d7348a4466ce"
+    },
+    {
+      "file": "libglvnd0.deb",
+      "sha256": "887f74008166549ce9e100c906aa937e95d6e5ce1c8d86efe8c95fd953359b9c"
+    },
+    {
+      "file": "libhidapi-hidraw0.deb",
+      "sha256": "89c546cb55be403ce63fe668baff2515979100a30fa07e2b97de186b9c07f01e"
+    },
+    {
+      "file": "libcairo-script-interpreter2.deb",
+      "sha256": "52b45eb6e49c53c0a35ef45555a9457b094482eafef27d27cd777b916a2f06de"
+    },
+    {
+      "file": "libmanette-0.2-0.deb",
+      "sha256": "98841a467692c46fd1870275113235691ebbfe71a3524f6b2a0fa7e9c33c6e56"
+    },
+    {
+      "file": "libgles2.deb",
+      "sha256": "e12c18aa77939d122ee1dea520ba0440b97dc19200b7396e03dff03a3ece74c1"
+    },
+    {
+      "file": "libhyphen0.deb",
+      "sha256": "fa9dca7b8cf1381fd52800c44a385c5725a78a88bd705f7c39b1046a5293435e"
+    },
+    {
+      "file": "libharfbuzz-icu0.deb",
+      "sha256": "0b45d951629e98673c0da73b2bcd0886a467d833bb3b7499892a168f247165d2"
+    },
+    {
+      "file": "libgtk-4-1.deb",
+      "sha256": "51ab1114a57702e703cce745c24caf5bd31ec1d2a900c72fd15fe47c6c030e68"
+    },
+    {
+      "file": "libgraphene-1.0-0.deb",
+      "sha256": "ddcf98f17f6c0a7c76974d7238be1468e59c186034c1b806638d32d9f446ea6e"
+    }
+  ],
+  "launchWrapper": "#!/bin/sh\nOPENING_WEBKIT_BUNDLE=/home/agent/.cache/ms-playwright/webkit-2370/minibrowser-wpe\nexport WEBKIT_EXEC_PATH=\"$OPENING_WEBKIT_BUNDLE/bin\"\nexport WEBKIT_INJECTED_BUNDLE_PATH=\"$OPENING_WEBKIT_BUNDLE/lib\"\nexport WEBKIT_INSPECTOR_RESOURCES_PATH=\"$OPENING_WEBKIT_BUNDLE/share\"\nexport LD_LIBRARY_PATH=\"$OPENING_WEBKIT_BUNDLE/lib:$OPENING_WEBKIT_BUNDLE/sys/lib:/tmp/opening-webkit-libs/runtime/usr/lib/x86_64-linux-gnu\"\nexec \"$OPENING_WEBKIT_BUNDLE/bin/MiniBrowser\" \"$@\"\n",
+  "failures": [
+    "Initial Firefox cached response304 rejected by test-only200 assertion; accept200/304 after actual cached content decode.",
+    "Stock WebKit startup failed missing Linux dependencies; temporary local library wrapper starts actual27.2 engine.",
+    "Initial live Firefox SEC_ERROR_UNKNOWN_ISSUER before any app page; temporary NSS profile imports existing workspace proxy CA, no ignoreHTTPSErrors."
+  ],
+  "limits": "No Safari, physical device, GPU budget, screen reader or full accessibility certification.",
+  "firefoxLiveTrust": "The default isolated Firefox profile rejected the workspace proxy issuer; security.enterprise_roots.enabled did not resolve it. A temporary executable wrapper imports CODEX_PROXY_CERT into only the ephemeral NSS profile before launching the unmodified Firefox engine. HTTPS verification remains enabled; independent navigation returned200.",
+  "firefoxWrapper": "#!/bin/sh\nopening_profile=''\nopening_previous=''\nfor opening_arg in \"$@\"; do\n if [ \"$opening_previous\" = '-profile' ]; then opening_profile=\"$opening_arg\"; fi\n opening_previous=\"$opening_arg\"\ndone\nif [ -n \"$opening_profile\" ] && [ -n \"$CODEX_PROXY_CERT\" ]; then\n if [ ! -e \"$opening_profile/cert9.db\" ]; then certutil -N -d \"sql:$opening_profile\" --empty-password || exit 1; fi\n certutil -A -d \"sql:$opening_profile\" -n opening-workspace-proxy -t 'C,,' -i \"$CODEX_PROXY_CERT\" || exit 1\nfi\nexec /home/agent/.cache/ms-playwright/firefox-1555/firefox/firefox \"$@\"\n"
+}

@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import '../styles/decorations.css';
+import {portfolioProjects,featuredProject as featured} from '../content/projects';
+---
+<Base>
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow"><span class="coral-dot"></span> INDEPENDENT DESIGNER & CREATIVE DEVELOPER</p><h1 id="hero-title">Make the<br/>experience<br/><em>move.</em><span class="title-dot">●</span></h1><p class="offer">Interactive websites, interface motion, and creative development. Designed and built by one independent maker.</p><div class="hero-actions"><a class="button primary" href="#work">Explore the work <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M3 9l5 5 5-5"/></svg></span></a><a class="text-link" href="/start/">Start a project <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a></div><p class="approval-note">Portfolio by Shusmoy.</p></div>
+<div class="hero-art">
+<div class="stage-heading"><span>01 / THE OPENING</span><span>Cut. Fold. Reveal.</span></div>
+<div class="stage" id="stage" data-feel="precise">
+<div class="poster" aria-hidden="true"><img id="poster-image" src="/art/poster-precise.png" alt="" width="1200" height="1000"/></div>
+<div id="renderer" aria-hidden="true"></div><svg class="stage-bridge" id="stage-bridge" viewBox="0 0 1200 1000" aria-hidden="true"><path/></svg>
+<a class="stage-proof" href="/work/staypilot/" aria-label="Inspect StayPilot hotel operations case study"><img src={featured.image} alt="StayPilot Owner dashboard, seeded hotel demo" width="1440" height="1000"/><span>STAYPILOT <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></span></a>
+<span class="stage-coordinate" aria-hidden="true">PROJECT FRAME / 001</span>
+</div>
+<div class="proof-caption"><span>STAYPILOT / HOTEL OPERATIONS</span><span>Prototype screenshot · seeded demo data</span></div>
+<div class="feel-heading"><p>Give motion a direction.</p><span id="mode-state">Full experience</span></div>
+<div class="feel-controls" role="group" aria-label="Choose a direction"><button data-feel="precise" aria-pressed="true"><span>01</span>Precise<i aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></i></button><button data-feel="playful" aria-pressed="false"><span>02</span>Playful<i aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></i></button><button data-feel="cinematic" aria-pressed="false"><span>03</span>Cinematic<i aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></i></button></div>
+<div class="direction-meta"><p id="motion-hint">Choose another feel to move the frame. Your direction updates immediately.</p><button id="mode-toggle" aria-pressed="false">Use Light mode</button></div><p id="direction-status" class="sr-only" role="status" aria-live="polite"></p>
+</div>
+<div class="hero-bottom"><span>SCROLL TO SEE WHAT IT DOES</span><span class="down-arrow"><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M3 9l5 5 5-5"/></svg></span><span>IDEA → INTERFACE → EXPERIENCE</span></div>
+</section>
+<section class="work-section" id="work" aria-labelledby="work-title">
+<div class="chapter-line"><span>02 — INTO THE WORK</span><span class="chapter-graphic" aria-hidden="true"><svg viewBox="0 0 100 44"><path data-cut-accent="chapter" pathLength="1" d="M2 42V2H70L98 24V42H32"/></svg></span><span>SYSTEMS. MADE TANGIBLE.</span></div>
+<div class="section-heading"><h2 id="work-title">The work behind<br/><em>the feeling.</em></h2><p>Good motion earns its place. <br/>Explore the products, the decisions, <br/>and the systems behind the screens.</p></div>
+<article class="project-card"><a class="project-image" href="/work/staypilot/" aria-label="Open StayPilot case study"><img src={featured.image} alt="StayPilot Owner dashboard showing exceptions, approvals and hotel operations, with seeded demo data" width="1440" height="1000" loading="lazy"/><span class="image-badge">FEATURED / INTERACTIVE PROTOTYPE</span><span class="image-arrow" aria-hidden="true">↗</span></a><div class="project-details"><div class="project-topline"><span>HOTEL OPERATIONS / PROTOTYPE</span><span>2026</span></div><h3><a href="/work/staypilot/">StayPilot <span>↗</span></a></h3><p class="project-summary">{featured.summary}</p><dl><div><dt>Focus</dt><dd>Human approvals · Shared state · Automation traces</dd></div><div><dt>Evidence</dt><dd>Public demo and inspected source</dd></div><div><dt>Status</dt><dd>Stateful prototype; seeded values, no client results</dd></div></dl><a class="text-link dark" href="/work/staypilot/">Inside the project ↗</a></div></article>
+<div class="selected-work-heading"><h3>More work. Different problems.</h3><p>Commerce, learning, operations and spatial storytelling.</p></div>
+<div class="work-grid">{portfolioProjects.slice(1).map(project=><article class="work-tile"><a class="work-thumb" href={`/work/${project.id}/`} aria-label={`Explore ${project.title}`}><img src={project.image} alt={`${project.title}: ${project.imageKind.toLowerCase()}`} width="1440" height="1000" loading="lazy"/><svg class="cut-accent" viewBox="0 0 44 24" aria-hidden="true"><path data-cut-accent="gallery" pathLength="1" d="M2 22V2H30L42 14V22"/></svg><span>{project.imageKind}</span></a><div class="project-topline"><span>{project.category}</span><span>{project.year}</span></div><h3><a href={`/work/${project.id}/`}>{project.title} <span aria-hidden="true">↗</span></a></h3><p>{project.summary}</p><p class="work-status">{project.status}</p></article>)}</div>
+<p class="evidence-note">Selected from SaamVR’s repositories. Screenshots show prototypes or demonstration data; source diagrams are labeled. Exact contributor credits and asset-origin details remain under review. <a href="/work/opening-study/">Inspect this portfolio’s original frame study ↗</a></p>
+</section>
+<section class="closing"><svg class="cut-accent" viewBox="0 0 44 24" aria-hidden="true"><path data-cut-accent="closing" pathLength="1" d="M2 22V2H30L42 14V22"/></svg><p class="eyebrow">THERE’S ROOM FOR YOUR NEXT IDEA.</p><h2>Let’s make<br/><em>an opening.</em></h2><a class="button primary" href="/start/">Start a project <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a><p>Keep your direction. Shape the brief.<br/>Contact details are pending configuration.</p></section>
+</main>
+<script>import '../features/hero/client';import '../features/motion/decorations';</script>
+</Base>

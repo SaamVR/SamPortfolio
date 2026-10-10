@@ -1,0 +1,436 @@
+{
+  "runAt": "2026-10-09T04:01:18.644Z",
+  "baseUrl": "https://the-opening-preview.onrender.com",
+  "browser": "151.0.7922.173",
+  "results": [
+    {
+      "path": "/",
+      "width": 1440,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".hero-actions .primary",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(255, 91, 61)",
+          "background": "rgb(23, 26, 28)",
+          "ratio": 5.675320185477801
+        },
+        {
+          "selector": ".feel-controls button",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(255, 91, 61)",
+          "background": "rgb(23, 26, 28)",
+          "ratio": 5.675320185477801
+        },
+        {
+          "selector": ".project-details h3 a",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/work/opening-study/",
+      "width": 1440,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".back-link",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/start/",
+      "width": 1440,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": "#goal",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        },
+        {
+          "selector": "[data-step=direction]",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/this-page-does-not-exist/",
+      "width": 1440,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".button",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "width": 720,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".hero-actions .primary",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(255, 91, 61)",
+          "background": "rgb(23, 26, 28)",
+          "ratio": 5.675320185477801
+        },
+        {
+          "selector": ".feel-controls button",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(255, 91, 61)",
+          "background": "rgb(23, 26, 28)",
+          "ratio": 5.675320185477801
+        },
+        {
+          "selector": ".project-details h3 a",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/work/opening-study/",
+      "width": 720,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".back-link",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/start/",
+      "width": 720,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": "#goal",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        },
+        {
+          "selector": "[data-step=direction]",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/this-page-does-not-exist/",
+      "width": 720,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".button",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".hero-actions .primary",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(255, 91, 61)",
+          "background": "rgb(23, 26, 28)",
+          "ratio": 5.675320185477801
+        },
+        {
+          "selector": ".feel-controls button",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(255, 91, 61)",
+          "background": "rgb(23, 26, 28)",
+          "ratio": 5.675320185477801
+        },
+        {
+          "selector": ".project-details h3 a",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/work/opening-study/",
+      "width": 390,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".back-link",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/start/",
+      "width": 390,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": "#goal",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        },
+        {
+          "selector": "[data-step=direction]",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/this-page-does-not-exist/",
+      "width": 390,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".button",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "width": 320,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".hero-actions .primary",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(255, 91, 61)",
+          "background": "rgb(23, 26, 28)",
+          "ratio": 5.675320185477801
+        },
+        {
+          "selector": ".feel-controls button",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(255, 91, 61)",
+          "background": "rgb(23, 26, 28)",
+          "ratio": 5.675320185477801
+        },
+        {
+          "selector": ".project-details h3 a",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/work/opening-study/",
+      "width": 320,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".back-link",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/start/",
+      "width": 320,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": "#goal",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        },
+        {
+          "selector": "[data-step=direction]",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    },
+    {
+      "path": "/this-page-does-not-exist/",
+      "width": 320,
+      "checks": [
+        "native skip and sequential main focus",
+        "no horizontal overflow",
+        "keyboard-visible focus >=3:1 on sampled surrounding surfaces"
+      ],
+      "rings": [
+        {
+          "selector": ".button",
+          "visible": true,
+          "style": "solid",
+          "width": 3,
+          "color": "rgb(23, 26, 28)",
+          "background": "rgb(244, 241, 234)",
+          "ratio": 15.501664360090109
+        }
+      ]
+    }
+  ],
+  "limits": "Sampled focus/reflow regression only. 720/320 viewport widths model reduced layout space, not actual browser zoom. No screen-reader, physical-device, Safari/Firefox or WCAG conformance certification."
+}

@@ -1,0 +1,48 @@
+✔ three unequal solid leaves are siblings with +Y/+Y/+X hinges (8.102048ms)
+✔ 25 samples of every pose pair protect media and remain in the stage envelope (137.937201ms)
+✔ folded opening and every entry retarget protect proof within the stage envelope (55.667744ms)
+✔ rapid input retains rendered pose and resolves the latest selection without a queue (2.261001ms)
+✔ repeated selection does not restart choreography (0.171079ms)
+✔ offscreen reentry settles latest selected target with no time debt (0.228307ms)
+✔ all interrupted paths stay within the endpoint angle envelope (4.569355ms)
+✖ first Full presentation matches its poster then folds and opens without changing selected state (2.079586ms)
+✔ entry can be retargeted from the rendered angles and settles the latest choice (0.152409ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 8
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1189.253951
+
+✖ failing tests:
+
+test at tests/pose.test.ts:26:1
+✖ first Full presentation matches its poster then folds and opens without changing selected state (2.079586ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   0,
+  +   0,
+  +   0
+  -   -18,
+  -   22,
+  -   8
+    ]
+  
+      at TestContext.<anonymous> (/workspace/SamPortfolio/tests/pose.test.ts:28:72)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 0, 0, 0 ],
+    expected: [ -18, 22, 8 ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

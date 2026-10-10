@@ -1,0 +1,30 @@
+{
+  "sourceCommit": "772e2991517b2a5336cd97cc7d88330bb4df67e1",
+  "runAt": "2026-10-09T13:38:56.040Z",
+  "journey": "cold home and native scroll to bottom; does not fetch every mid-page media",
+  "costs": [
+    {
+      "name": "cold-full",
+      "encodedBodiesBytes": 239783,
+      "lcpMs": 512,
+      "activeP95Ms": null
+    },
+    {
+      "name": "cold-light",
+      "encodedBodiesBytes": 106604,
+      "lcpMs": 688,
+      "activeP95Ms": null
+    },
+    {
+      "name": "cold-reduced",
+      "encodedBodiesBytes": 106604,
+      "lcpMs": 584,
+      "activeP95Ms": null
+    }
+  ],
+  "rendererBuild": {
+    "minifiedKB": 511.51,
+    "gzipKB": 131.09
+  },
+  "limitations": "Unthrottled headless Chromium/software GPU, phone emulation; not physical performance certification; settled demand RAF stops."
+}

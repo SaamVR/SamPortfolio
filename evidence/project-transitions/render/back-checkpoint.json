@@ -1,0 +1,6 @@
+{
+  "sourceCommit": "a838574d953b0d261ce3f9a6505b0b58aa70bcc9",
+  "deployId": "dep-db4qohnlot8c73cm3gh0",
+  "status": "initial strict Back assertion failed; unchanged diagnostic rerun completed14 forward/Back pairs, then fixture network refusal",
+  "limitation": "No full public pass at this checkpoint; fixture network corrected before rerun"
+}

@@ -1,0 +1,26 @@
+---
+import '../styles/global.css';
+import '../styles/feedback.css';
+import '../styles/project-transitions.css';
+const { title = 'Shusmoy — THE OPENING', paper = false } = Astro.props;
+---
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="THE OPENING. Shusmoy’s interactive design and creative development portfolio."/><meta name="color-scheme" content="dark light"/><title>{title}</title><link rel="icon" href="/art/mark.svg" type="image/svg+xml"/>
+<script is:inline>
+try { const m=localStorage.getItem('opening-mode'); if(m==='light')document.documentElement.dataset.mode='light'; } catch {}
+if(matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.dataset.reduced='true';
+// Record reveal readiness before deferred modules can miss the lifecycle event.
+window.__openingReveal={revealed:false};
+addEventListener('pagereveal',event=>{
+ window.__openingReveal.revealed=true;
+ window.__openingReveal.ready=event.viewTransition?.ready.then(()=>{},()=>{});
+},{once:true});
+</script>
+{Astro.url.pathname!=='/start/'&&<style is:inline>@view-transition{navigation:auto}</style>}
+</head><body class:list={[paper && 'paper-page']}>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="/" aria-label="The Opening home"><span class="brand-mark" aria-hidden="true"></span> THE OPENING<span class="brand-period">.</span></a><nav aria-label="Main"><a href="/#work">Work <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a><a href="/start/">Contact <span><svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a></nav><span class="header-note">INDEPENDENT BY DESIGN</span></header>
+<slot/>
+<footer class="site-footer"><a class="brand" href="/">THE OPENING.</a><span>Design in motion. Work in progress.</span><a href="/start/">Let’s make an opening <svg class="icon-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10"/></svg></a><a href="/privacy/">Privacy & your brief</a><small>Portfolio preview · Shusmoy · selected repository work · contact pending</small></footer>
+<script>import '../features/motion/navigation';</script>
+</body></html>

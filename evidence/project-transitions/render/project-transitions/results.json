@@ -1,0 +1,1706 @@
+{
+  "runAt": "2026-10-10T03:12:09.680Z",
+  "baseUrl": "https://the-opening-preview.onrender.com",
+  "browser": "151.0.7922.173",
+  "results": [
+    {
+      "width": 1440,
+      "id": "staypilot",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-project-image",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "478.438px",
+              "width": "688.953px",
+              "transform": "matrix(1, 0, 0, 1, 101, 261)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 493)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-project-image",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 493)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "478.438px",
+              "width": "688.953px",
+              "transform": "matrix(1, 0, 0, 1, 101, 261)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 1440,
+      "id": "sm-manager",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-sm-manager",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 101, 294)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 504)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-sm-manager",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 504)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 101, 294)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 1440,
+      "id": "ecomcms",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-opening-ecomcms",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 745, 294)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 504)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-ecomcms",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 504)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 745, 294)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 1440,
+      "id": "tingtune",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-tingtune",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 101, 293)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 504)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-opening-tingtune",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 504)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 101, 293)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 1440,
+      "id": "nova",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-nova",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 745, 293)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 504)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-opening-nova",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 504)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 745, 293)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 1440,
+      "id": "servicedesk",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-servicedesk",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 101, 293)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 493)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-servicedesk",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 493)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 101, 293)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 1440,
+      "id": "ezcomo",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-ezcomo",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 745, 293)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 504)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-opening-ezcomo",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "720px",
+              "width": "1238.41px",
+              "transform": "matrix(1, 0, 0, 1, 101, 504)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "412.797px",
+              "width": "594.438px",
+              "transform": "matrix(1, 0, 0, 1, 745, 293)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "1440px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 390,
+      "id": "staypilot",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-project-image",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-project-image",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 390,
+      "id": "sm-manager",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-sm-manager",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-opening-sm-manager",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 390,
+      "id": "ecomcms",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-ecomcms",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-opening-ecomcms",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 390,
+      "id": "tingtune",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-tingtune",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-tingtune",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 390,
+      "id": "nova",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-nova",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 380)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-opening-nova",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 380)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 390,
+      "id": "servicedesk",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-opening-servicedesk",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-opening-servicedesk",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "width": 390,
+      "id": "ezcomo",
+      "groups": [
+        {
+          "name": "-ua-view-transition-group-anim-opening-ezcomo",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        },
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        }
+      ],
+      "backGroups": [
+        {
+          "name": "-ua-view-transition-group-anim-root",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "ease",
+              "composite": "auto",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "ease",
+              "composite": "replace",
+              "height": "1000px",
+              "width": "390px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 250
+        },
+        {
+          "name": "-ua-view-transition-group-anim-opening-ezcomo",
+          "frames": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "auto",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 521)",
+              "backdropFilter": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "composite": "replace",
+              "height": "238.344px",
+              "width": "343.219px",
+              "transform": "matrix(1, 0, 0, 1, 23, 381)",
+              "backdropFilter": "none",
+              "computedOffset": 1
+            }
+          ],
+          "duration": 420
+        }
+      ],
+      "checks": [
+        "real420ms forward/Back paired native image animation",
+        "ordinary route and Back source/scroll",
+        "single selected gallery name"
+      ]
+    },
+    {
+      "name": "delayed-route-module",
+      "checks": [
+        "actual inlined module externally delayed",
+        "early reveal marker recovers heading focus",
+        "existing interactive focus preserved"
+      ]
+    },
+    {
+      "name": "older-home-history",
+      "checks": [
+        "distinct home history entries retain their own image source"
+      ]
+    },
+    {
+      "name": "failed-destination",
+      "checks": [
+        "source image valid; destination404",
+        "ordinary useful case instead of paired broken media"
+      ]
+    },
+    {
+      "name": "modified-and-canceled",
+      "checks": [
+        "native new tab leaves source state intact",
+        "newer native navigation wins without pageerror"
+      ]
+    },
+    {
+      "name": "session-storage-unavailable",
+      "checks": [
+        "native history source survives tab-storage failure"
+      ]
+    },
+    {
+      "name": "direct-case-and-brief",
+      "checks": [
+        "direct URL",
+        "distinct project navigation",
+        "brief opt-out preserved"
+      ]
+    },
+    {
+      "mode": "light",
+      "checks": [
+        "ordinary useful case route"
+      ]
+    },
+    {
+      "mode": "reduced",
+      "checks": [
+        "ordinary useful case route"
+      ]
+    },
+    {
+      "mode": "no-js",
+      "checks": [
+        "ordinary useful case route"
+      ]
+    }
+  ],
+  "limitations": "Chrome native transitions with software GPU and phone emulation. Actual unedited journey recordings; no physical performance or finished art-direction claim."
+}

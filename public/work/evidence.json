@@ -1,0 +1,151 @@
+{
+  "reviewedAt": "2026-10-09",
+  "authority": "User selected these projects from SaamVR GitHub for portfolio use",
+  "sources": [
+    {
+      "id": "staypilot",
+      "repo": "staypilot-hotel-os",
+      "public": true,
+      "branch": "main",
+      "commit": "28220c1b12ffa12dbf1979344c027a13dfb721df",
+      "inspectedPaths": [
+        "README.md",
+        "src/",
+        "functions/"
+      ]
+    },
+    {
+      "id": "sm-manager",
+      "repo": "sm-manager",
+      "public": false,
+      "branch": "main",
+      "commit": "9e4af62759b0f054a8fafaa0ad12202675c008a3",
+      "inspectedPaths": [
+        "README.md",
+        "src/pipeline/",
+        "admin/src/pages/"
+      ]
+    },
+    {
+      "id": "ecomcms",
+      "repo": "EcomCMS",
+      "public": false,
+      "branch": "main",
+      "commit": "ae68041ae39f4afecd8759848761a787b3a2534f",
+      "inspectedPaths": [
+        "README.md",
+        "src/lib/cms/block-library.ts",
+        "src/lib/cms/block-registry.test.ts",
+        "src/components/storefront/"
+      ]
+    },
+    {
+      "id": "tingtune",
+      "repo": "TingTune",
+      "public": false,
+      "branch": "feat/p006-levels2-3-integrate-20261005",
+      "commit": "8f40ba43904469fa115973751f3b80bdbc5ea3d3",
+      "inspectedPaths": [
+        "apps/learner/app/panda-rhythm/",
+        "packages/notation-engine/",
+        "packages/evidence/src/index.ts",
+        "packages/audio-web/"
+      ]
+    },
+    {
+      "id": "nova",
+      "repo": "nova-interactive-portfolio",
+      "public": false,
+      "branch": "main",
+      "commit": "4a38d2609cb1de579a45bd39489d0fbadef47bfd",
+      "inspectedPaths": [
+        "site/index.html",
+        "site/models/nova-headphones.fbx"
+      ]
+    },
+    {
+      "id": "servicedesk",
+      "repo": "ServiceDesk",
+      "public": true,
+      "branch": "gate/servicedesk-v2-multilane-cycle-20261007",
+      "commit": "8bf6f76393ca212ddb2cdcd108ea63c053e754de",
+      "inspectedPaths": [
+        "src/domain/operations.ts",
+        "src/domain/approval.ts",
+        "src/app/app/[workspace]/",
+        "README.md"
+      ]
+    },
+    {
+      "id": "ezcomo",
+      "repo": "ezcomo-homepage-v6-preview",
+      "public": true,
+      "branch": "main",
+      "commit": "c89daa346e2fb91f564ae163bafd83838cf168df",
+      "inspectedPaths": [
+        "index.html",
+        "styles.css",
+        "app.js"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "project": "staypilot",
+      "asset": "/work/staypilot.jpg",
+      "type": "Demo screenshot",
+      "bytes": 98207,
+      "sha256": "6dd1ac5ef4711a0d2ebbda35bb7037b40ada261c8234f7076e2e0dd4c4008929",
+      "captureOrDiagramNote": "Captured from the public Owner demo. Names, amounts, counts and estimated time savings are seeded demo values, not client results."
+    },
+    {
+      "project": "sm-manager",
+      "asset": "/work/sm-manager.svg",
+      "type": "Architecture diagram",
+      "bytes": 1853,
+      "sha256": "badeb394117ab76ce4c52b79c1c68b9340b220b642280766c11bc8cefc4838ba",
+      "captureOrDiagramNote": "New explanatory diagram based on the inspected message pipeline. It is not a dashboard screenshot or a live customer conversation."
+    },
+    {
+      "project": "ecomcms",
+      "asset": "/work/ecomcms.svg",
+      "type": "Architecture diagram",
+      "bytes": 1864,
+      "sha256": "98f75904d91af0c5ff976f0238130671be3f614908d0f8ab1909e2c50fb5acdf",
+      "captureOrDiagramNote": "New source-based system diagram. It illustrates inspected modules, not a shipped merchant dashboard or customer store."
+    },
+    {
+      "project": "tingtune",
+      "asset": "/work/tingtune.jpg",
+      "type": "Demo screenshot",
+      "bytes": 89897,
+      "sha256": "34aedea6eb076c90a6cac252d05d39a841e1dcc3ae32e0bda033627f4a900613",
+      "captureOrDiagramNote": "Captured from the public Phase-000 Panda rhythm demo. This older deployed lesson is distinct from the inspected P006 implementation branch."
+    },
+    {
+      "project": "nova",
+      "asset": "/work/nova.jpg",
+      "type": "Local runtime screenshot",
+      "bytes": 64330,
+      "sha256": "4ca4b574e1a0fb211d4e283483e43b163900735aea00c98b45d5d8a4ef02b4dc",
+      "captureOrDiagramNote": "Captured from the repository\u2019s local runtime after the FBX loaded. Asset creator and licensing attribution are not established by this inspection."
+    },
+    {
+      "project": "servicedesk",
+      "asset": "/work/servicedesk.svg",
+      "type": "Architecture diagram",
+      "bytes": 1876,
+      "sha256": "8af7a6fd67afb56fe964d24a1f240e0fd7f58b0360bc3107e94c5c5dd389c9c4",
+      "captureOrDiagramNote": "New diagram based on the inspected implementation branch. It is not a production operations screenshot."
+    },
+    {
+      "project": "ezcomo",
+      "asset": "/work/ezcomo.jpg",
+      "type": "Local runtime screenshot",
+      "bytes": 88044,
+      "sha256": "3570d038476af366d945c62b5a8a80c9a0743ab9d78e45b8525ba1900240b6bb",
+      "captureOrDiagramNote": "Captured from the repository\u2019s root homepage locally. Product names, prices, order counts and storefront previews are demonstration content."
+    }
+  ],
+  "limitations": "Snapshot inspection and curated display only. Exact roles/collaborators, external asset-origin credits and real outcomes are not inferred."
+}

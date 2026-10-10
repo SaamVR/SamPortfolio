@@ -1,0 +1,25 @@
+
+ astro  v5.18.2 ready in 13 ms
+
+┃ Local    http://127.0.0.1:4330/
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: case must correspond to actual project
++ actual - expected
+
++ 'none'
+- 'opening-sm-manager'
+
+    at file:///workspace/SamPortfolio/tests/project-transitions.mjs:18:11 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 'none',
+  expected: 'opening-sm-manager',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

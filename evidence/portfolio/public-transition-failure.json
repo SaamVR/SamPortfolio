@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-09",
+  "baseUrl": "https://the-opening-preview.onrender.com",
+  "sourceCommit": "6ab454a39c926a5d9790ae513a47b79cbab21805",
+  "profileWidth": 1440,
+  "error": "Transition was skipped",
+  "stack": "",
+  "url": "/start/?project=staypilot",
+  "reproducedRuns": 2,
+  "functionalResult": "Direct cases/HTTP passed; project browser profile failed zero-error assertion during case-to-brief navigation.",
+  "fix": "Brief entry opts both source and destination out of decorative native transitions, without intercepting ordinary links. Hero-to-case transitions remain enabled. Scoped readiness handlers retained; parser-time marker independently fixes delayed module registration.",
+  "status": "resolved in final live verified deployment b3e4b0a",
+  "controls": "History/URL replacement disabled still reproduced error; both-document opt-out passed. Destination-only opt-out did not pass.",
+  "finalEvidence": "evidence/portfolio/render/"
+}

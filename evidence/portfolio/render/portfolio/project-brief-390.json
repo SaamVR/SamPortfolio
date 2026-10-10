@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "draftId": "320e07bb-c3a3-4a29-a73e-098c221ecdee",
+  "revision": 4,
+  "feel": "precise",
+  "serviceIds": [],
+  "projectReferenceIds": [
+    "staypilot"
+  ],
+  "goal": "Discuss the hotel workflow",
+  "audience": "",
+  "desiredAction": "",
+  "constraints": "",
+  "referenceURLs": [],
+  "updatedAt": "2026-10-09T05:14:23.145Z",
+  "referenceAvailability": {
+    "services": [],
+    "projects": [
+      {
+        "id": "staypilot",
+        "label": "StayPilot",
+        "approval": "owner_selected",
+        "kind": "repository_project",
+        "note": "Hotel operations prototype · seeded demo data",
+        "href": "/work/staypilot/"
+      }
+    ],
+    "notice": "Unavailable references are omitted. Offers remain pending owner approval. Repository projects are owner-selected; contribution credits remain pending. The form study is a development placeholder."
+  }
+}

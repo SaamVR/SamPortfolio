@@ -1,0 +1,446 @@
+[
+  {
+    "width": 1440,
+    "initial": {
+      "mode": "Full experience",
+      "reduced": false,
+      "renderer": {
+        "angles": "[-18,22,8]",
+        "active": "false",
+        "choreographies": "0",
+        "frameCount": "3",
+        "quality": "full",
+        "ready": "true"
+      },
+      "stage": {
+        "feel": "precise",
+        "bridge": "false",
+        "scrollProgress": "0",
+        "quality": "full"
+      }
+    },
+    "idle": {
+      "mode": "Full experience",
+      "reduced": false,
+      "renderer": {
+        "angles": "[-18,22,8]",
+        "active": "false",
+        "choreographies": "0",
+        "frameCount": "3",
+        "quality": "full",
+        "ready": "true"
+      },
+      "stage": {
+        "feel": "precise",
+        "bridge": "false",
+        "scrollProgress": "0",
+        "quality": "full"
+      }
+    },
+    "samples": [
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-19.710806384684794,22.000812611344028,8]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "9",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-36.51348223166396,32.41529275757142,9.332413019984234]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "11",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,41.54069475702812,15.035094525421474]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "14",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,17.987121948048927]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "17",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "20",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "23",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "false",
+          "choreographies": "1",
+          "frameCount": "25",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "false",
+          "choreographies": "1",
+          "frameCount": "25",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "false",
+          "choreographies": "1",
+          "frameCount": "25",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "false",
+          "choreographies": "1",
+          "frameCount": "25",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "initial": {
+      "mode": "Full experience",
+      "reduced": false,
+      "renderer": {
+        "angles": "[-18,22,8]",
+        "active": "false",
+        "choreographies": "0",
+        "frameCount": "3",
+        "quality": "full",
+        "ready": "true"
+      },
+      "stage": {
+        "feel": "precise",
+        "bridge": "false",
+        "scrollProgress": "0",
+        "quality": "full"
+      }
+    },
+    "idle": {
+      "mode": "Full experience",
+      "reduced": false,
+      "renderer": {
+        "angles": "[-18,22,8]",
+        "active": "false",
+        "choreographies": "0",
+        "frameCount": "3",
+        "quality": "full",
+        "ready": "true"
+      },
+      "stage": {
+        "feel": "precise",
+        "bridge": "false",
+        "scrollProgress": "0",
+        "quality": "full"
+      }
+    },
+    "samples": [
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-18.083593562989332,22,8]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "9",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-22.76043701051389,22.315589782566487,8]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "14",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-34.211608009221976,29.098906270910277,8.501252369850542]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "20",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-37.982752919075196,37.86681550614202,11.690031395830756]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "25",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,41.89814549748185,15.939260590674493]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "30",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,17.99259000528275]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "36",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "41",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "true",
+          "choreographies": "1",
+          "frameCount": "46",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "false",
+          "choreographies": "1",
+          "frameCount": "50",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      },
+      {
+        "mode": "Full experience",
+        "reduced": false,
+        "renderer": {
+          "angles": "[-38,42,18]",
+          "active": "false",
+          "choreographies": "1",
+          "frameCount": "50",
+          "quality": "full",
+          "ready": "true"
+        },
+        "stage": {
+          "feel": "cinematic",
+          "bridge": "false",
+          "scrollProgress": "0",
+          "quality": "full"
+        }
+      }
+    ],
+    "errors": []
+  }
+]

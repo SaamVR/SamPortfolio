@@ -1,0 +1,38 @@
+{
+  "runAt": "2026-10-08T17:55:32.304Z",
+  "baseUrl": "http://127.0.0.1:4330",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "cacheControl": "no-cache",
+      "authoredContent": true
+    },
+    {
+      "path": "/work/opening-study/",
+      "status": 200,
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "cacheControl": "no-cache",
+      "authoredContent": true
+    },
+    {
+      "path": "/start/",
+      "status": 200,
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "cacheControl": "no-cache",
+      "authoredContent": true
+    },
+    {
+      "path": "/this-page-does-not-exist/",
+      "status": 404,
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "cacheControl": null,
+      "authoredContent": true
+    }
+  ]
+}

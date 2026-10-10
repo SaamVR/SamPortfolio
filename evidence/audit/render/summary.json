@@ -1,0 +1,47 @@
+{
+  "sourceCommit": "8cc9eed1758558af64f8fc18613445f550ca02da",
+  "engines": [
+    {
+      "engine": "chromium",
+      "version": "151.0.7922.173",
+      "profiles": 42,
+      "violations": 0,
+      "incompleteProfiles": 3
+    },
+    {
+      "engine": "firefox",
+      "version": "157.0",
+      "profiles": 21,
+      "violations": 0,
+      "incompleteProfiles": 3
+    },
+    {
+      "engine": "webkit",
+      "version": "27.2",
+      "profiles": 21,
+      "violations": 0,
+      "incompleteProfiles": 3
+    }
+  ],
+  "manualTargets": [
+    {
+      "path": "/",
+      "rule": "color-contrast",
+      "target": [
+        ".title-dot"
+      ],
+      "html": "<span class=\"title-dot\">\u25cf</span>",
+      "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+    },
+    {
+      "path": "/",
+      "rule": "color-contrast",
+      "target": [
+        ".stage-coordinate"
+      ],
+      "html": "<span class=\"stage-coordinate\" aria-hidden=\"true\">PROJECT FRAME / 001</span>",
+      "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+    }
+  ],
+  "limits": "Linux headless and viewport reflow only; no physical device, actual Safari, actual zoom, screen-reader or full WCAG conformance claim."
+}
